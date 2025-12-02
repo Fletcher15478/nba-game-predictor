@@ -31,6 +31,14 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add daily_predictions.json prediction_stats.json
-        git diff --staged --quiet || (git commit -m "Auto-update: Daily predictions $(date +%Y-%m-%d)" && git push)
+        # Add files that exist
+        [ -f daily_predictions.json ] && git add daily_predictions.json || echo "daily_predictions.json not found"
+        [ -f prediction_stats.json ] && git add prediction_stats.json || echo "prediction_stats.json not found"
+        # Only commit if there are changes
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-update: Daily predictions $(date +%Y-%m-%d)" || exit 0
+          git push || exit 0
+        else
+          echo "No changes to commit"
+        fi
 
