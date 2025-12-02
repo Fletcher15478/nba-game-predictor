@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model files (large - use Git LFS if needed)
+# *.pkl
+# *.joblib
+# nba_model.pkl
+
+# Data files
+*.csv
+# Allow JSON files needed for deployment
+!daily_predictions.json
+!prediction_stats.json
+!package.json
+!tsconfig.json
+
+# Environment
+.env
+.env.local
+.venv
+venv/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Logs
+*.log
+npm-debug.log*
+
+# Stats and predictions (keep these for deployment)
+# prediction_stats.json
+# daily_predictions.json
+

@@ -1,0 +1,30 @@
+🚀 DEPLOYMENT STEPS (Copy & Paste)
+
+1. Generate predictions:
+   python3 daily_predictor.py
+
+2. Initialize Git:
+   git init
+   git add .
+   git commit -m "NBA Game Predictor"
+
+3. Create GitHub repo at github.com/new
+   - Name: nba-game-predictor
+   - Public
+   - Don't initialize with README
+
+4. Push to GitHub:
+   git remote add origin https://github.com/YOUR_USERNAME/nba-game-predictor.git
+   git branch -M main
+   git push -u origin main
+
+5. Deploy to Vercel:
+   - Go to vercel.com
+   - Sign up with GitHub
+   - Click "Add New Project"
+   - Select your repo
+   - Click "Deploy"
+   - Wait 2-3 minutes
+   - Done! 🎉
+
+Your site: https://your-project.vercel.app
