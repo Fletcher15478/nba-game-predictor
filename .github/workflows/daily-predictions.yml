@@ -25,8 +25,12 @@ jobs:
         
     - name: Generate daily predictions
       run: |
+        # Ensure files exist before running script
+        [ -f daily_predictions.json ] || echo '[]' > daily_predictions.json
+        [ -f prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > prediction_stats.json
+        # Run prediction script
         python3 daily_predictor.py || echo "Prediction script completed (may have warnings)"
-        # Ensure files exist (create empty if needed)
+        # Verify files exist after script
         [ -f daily_predictions.json ] || echo '[]' > daily_predictions.json
         [ -f prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > prediction_stats.json
         
@@ -34,9 +38,11 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        # Add files that exist
-        [ -f daily_predictions.json ] && git add daily_predictions.json || echo "daily_predictions.json not found"
-        [ -f prediction_stats.json ] && git add prediction_stats.json || echo "prediction_stats.json not found"
+        # Ensure files exist
+        [ -f daily_predictions.json ] || echo '[]' > daily_predictions.json
+        [ -f prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > prediction_stats.json
+        # Add files
+        git add daily_predictions.json prediction_stats.json
         # Only commit if there are changes
         if ! git diff --staged --quiet; then
           git commit -m "Auto-update: Daily predictions $(date +%Y-%m-%d)" || exit 0

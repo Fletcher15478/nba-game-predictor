@@ -239,6 +239,10 @@ def generate_todays_predictions():
     with open(PREDICTIONS_FILE, 'w') as f:
         json.dump(predictions, f, indent=2)
     
+    # Ensure stats file exists (save current stats)
+    stats = load_stats()
+    save_stats(stats)
+    
     print(f"\nGenerated {len(predictions)} predictions for today")
     return predictions
 
