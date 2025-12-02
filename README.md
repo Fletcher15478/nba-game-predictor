@@ -37,10 +37,12 @@ pip install pandas scikit-learn kagglehub numpy
 npm install
 ```
 
-3. Train the initial model:
+3. Train the initial model (local only - not needed for Vercel):
 ```bash
 python ml_model.py
 ```
+
+**Note:** The model file (`nba_model.pkl`) is excluded from Git/Vercel due to size. The website reads predictions from JSON files.
 
 ## Usage
 
