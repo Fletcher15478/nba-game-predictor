@@ -1,0 +1,10 @@
+# Python files - not needed for Next.js deployment
+*.py
+*.pyc
+__pycache__/
+*.pkl
+requirements.txt
+# Python scripts are for local use only
+daily_predictor.py
+ml_model.py
+nba_data_fetcher.py
