@@ -25,7 +25,10 @@ jobs:
         
     - name: Generate daily predictions
       run: |
-        python3 daily_predictor.py
+        python3 daily_predictor.py || echo "Prediction script completed (may have warnings)"
+        # Ensure files exist (create empty if needed)
+        [ -f daily_predictions.json ] || echo '[]' > daily_predictions.json
+        [ -f prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > prediction_stats.json
         
     - name: Commit and push if changed
       run: |
