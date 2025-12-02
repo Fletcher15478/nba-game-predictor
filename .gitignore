@@ -6,10 +6,10 @@ __pycache__/
 *.pyd
 .Python
 
-# Model files (large - use Git LFS if needed)
-# *.pkl
-# *.joblib
-# nba_model.pkl
+# Model files (too large for Vercel - exclude from deployment)
+*.pkl
+*.joblib
+nba_model.pkl
 
 # Data files
 *.csv
