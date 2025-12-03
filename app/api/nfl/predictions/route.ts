@@ -29,7 +29,8 @@ export async function GET(request: Request) {
       }
       
       // Return current week (most recent week) by default
-      const weeks = [...new Set(allPredictions.map((p: any) => p.week).filter((w: any) => w))].sort((a: number, b: number) => b - a)
+      const weekSet = new Set(allPredictions.map((p: any) => p.week).filter((w: any) => w))
+      const weeks = Array.from(weekSet).sort((a: number, b: number) => b - a)
       const currentWeek = weeks[0] || 14
       const currentWeekPredictions = allPredictions.filter((p: any) => p.week === currentWeek)
       
