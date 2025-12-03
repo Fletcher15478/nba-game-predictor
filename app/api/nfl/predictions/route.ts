@@ -28,12 +28,19 @@ export async function GET(request: Request) {
         return NextResponse.json({ predictions: filtered })
       }
       
-      // Return current week (most recent week) by default
+      // Return current week (most recent week) by default, or all if no week specified
       const weekSet = new Set(allPredictions.map((p: any) => p.week).filter((w: any) => w))
       const weeks = Array.from(weekSet) as number[]
       weeks.sort((a, b) => b - a)
       const currentWeek = weeks[0] || 14
       const currentWeekPredictions = allPredictions.filter((p: any) => p.week === currentWeek)
+      
+      // Sort by date within the week
+      currentWeekPredictions.sort((a: any, b: any) => {
+        const dateA = a.date || ''
+        const dateB = b.date || ''
+        return dateA.localeCompare(dateB)
+      })
       
       return NextResponse.json({ predictions: currentWeekPredictions })
     }

@@ -13,6 +13,7 @@ interface Prediction {
   date: string
   week?: number
   season?: number
+  day?: string
 }
 
 interface BoxScore {

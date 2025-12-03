@@ -11,7 +11,8 @@
     "away_team": "DAL",
     "date": "2025-12-05",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Friday"
   },
   {
     "winner": "ATL",
@@ -25,7 +26,8 @@
     "away_team": "SEA",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "CIN",
@@ -39,7 +41,8 @@
     "away_team": "CIN",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "TEN",
@@ -53,7 +56,8 @@
     "away_team": "TEN",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "MIA",
@@ -67,7 +71,8 @@
     "away_team": "MIA",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "NO",
@@ -81,7 +86,8 @@
     "away_team": "NO",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "JAX",
@@ -95,7 +101,8 @@
     "away_team": "IND",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "PIT",
@@ -109,7 +116,8 @@
     "away_team": "PIT",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "DEN",
@@ -123,7 +131,8 @@
     "away_team": "DEN",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "CHI",
@@ -137,7 +146,8 @@
     "away_team": "CHI",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "ARI",
@@ -151,7 +161,8 @@
     "away_team": "LAR",
     "date": "2025-12-07",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "winner": "HOU",
@@ -165,7 +176,8 @@
     "away_team": "HOU",
     "date": "2025-12-08",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "winner": "LAC",
@@ -179,7 +191,8 @@
     "away_team": "PHI",
     "date": "2025-12-09",
     "week": 14,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CHI",
@@ -192,7 +205,8 @@
     "predicted_away_score": 31,
     "date": "2025-12-02",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CAR",
@@ -205,7 +219,8 @@
     "predicted_away_score": 27,
     "date": "2025-11-30",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "DEN",
@@ -218,7 +233,8 @@
     "predicted_away_score": 34,
     "date": "2025-12-02",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CIN",
@@ -231,7 +247,8 @@
     "predicted_away_score": 23,
     "date": "2025-12-01",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "LAR",
@@ -244,7 +261,8 @@
     "predicted_away_score": 33,
     "date": "2025-11-30",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "WAS",
@@ -257,7 +275,8 @@
     "predicted_away_score": 23,
     "date": "2025-12-01",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "MIA",
@@ -270,7 +289,8 @@
     "predicted_away_score": 31,
     "date": "2025-12-02",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "DEN",
@@ -283,7 +303,8 @@
     "predicted_away_score": 16,
     "date": "2025-12-02",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "PIT",
@@ -296,7 +317,8 @@
     "predicted_away_score": 32,
     "date": "2025-12-02",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "WAS",
@@ -309,7 +331,8 @@
     "predicted_away_score": 23,
     "date": "2025-12-01",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TEN",
@@ -322,7 +345,8 @@
     "predicted_away_score": 31,
     "date": "2025-11-30",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CHI",
@@ -335,7 +359,8 @@
     "predicted_away_score": 26,
     "date": "2025-11-30",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "LAC",
@@ -348,7 +373,8 @@
     "predicted_away_score": 29,
     "date": "2025-11-30",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "NYJ",
@@ -361,7 +387,8 @@
     "predicted_away_score": 32,
     "date": "2025-12-02",
     "week": 13,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NYG",
@@ -374,7 +401,8 @@
     "predicted_away_score": 31,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "ARI",
@@ -387,7 +415,8 @@
     "predicted_away_score": 36,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "SF",
@@ -400,7 +429,8 @@
     "predicted_away_score": 29,
     "date": "2025-11-25",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "MIN",
@@ -413,7 +443,8 @@
     "predicted_away_score": 35,
     "date": "2025-11-25",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "ARI",
@@ -426,7 +457,8 @@
     "predicted_away_score": 32,
     "date": "2025-11-25",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "LV",
@@ -439,7 +471,8 @@
     "predicted_away_score": 23,
     "date": "2025-11-23",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CHI",
@@ -452,7 +485,8 @@
     "predicted_away_score": 24,
     "date": "2025-11-25",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "ATL",
@@ -465,7 +499,8 @@
     "predicted_away_score": 21,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NO",
@@ -478,7 +513,8 @@
     "predicted_away_score": 17,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "CAR",
@@ -491,7 +527,8 @@
     "predicted_away_score": 26,
     "date": "2025-11-25",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "PHI",
@@ -504,7 +541,8 @@
     "predicted_away_score": 24,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NYG",
@@ -517,7 +555,8 @@
     "predicted_away_score": 34,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "JAX",
@@ -530,7 +569,8 @@
     "predicted_away_score": 32,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "PHI",
@@ -543,7 +583,8 @@
     "predicted_away_score": 29,
     "date": "2025-11-24",
     "week": 12,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NE",
@@ -556,7 +597,8 @@
     "predicted_away_score": 26,
     "date": "2025-11-16",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "WAS",
@@ -569,7 +611,8 @@
     "predicted_away_score": 33,
     "date": "2025-11-18",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "DET",
@@ -582,7 +625,8 @@
     "predicted_away_score": 16,
     "date": "2025-11-16",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "SEA",
@@ -595,7 +639,8 @@
     "predicted_away_score": 31,
     "date": "2025-11-18",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "WAS",
@@ -608,7 +653,8 @@
     "predicted_away_score": 22,
     "date": "2025-11-18",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "DET",
@@ -621,7 +667,8 @@
     "predicted_away_score": 34,
     "date": "2025-11-17",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "CAR",
@@ -634,7 +681,8 @@
     "predicted_away_score": 20,
     "date": "2025-11-18",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CLE",
@@ -647,7 +695,8 @@
     "predicted_away_score": 29,
     "date": "2025-11-17",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NYJ",
@@ -660,7 +709,8 @@
     "predicted_away_score": 22,
     "date": "2025-11-16",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "NYJ",
@@ -673,7 +723,8 @@
     "predicted_away_score": 26,
     "date": "2025-11-18",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NO",
@@ -686,7 +737,8 @@
     "predicted_away_score": 35,
     "date": "2025-11-17",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "SF",
@@ -699,7 +751,8 @@
     "predicted_away_score": 18,
     "date": "2025-11-16",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "GB",
@@ -712,7 +765,8 @@
     "predicted_away_score": 17,
     "date": "2025-11-17",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "SEA",
@@ -725,7 +779,8 @@
     "predicted_away_score": 31,
     "date": "2025-11-18",
     "week": 11,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "BUF",
@@ -738,7 +793,8 @@
     "predicted_away_score": 31,
     "date": "2025-11-11",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "GB",
@@ -751,7 +807,8 @@
     "predicted_away_score": 24,
     "date": "2025-11-11",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "ATL",
@@ -764,7 +821,8 @@
     "predicted_away_score": 22,
     "date": "2025-11-09",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "NYG",
@@ -777,7 +835,8 @@
     "predicted_away_score": 34,
     "date": "2025-11-10",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TB",
@@ -790,7 +849,8 @@
     "predicted_away_score": 34,
     "date": "2025-11-09",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "KC",
@@ -803,7 +863,8 @@
     "predicted_away_score": 29,
     "date": "2025-11-09",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "TB",
@@ -816,7 +877,8 @@
     "predicted_away_score": 22,
     "date": "2025-11-11",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "JAX",
@@ -829,7 +891,8 @@
     "predicted_away_score": 27,
     "date": "2025-11-10",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "CIN",
@@ -842,7 +905,8 @@
     "predicted_away_score": 25,
     "date": "2025-11-11",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "PIT",
@@ -855,7 +919,8 @@
     "predicted_away_score": 33,
     "date": "2025-11-09",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CHI",
@@ -868,7 +933,8 @@
     "predicted_away_score": 33,
     "date": "2025-11-09",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "KC",
@@ -881,7 +947,8 @@
     "predicted_away_score": 32,
     "date": "2025-11-09",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "NYG",
@@ -894,7 +961,8 @@
     "predicted_away_score": 28,
     "date": "2025-11-10",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "SEA",
@@ -907,7 +975,8 @@
     "predicted_away_score": 22,
     "date": "2025-11-09",
     "week": 10,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "TB",
@@ -920,7 +989,8 @@
     "predicted_away_score": 34,
     "date": "2025-11-04",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CIN",
@@ -933,7 +1003,8 @@
     "predicted_away_score": 30,
     "date": "2025-11-04",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "ATL",
@@ -946,7 +1017,8 @@
     "predicted_away_score": 25,
     "date": "2025-11-04",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "HOU",
@@ -959,7 +1031,8 @@
     "predicted_away_score": 32,
     "date": "2025-11-02",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "NYJ",
@@ -972,7 +1045,8 @@
     "predicted_away_score": 23,
     "date": "2025-11-04",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "MIA",
@@ -985,7 +1059,8 @@
     "predicted_away_score": 31,
     "date": "2025-11-03",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "DET",
@@ -998,7 +1073,8 @@
     "predicted_away_score": 33,
     "date": "2025-11-04",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "WAS",
@@ -1011,7 +1087,8 @@
     "predicted_away_score": 27,
     "date": "2025-11-03",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "ARI",
@@ -1024,7 +1101,8 @@
     "predicted_away_score": 25,
     "date": "2025-11-04",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "LAC",
@@ -1037,7 +1115,8 @@
     "predicted_away_score": 30,
     "date": "2025-11-03",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "DEN",
@@ -1050,7 +1129,8 @@
     "predicted_away_score": 34,
     "date": "2025-11-02",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "PIT",
@@ -1063,7 +1143,8 @@
     "predicted_away_score": 15,
     "date": "2025-11-03",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "PHI",
@@ -1076,7 +1157,8 @@
     "predicted_away_score": 33,
     "date": "2025-11-04",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NO",
@@ -1089,7 +1171,8 @@
     "predicted_away_score": 35,
     "date": "2025-11-02",
     "week": 9,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "DAL",
@@ -1102,7 +1185,8 @@
     "predicted_away_score": 29,
     "date": "2025-10-27",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "JAX",
@@ -1115,7 +1199,8 @@
     "predicted_away_score": 31,
     "date": "2025-10-28",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NYJ",
@@ -1128,7 +1213,8 @@
     "predicted_away_score": 34,
     "date": "2025-10-26",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CIN",
@@ -1141,7 +1227,8 @@
     "predicted_away_score": 24,
     "date": "2025-10-26",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CIN",
@@ -1154,7 +1241,8 @@
     "predicted_away_score": 24,
     "date": "2025-10-26",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "PIT",
@@ -1167,7 +1255,8 @@
     "predicted_away_score": 25,
     "date": "2025-10-27",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "ATL",
@@ -1180,7 +1269,8 @@
     "predicted_away_score": 19,
     "date": "2025-10-27",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "DAL",
@@ -1193,7 +1283,8 @@
     "predicted_away_score": 20,
     "date": "2025-10-28",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "SEA",
@@ -1206,7 +1297,8 @@
     "predicted_away_score": 30,
     "date": "2025-10-28",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "KC",
@@ -1219,7 +1311,8 @@
     "predicted_away_score": 28,
     "date": "2025-10-28",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "TEN",
@@ -1232,7 +1325,8 @@
     "predicted_away_score": 22,
     "date": "2025-10-26",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "DAL",
@@ -1245,7 +1339,8 @@
     "predicted_away_score": 35,
     "date": "2025-10-26",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "SF",
@@ -1258,7 +1353,8 @@
     "predicted_away_score": 34,
     "date": "2025-10-28",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "LAR",
@@ -1271,7 +1367,8 @@
     "predicted_away_score": 26,
     "date": "2025-10-28",
     "week": 8,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CHI",
@@ -1284,7 +1381,8 @@
     "predicted_away_score": 20,
     "date": "2025-10-21",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NYJ",
@@ -1297,7 +1395,8 @@
     "predicted_away_score": 31,
     "date": "2025-10-21",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "SF",
@@ -1310,7 +1409,8 @@
     "predicted_away_score": 32,
     "date": "2025-10-21",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NO",
@@ -1323,7 +1423,8 @@
     "predicted_away_score": 20,
     "date": "2025-10-19",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "KC",
@@ -1336,7 +1437,8 @@
     "predicted_away_score": 35,
     "date": "2025-10-19",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "NO",
@@ -1349,7 +1451,8 @@
     "predicted_away_score": 35,
     "date": "2025-10-21",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "SF",
@@ -1362,7 +1465,8 @@
     "predicted_away_score": 29,
     "date": "2025-10-19",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "GB",
@@ -1375,7 +1479,8 @@
     "predicted_away_score": 28,
     "date": "2025-10-19",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "NO",
@@ -1388,7 +1493,8 @@
     "predicted_away_score": 25,
     "date": "2025-10-20",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "MIA",
@@ -1401,7 +1507,8 @@
     "predicted_away_score": 27,
     "date": "2025-10-19",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "LAR",
@@ -1414,7 +1521,8 @@
     "predicted_away_score": 21,
     "date": "2025-10-21",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "PIT",
@@ -1427,7 +1535,8 @@
     "predicted_away_score": 23,
     "date": "2025-10-20",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NYG",
@@ -1440,7 +1549,8 @@
     "predicted_away_score": 29,
     "date": "2025-10-19",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "BAL",
@@ -1453,7 +1563,8 @@
     "predicted_away_score": 30,
     "date": "2025-10-21",
     "week": 7,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "LV",
@@ -1466,7 +1577,8 @@
     "predicted_away_score": 17,
     "date": "2025-10-13",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "GB",
@@ -1479,7 +1591,8 @@
     "predicted_away_score": 31,
     "date": "2025-10-13",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "IND",
@@ -1492,7 +1605,8 @@
     "predicted_away_score": 29,
     "date": "2025-10-12",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "BUF",
@@ -1505,7 +1619,8 @@
     "predicted_away_score": 35,
     "date": "2025-10-12",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "LAR",
@@ -1518,7 +1633,8 @@
     "predicted_away_score": 28,
     "date": "2025-10-13",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "IND",
@@ -1531,7 +1647,8 @@
     "predicted_away_score": 19,
     "date": "2025-10-12",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "TEN",
@@ -1544,7 +1661,8 @@
     "predicted_away_score": 33,
     "date": "2025-10-13",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TEN",
@@ -1557,7 +1675,8 @@
     "predicted_away_score": 25,
     "date": "2025-10-12",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "DET",
@@ -1570,7 +1689,8 @@
     "predicted_away_score": 29,
     "date": "2025-10-14",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "SEA",
@@ -1583,7 +1703,8 @@
     "predicted_away_score": 15,
     "date": "2025-10-13",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "LAC",
@@ -1596,7 +1717,8 @@
     "predicted_away_score": 19,
     "date": "2025-10-13",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "IND",
@@ -1609,7 +1731,8 @@
     "predicted_away_score": 31,
     "date": "2025-10-12",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "MIN",
@@ -1622,7 +1745,8 @@
     "predicted_away_score": 29,
     "date": "2025-10-14",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "KC",
@@ -1635,7 +1759,8 @@
     "predicted_away_score": 34,
     "date": "2025-10-14",
     "week": 6,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "HOU",
@@ -1648,7 +1773,8 @@
     "predicted_away_score": 27,
     "date": "2025-10-06",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "LAR",
@@ -1661,7 +1787,8 @@
     "predicted_away_score": 26,
     "date": "2025-10-05",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "IND",
@@ -1674,7 +1801,8 @@
     "predicted_away_score": 34,
     "date": "2025-10-06",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TEN",
@@ -1687,7 +1815,8 @@
     "predicted_away_score": 22,
     "date": "2025-10-07",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "MIA",
@@ -1700,7 +1829,8 @@
     "predicted_away_score": 33,
     "date": "2025-10-07",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CIN",
@@ -1713,7 +1843,8 @@
     "predicted_away_score": 26,
     "date": "2025-10-07",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NYJ",
@@ -1726,7 +1857,8 @@
     "predicted_away_score": 18,
     "date": "2025-10-07",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CLE",
@@ -1739,7 +1871,8 @@
     "predicted_away_score": 32,
     "date": "2025-10-06",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "JAX",
@@ -1752,7 +1885,8 @@
     "predicted_away_score": 15,
     "date": "2025-10-07",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "DET",
@@ -1765,7 +1899,8 @@
     "predicted_away_score": 31,
     "date": "2025-10-07",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "KC",
@@ -1778,7 +1913,8 @@
     "predicted_away_score": 29,
     "date": "2025-10-05",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "TEN",
@@ -1791,7 +1927,8 @@
     "predicted_away_score": 26,
     "date": "2025-10-07",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CHI",
@@ -1804,7 +1941,8 @@
     "predicted_away_score": 28,
     "date": "2025-10-06",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "IND",
@@ -1817,7 +1955,8 @@
     "predicted_away_score": 27,
     "date": "2025-10-06",
     "week": 5,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NYJ",
@@ -1830,7 +1969,8 @@
     "predicted_away_score": 25,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "JAX",
@@ -1843,7 +1983,8 @@
     "predicted_away_score": 26,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "ARI",
@@ -1856,7 +1997,8 @@
     "predicted_away_score": 25,
     "date": "2025-09-28",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "MIN",
@@ -1869,7 +2011,8 @@
     "predicted_away_score": 33,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "ATL",
@@ -1882,7 +2025,8 @@
     "predicted_away_score": 31,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NO",
@@ -1895,7 +2039,8 @@
     "predicted_away_score": 25,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "NYJ",
@@ -1908,7 +2053,8 @@
     "predicted_away_score": 20,
     "date": "2025-09-28",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "SEA",
@@ -1921,7 +2067,8 @@
     "predicted_away_score": 30,
     "date": "2025-09-28",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "SF",
@@ -1934,7 +2081,8 @@
     "predicted_away_score": 23,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "MIN",
@@ -1947,7 +2095,8 @@
     "predicted_away_score": 24,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "WAS",
@@ -1960,7 +2109,8 @@
     "predicted_away_score": 33,
     "date": "2025-09-28",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "ATL",
@@ -1973,7 +2123,8 @@
     "predicted_away_score": 33,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CHI",
@@ -1986,7 +2137,8 @@
     "predicted_away_score": 19,
     "date": "2025-09-30",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "BUF",
@@ -1999,7 +2151,8 @@
     "predicted_away_score": 19,
     "date": "2025-09-28",
     "week": 4,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CHI",
@@ -2012,7 +2165,8 @@
     "predicted_away_score": 33,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "GB",
@@ -2025,7 +2179,8 @@
     "predicted_away_score": 21,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TEN",
@@ -2038,7 +2193,8 @@
     "predicted_away_score": 26,
     "date": "2025-09-23",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "WAS",
@@ -2051,7 +2207,8 @@
     "predicted_away_score": 23,
     "date": "2025-09-23",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "MIA",
@@ -2064,7 +2221,8 @@
     "predicted_away_score": 30,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "DET",
@@ -2077,7 +2235,8 @@
     "predicted_away_score": 33,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TB",
@@ -2090,7 +2249,8 @@
     "predicted_away_score": 22,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TB",
@@ -2103,7 +2263,8 @@
     "predicted_away_score": 22,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "SF",
@@ -2116,7 +2277,8 @@
     "predicted_away_score": 18,
     "date": "2025-09-21",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "WAS",
@@ -2129,7 +2291,8 @@
     "predicted_away_score": 28,
     "date": "2025-09-21",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "BUF",
@@ -2142,7 +2305,8 @@
     "predicted_away_score": 29,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "IND",
@@ -2155,7 +2319,8 @@
     "predicted_away_score": 24,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "CHI",
@@ -2168,7 +2333,8 @@
     "predicted_away_score": 33,
     "date": "2025-09-22",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "MIN",
@@ -2181,7 +2347,8 @@
     "predicted_away_score": 35,
     "date": "2025-09-21",
     "week": 3,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "GB",
@@ -2194,7 +2361,8 @@
     "predicted_away_score": 34,
     "date": "2025-09-15",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "SF",
@@ -2207,7 +2375,8 @@
     "predicted_away_score": 26,
     "date": "2025-09-16",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "GB",
@@ -2220,7 +2389,8 @@
     "predicted_away_score": 30,
     "date": "2025-09-14",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "PHI",
@@ -2233,7 +2403,8 @@
     "predicted_away_score": 27,
     "date": "2025-09-16",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "PHI",
@@ -2246,7 +2417,8 @@
     "predicted_away_score": 24,
     "date": "2025-09-14",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CIN",
@@ -2259,7 +2431,8 @@
     "predicted_away_score": 19,
     "date": "2025-09-15",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "CIN",
@@ -2272,7 +2445,8 @@
     "predicted_away_score": 15,
     "date": "2025-09-15",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NYG",
@@ -2285,7 +2459,8 @@
     "predicted_away_score": 25,
     "date": "2025-09-16",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "SF",
@@ -2298,7 +2473,8 @@
     "predicted_away_score": 34,
     "date": "2025-09-14",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "CLE",
@@ -2311,7 +2487,8 @@
     "predicted_away_score": 31,
     "date": "2025-09-16",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "TB",
@@ -2324,7 +2501,8 @@
     "predicted_away_score": 18,
     "date": "2025-09-15",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "PHI",
@@ -2337,7 +2515,8 @@
     "predicted_away_score": 28,
     "date": "2025-09-15",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "KC",
@@ -2350,7 +2529,8 @@
     "predicted_away_score": 29,
     "date": "2025-09-16",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "CIN",
@@ -2363,7 +2543,8 @@
     "predicted_away_score": 27,
     "date": "2025-09-15",
     "week": 2,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "GB",
@@ -2376,7 +2557,8 @@
     "predicted_away_score": 23,
     "date": "2025-09-08",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "NO",
@@ -2389,7 +2571,8 @@
     "predicted_away_score": 23,
     "date": "2025-09-07",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "IND",
@@ -2402,7 +2585,8 @@
     "predicted_away_score": 22,
     "date": "2025-09-09",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "ATL",
@@ -2415,7 +2599,8 @@
     "predicted_away_score": 28,
     "date": "2025-09-07",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "LV",
@@ -2428,7 +2613,8 @@
     "predicted_away_score": 36,
     "date": "2025-09-08",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "TB",
@@ -2441,7 +2627,8 @@
     "predicted_away_score": 22,
     "date": "2025-09-09",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "DAL",
@@ -2454,7 +2641,8 @@
     "predicted_away_score": 28,
     "date": "2025-09-09",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "HOU",
@@ -2467,7 +2655,8 @@
     "predicted_away_score": 16,
     "date": "2025-09-08",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "IND",
@@ -2480,7 +2669,8 @@
     "predicted_away_score": 20,
     "date": "2025-09-09",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "HOU",
@@ -2493,7 +2683,8 @@
     "predicted_away_score": 31,
     "date": "2025-09-08",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Monday"
   },
   {
     "home_team": "PHI",
@@ -2506,7 +2697,8 @@
     "predicted_away_score": 20,
     "date": "2025-09-07",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "LV",
@@ -2519,7 +2711,8 @@
     "predicted_away_score": 27,
     "date": "2025-09-07",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   },
   {
     "home_team": "MIA",
@@ -2532,7 +2725,8 @@
     "predicted_away_score": 35,
     "date": "2025-09-09",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Tuesday"
   },
   {
     "home_team": "PIT",
@@ -2545,6 +2739,7 @@
     "predicted_away_score": 34,
     "date": "2025-09-07",
     "week": 1,
-    "season": 2025
+    "season": 2025,
+    "day": "Sunday"
   }
 ]
