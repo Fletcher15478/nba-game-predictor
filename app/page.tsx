@@ -70,10 +70,19 @@ export default function Home() {
   }
 
   const changeDate = (days: number) => {
+    const today = new Date().toISOString().split('T')[0]
+    const yesterday = new Date()
+    yesterday.setDate(yesterday.getDate() - 1)
+    const yesterdayStr = yesterday.toISOString().split('T')[0]
+    
     const currentDate = new Date(selectedDate + 'T00:00:00')
     currentDate.setDate(currentDate.getDate() + days)
     const newDate = currentDate.toISOString().split('T')[0]
-    fetchData(newDate)
+    
+    // Only allow today or yesterday
+    if (newDate === today || newDate === yesterdayStr) {
+      fetchData(newDate)
+    }
   }
 
   const getConfidenceClass = (confidence: number) => {
