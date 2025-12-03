@@ -46,18 +46,22 @@ export default function Home() {
   const [boxScore, setBoxScore] = useState<BoxScore | null>(null)
   const [loadingBoxScore, setLoadingBoxScore] = useState(false)
   const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0])
+  const [league, setLeague] = useState<'nba' | 'nfl'>('nba')
 
   useEffect(() => {
     fetchData()
-  }, [])
+  }, [league])
 
   const fetchData = async (date?: string) => {
     try {
       setLoading(true)
       const dateToFetch = date || selectedDate
+      const apiPath = league === 'nba' ? '/api/predictions' : '/api/nfl/predictions'
+      const statsPath = league === 'nba' ? '/api/stats' : '/api/nfl/stats'
+      
       const [predictionsRes, statsRes] = await Promise.all([
-        axios.get('/api/predictions', { params: { date: dateToFetch } }),
-        axios.get('/api/stats')
+        axios.get(apiPath, { params: { date: dateToFetch } }),
+        axios.get(statsPath)
       ])
       setPredictions(predictionsRes.data.predictions || [])
       setStats(statsRes.data)
@@ -70,6 +74,12 @@ export default function Home() {
   }
 
   const changeDate = (days: number) => {
+    if (league === 'nfl') {
+      // For NFL, navigate by week (simplified - just refresh current week)
+      fetchData()
+      return
+    }
+    
     const today = new Date().toISOString().split('T')[0]
     const yesterday = new Date()
     yesterday.setDate(yesterday.getDate() - 1)
@@ -105,7 +115,8 @@ export default function Home() {
     setLoadingBoxScore(true)
     setSelectedGame(prediction)
     try {
-      const response = await axios.get('/api/boxscore', {
+      const apiPath = league === 'nba' ? '/api/boxscore' : '/api/nfl/boxscore'
+      const response = await axios.get(apiPath, {
         params: {
           home: prediction.home_team,
           away: prediction.away_team,
@@ -132,8 +143,27 @@ export default function Home() {
   return (
     <div className="container">
       <div className="header">
-        <h1>🏀 NBA Game Predictor</h1>
-        <p>Machine Learning Powered Predictions</p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+          <div>
+            <h1>{league === 'nba' ? '🏀 NBA' : '🏈 NFL'} Game Predictor</h1>
+            <p>Machine Learning Powered Predictions</p>
+          </div>
+          <select 
+            value={league} 
+            onChange={(e) => setLeague(e.target.value as 'nba' | 'nfl')}
+            style={{
+              padding: '0.5rem 1rem',
+              fontSize: '1rem',
+              borderRadius: '8px',
+              border: '2px solid #667eea',
+              background: 'white',
+              cursor: 'pointer'
+            }}
+          >
+            <option value="nba">NBA</option>
+            <option value="nfl">NFL</option>
+          </select>
+        </div>
       </div>
 
       {error && (
@@ -181,9 +211,11 @@ export default function Home() {
             ←
           </button>
           <h2 style={{ margin: 0, color: '#333', textAlign: 'center' }}>
-            {selectedDate === new Date().toISOString().split('T')[0] 
-              ? "Today's Predictions" 
-              : `Predictions: ${formatDate(selectedDate)}`}
+            {league === 'nfl' 
+              ? `Week ${predictions[0]?.week || 1} Predictions`
+              : selectedDate === new Date().toISOString().split('T')[0] 
+                ? "Today's Predictions" 
+                : `Predictions: ${formatDate(selectedDate)}`}
           </h2>
           <button 
             onClick={() => changeDate(1)}

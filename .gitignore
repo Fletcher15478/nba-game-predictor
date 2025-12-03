@@ -10,6 +10,9 @@ __pycache__/
 *.pkl
 *.joblib
 nba_model.pkl
+nfl_model.pkl
+nfl_daily_predictions.json
+nfl_prediction_stats.json
 
 # Data files
 *.csv
