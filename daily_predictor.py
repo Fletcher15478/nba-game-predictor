@@ -5,7 +5,7 @@ Runs daily to generate predictions and update accuracy tracking
 
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from ml_model import NBAGamePredictor
 import pandas as pd
 import requests
@@ -289,14 +289,19 @@ def generate_todays_predictions():
             import traceback
             traceback.print_exc()
     
-    # Load existing predictions and merge (keep history)
+    # Load existing predictions and merge (keep only today and yesterday)
     existing_predictions = []
     if os.path.exists(PREDICTIONS_FILE):
         with open(PREDICTIONS_FILE, 'r') as f:
             existing_predictions = json.load(f)
     
-    # Remove old predictions for today's date (if regenerating)
+    # Only keep today and yesterday
     today_str = datetime.now().date().isoformat()
+    yesterday_str = (datetime.now().date() - timedelta(days=1)).isoformat()
+    existing_predictions = [p for p in existing_predictions 
+                          if p.get('date') in [today_str, yesterday_str]]
+    
+    # Remove old predictions for today's date (if regenerating)
     existing_predictions = [p for p in existing_predictions if p.get('date') != today_str]
     
     # Add today's predictions
