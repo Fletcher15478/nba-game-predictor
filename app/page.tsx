@@ -244,7 +244,7 @@ export default function Home() {
           >
             ←
           </button>
-          <h2 style={{ margin: 0, color: '#333', textAlign: 'center' }}>
+          <h2 style={{ margin: 0, color: '#e2e8f0', textAlign: 'center', fontSize: '1.8rem', fontWeight: '700' }}>
             {league === 'nfl' 
               ? `Week ${currentWeek || predictions[0]?.week || 14} Predictions`
               : selectedDate === new Date().toISOString().split('T')[0] 
@@ -305,15 +305,16 @@ export default function Home() {
                 {dayLabel && (
                   <div style={{ 
                     fontSize: '0.85rem', 
-                    color: '#667eea', 
+                    color: '#00d4ff', 
                     fontWeight: 'bold', 
                     marginBottom: '0.5rem',
-                    textAlign: 'center'
+                    textAlign: 'center',
+                    textShadow: '0 0 10px rgba(0, 212, 255, 0.5)'
                   }}>
                     {dayLabel}
                   </div>
                 )}
-                <div style={{ marginBottom: '1rem', color: '#666', fontSize: '0.9rem' }}>
+                <div style={{ marginBottom: '1rem', color: '#94a3b8', fontSize: '0.9rem' }}>
                   {formatDate(pred.date)}
                 </div>
                 
@@ -324,23 +325,29 @@ export default function Home() {
                 )}
                 
                 <div style={{ marginBottom: '1rem' }}>
-                  <div className="team-name" style={{ color: pred.winner === pred.home_team ? '#4caf50' : '#333' }}>
+                  <div className="team-name" style={{ 
+                    color: pred.winner === pred.home_team ? '#00d4ff' : '#e2e8f0',
+                    textShadow: pred.winner === pred.home_team ? '0 0 15px rgba(0, 212, 255, 0.6)' : 'none'
+                  }}>
                     {pred.home_team} {pred.winner === pred.home_team && '🏆'}
                   </div>
-                  <div style={{ fontSize: '0.9rem', color: '#666', marginLeft: '1rem' }}>
+                  <div style={{ fontSize: '0.9rem', color: '#94a3b8', marginLeft: '1rem', marginTop: '0.25rem' }}>
                     Win Probability: {(pred.home_win_prob * 100).toFixed(1)}%
                   </div>
                 </div>
                 
-                <div style={{ textAlign: 'center', margin: '1rem 0', color: '#999' }}>
+                <div style={{ textAlign: 'center', margin: '1rem 0', color: '#64748b', fontSize: '0.9rem', fontWeight: '600' }}>
                   vs
                 </div>
                 
                 <div>
-                  <div className="team-name" style={{ color: pred.winner === pred.away_team ? '#4caf50' : '#333' }}>
+                  <div className="team-name" style={{ 
+                    color: pred.winner === pred.away_team ? '#00d4ff' : '#e2e8f0',
+                    textShadow: pred.winner === pred.away_team ? '0 0 15px rgba(0, 212, 255, 0.6)' : 'none'
+                  }}>
                     {pred.away_team} {pred.winner === pred.away_team && '🏆'}
                   </div>
-                  <div style={{ fontSize: '0.9rem', color: '#666', marginLeft: '1rem' }}>
+                  <div style={{ fontSize: '0.9rem', color: '#94a3b8', marginLeft: '1rem', marginTop: '0.25rem' }}>
                     Win Probability: {(pred.away_win_prob * 100).toFixed(1)}%
                   </div>
                 </div>
