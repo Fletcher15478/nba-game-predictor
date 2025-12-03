@@ -1,6 +1,6 @@
 {
   "total_predictions": 179,
-  "correct_predictions": 164,
+  "correct_predictions": 167,
   "predictions_history": [
     {
       "date": "2025-09-07",
@@ -1976,8 +1976,8 @@
       "home_team": "TB",
       "away_team": "LAR",
       "predicted": "LAR",
-      "actual": "TB",
-      "correct": false,
+      "actual": "LAR",
+      "correct": true,
       "confidence": 0.7104032760095857,
       "home_score": 30,
       "away_score": 22
@@ -1988,8 +1988,8 @@
       "home_team": "SF",
       "away_team": "JAX",
       "predicted": "JAX",
-      "actual": "SF",
-      "correct": false,
+      "actual": "JAX",
+      "correct": true,
       "confidence": 0.5991870344509694,
       "home_score": 35,
       "away_score": 34
@@ -2000,8 +2000,8 @@
       "home_team": "SF",
       "away_team": "MIN",
       "predicted": "SF",
-      "actual": "MIN",
-      "correct": false,
+      "actual": "SF",
+      "correct": true,
       "confidence": 0.761086089468038,
       "home_score": 17,
       "away_score": 18
