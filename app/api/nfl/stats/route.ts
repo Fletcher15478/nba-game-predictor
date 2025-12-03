@@ -19,7 +19,8 @@ export async function GET() {
         total_predictions: total,
         correct_predictions: correct,
         accuracy: accuracy,
-        record: `${correct}-${total - correct}`
+        record: `${correct}-${total - correct}`,
+        predictions_history: stats.predictions_history || []
       })
     }
     

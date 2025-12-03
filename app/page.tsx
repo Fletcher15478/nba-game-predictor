@@ -50,6 +50,7 @@ export default function Home() {
   const [loadingBoxScore, setLoadingBoxScore] = useState(false)
   const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0])
   const [league, setLeague] = useState<'nba' | 'nfl'>('nba')
+  const [currentWeek, setCurrentWeek] = useState<number | null>(null)
 
   useEffect(() => {
     fetchData()
@@ -73,9 +74,17 @@ export default function Home() {
         axios.get(apiPath, { params }),
         axios.get(statsPath)
       ])
-      setPredictions(predictionsRes.data.predictions || [])
+      const preds = predictionsRes.data.predictions || []
+      setPredictions(preds)
       setStats(statsRes.data)
       setSelectedDate(dateToFetch)
+      
+      // Set current week for NFL
+      if (league === 'nfl' && preds.length > 0 && preds[0].week) {
+        setCurrentWeek(preds[0].week)
+      } else if (league === 'nfl' && week) {
+        setCurrentWeek(week)
+      }
     } catch (err: any) {
       setError(err.message || 'Failed to load data')
     } finally {
@@ -86,8 +95,9 @@ export default function Home() {
   const changeDate = (days: number) => {
     if (league === 'nfl') {
       // For NFL, navigate by week
-      const currentWeek = predictions[0]?.week || 14
-      const newWeek = currentWeek + (days * -1) // Invert because left arrow should go to previous week
+      // Right arrow (days=1) goes to larger weeks (future), left arrow (days=-1) goes to smaller weeks (past)
+      const week = currentWeek || predictions[0]?.week || 14
+      const newWeek = week + days
       
       // Allow weeks 1-18
       if (newWeek >= 1 && newWeek <= 18) {
@@ -228,21 +238,21 @@ export default function Home() {
           </button>
           <h2 style={{ margin: 0, color: '#333', textAlign: 'center' }}>
             {league === 'nfl' 
-              ? `Week ${predictions[0]?.week || 14} Predictions`
+              ? `Week ${currentWeek || predictions[0]?.week || 14} Predictions`
               : selectedDate === new Date().toISOString().split('T')[0] 
                 ? "Today's Predictions" 
                 : `Predictions: ${formatDate(selectedDate)}`}
           </h2>
           <button 
             onClick={() => changeDate(1)}
-            disabled={league === 'nfl' ? (predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]}
+            disabled={league === 'nfl' ? (currentWeek || predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]}
             style={{ 
-              background: (league === 'nfl' ? (predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? '#ccc' : '#667eea', 
+              background: (league === 'nfl' ? (currentWeek || predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? '#ccc' : '#667eea', 
               color: 'white', 
               border: 'none', 
               padding: '0.5rem 1rem', 
               borderRadius: '8px', 
-              cursor: (league === 'nfl' ? (predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? 'not-allowed' : 'pointer',
+              cursor: (league === 'nfl' ? (currentWeek || predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? 'not-allowed' : 'pointer',
               fontSize: '1.2rem',
               fontWeight: 'bold'
             }}
