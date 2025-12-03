@@ -318,15 +318,7 @@ export default function Home() {
                 </div>
                 
                 {isPast && actualWinner && (
-                  <div style={{ 
-                    marginBottom: '1rem', 
-                    padding: '0.5rem', 
-                    background: '#e8f5e9', 
-                    borderRadius: '8px',
-                    textAlign: 'center',
-                    fontWeight: 'bold',
-                    color: '#2e7d32'
-                  }}>
+                  <div className="winner-badge">
                     Winner: {actualWinner} ✓
                   </div>
                 )}
