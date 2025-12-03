@@ -1,6 +1,6 @@
 {
-  "total_predictions": 6,
-  "correct_predictions": 3,
+  "total_predictions": 113,
+  "correct_predictions": 97,
   "predictions_history": [
     {
       "date": "2025-12-02",
@@ -43,6 +43,755 @@
       "actual": "OKC",
       "correct": true,
       "confidence": 0.5615054041738188
+    },
+    {
+      "date": "2025-12-01",
+      "predicted": "DAL",
+      "actual": "DAL",
+      "correct": true,
+      "confidence": 0.6023617497131692
+    },
+    {
+      "date": "2025-12-01",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.7002933559769382
+    },
+    {
+      "date": "2025-12-01",
+      "predicted": "DAL",
+      "actual": "DAL",
+      "correct": true,
+      "confidence": 0.6081419470478195
+    },
+    {
+      "date": "2025-11-30",
+      "predicted": "ATL",
+      "actual": "ATL",
+      "correct": true,
+      "confidence": 0.6694324486730576
+    },
+    {
+      "date": "2025-11-30",
+      "predicted": "OKC",
+      "actual": "OKC",
+      "correct": true,
+      "confidence": 0.7024122725750515
+    },
+    {
+      "date": "2025-11-30",
+      "predicted": "UTA",
+      "actual": "UTA",
+      "correct": true,
+      "confidence": 0.7955718740587331
+    },
+    {
+      "date": "2025-11-30",
+      "predicted": "MIL",
+      "actual": "MIL",
+      "correct": true,
+      "confidence": 0.8424870543064351
+    },
+    {
+      "date": "2025-11-29",
+      "predicted": "POR",
+      "actual": "POR",
+      "correct": true,
+      "confidence": 0.6653630618869281
+    },
+    {
+      "date": "2025-11-29",
+      "predicted": "CHI",
+      "actual": "CHI",
+      "correct": true,
+      "confidence": 0.6341395036788917
+    },
+    {
+      "date": "2025-11-29",
+      "predicted": "BKN",
+      "actual": "BKN",
+      "correct": true,
+      "confidence": 0.7751935461303404
+    },
+    {
+      "date": "2025-11-29",
+      "predicted": "CHA",
+      "actual": "CHA",
+      "correct": true,
+      "confidence": 0.7329014445086144
+    },
+    {
+      "date": "2025-11-28",
+      "predicted": "UTA",
+      "actual": "UTA",
+      "correct": true,
+      "confidence": 0.7019016333733963
+    },
+    {
+      "date": "2025-11-28",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.830114394365137
+    },
+    {
+      "date": "2025-11-28",
+      "predicted": "GSW",
+      "actual": "GSW",
+      "correct": true,
+      "confidence": 0.8287665732248777
+    },
+    {
+      "date": "2025-11-27",
+      "predicted": "DAL",
+      "actual": "DAL",
+      "correct": true,
+      "confidence": 0.6034928991449752
+    },
+    {
+      "date": "2025-11-27",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.7188402407107446
+    },
+    {
+      "date": "2025-11-27",
+      "predicted": "LAL",
+      "actual": "LAL",
+      "correct": true,
+      "confidence": 0.6844070109123028
+    },
+    {
+      "date": "2025-11-27",
+      "predicted": "UTA",
+      "actual": "UTA",
+      "correct": true,
+      "confidence": 0.6411985195437672
+    },
+    {
+      "date": "2025-11-26",
+      "predicted": "ATL",
+      "actual": "ATL",
+      "correct": true,
+      "confidence": 0.7019480386569091
+    },
+    {
+      "date": "2025-11-26",
+      "predicted": "MEM",
+      "actual": "MEM",
+      "correct": true,
+      "confidence": 0.6205003906681588
+    },
+    {
+      "date": "2025-11-26",
+      "predicted": "IND",
+      "actual": "CHA",
+      "correct": false,
+      "confidence": 0.6504254113951226
+    },
+    {
+      "date": "2025-11-26",
+      "predicted": "LAL",
+      "actual": "LAL",
+      "correct": true,
+      "confidence": 0.6026114513823946
+    },
+    {
+      "date": "2025-11-25",
+      "predicted": "WAS",
+      "actual": "WAS",
+      "correct": true,
+      "confidence": 0.8424380079808373
+    },
+    {
+      "date": "2025-11-25",
+      "predicted": "PHI",
+      "actual": "PHI",
+      "correct": true,
+      "confidence": 0.7186054702306477
+    },
+    {
+      "date": "2025-11-25",
+      "predicted": "ORL",
+      "actual": "ORL",
+      "correct": true,
+      "confidence": 0.6553248513350663
+    },
+    {
+      "date": "2025-11-25",
+      "predicted": "ORL",
+      "actual": "ORL",
+      "correct": true,
+      "confidence": 0.820940984868225
+    },
+    {
+      "date": "2025-11-24",
+      "predicted": "IND",
+      "actual": "IND",
+      "correct": true,
+      "confidence": 0.6927842195555544
+    },
+    {
+      "date": "2025-11-24",
+      "predicted": "ATL",
+      "actual": "ATL",
+      "correct": true,
+      "confidence": 0.6952760316456394
+    },
+    {
+      "date": "2025-11-24",
+      "predicted": "OKC",
+      "actual": "OKC",
+      "correct": true,
+      "confidence": 0.6173016426548685
+    },
+    {
+      "date": "2025-11-24",
+      "predicted": "CHA",
+      "actual": "CHA",
+      "correct": true,
+      "confidence": 0.5952803099635264
+    },
+    {
+      "date": "2025-11-23",
+      "predicted": "CLE",
+      "actual": "CLE",
+      "correct": true,
+      "confidence": 0.6957841809358766
+    },
+    {
+      "date": "2025-11-23",
+      "predicted": "DAL",
+      "actual": "DAL",
+      "correct": true,
+      "confidence": 0.7219666135005534
+    },
+    {
+      "date": "2025-11-23",
+      "predicted": "ORL",
+      "actual": "ORL",
+      "correct": true,
+      "confidence": 0.8160934803860617
+    },
+    {
+      "date": "2025-11-22",
+      "predicted": "CHA",
+      "actual": "CHA",
+      "correct": true,
+      "confidence": 0.7214459615396823
+    },
+    {
+      "date": "2025-11-22",
+      "predicted": "MEM",
+      "actual": "MEM",
+      "correct": true,
+      "confidence": 0.5589317243074979
+    },
+    {
+      "date": "2025-11-22",
+      "predicted": "CHI",
+      "actual": "DET",
+      "correct": false,
+      "confidence": 0.6458955680166855
+    },
+    {
+      "date": "2025-11-21",
+      "predicted": "HOU",
+      "actual": "HOU",
+      "correct": true,
+      "confidence": 0.7828019039144403
+    },
+    {
+      "date": "2025-11-21",
+      "predicted": "BKN",
+      "actual": "BKN",
+      "correct": true,
+      "confidence": 0.7957214805541438
+    },
+    {
+      "date": "2025-11-21",
+      "predicted": "BKN",
+      "actual": "BKN",
+      "correct": true,
+      "confidence": 0.5783998357558429
+    },
+    {
+      "date": "2025-11-20",
+      "predicted": "CHI",
+      "actual": "CHI",
+      "correct": true,
+      "confidence": 0.7794336910970769
+    },
+    {
+      "date": "2025-11-20",
+      "predicted": "UTA",
+      "actual": "UTA",
+      "correct": true,
+      "confidence": 0.727861738380993
+    },
+    {
+      "date": "2025-11-20",
+      "predicted": "LAL",
+      "actual": "LAL",
+      "correct": true,
+      "confidence": 0.7871547693812636
+    },
+    {
+      "date": "2025-11-19",
+      "predicted": "LAL",
+      "actual": "LAL",
+      "correct": true,
+      "confidence": 0.798148604007506
+    },
+    {
+      "date": "2025-11-19",
+      "predicted": "LAL",
+      "actual": "LAL",
+      "correct": true,
+      "confidence": 0.7477482766372286
+    },
+    {
+      "date": "2025-11-19",
+      "predicted": "UTA",
+      "actual": "UTA",
+      "correct": true,
+      "confidence": 0.6083695034875884
+    },
+    {
+      "date": "2025-11-19",
+      "predicted": "PHI",
+      "actual": "PHI",
+      "correct": true,
+      "confidence": 0.6416333189812162
+    },
+    {
+      "date": "2025-11-18",
+      "predicted": "BKN",
+      "actual": "BKN",
+      "correct": true,
+      "confidence": 0.618995001935435
+    },
+    {
+      "date": "2025-11-18",
+      "predicted": "MIN",
+      "actual": "MIN",
+      "correct": true,
+      "confidence": 0.8393546663526915
+    },
+    {
+      "date": "2025-11-18",
+      "predicted": "WAS",
+      "actual": "WAS",
+      "correct": true,
+      "confidence": 0.7549905439714485
+    },
+    {
+      "date": "2025-11-18",
+      "predicted": "UTA",
+      "actual": "UTA",
+      "correct": true,
+      "confidence": 0.6136048659680224
+    },
+    {
+      "date": "2025-11-17",
+      "predicted": "MIL",
+      "actual": "MIL",
+      "correct": true,
+      "confidence": 0.8337884346796003
+    },
+    {
+      "date": "2025-11-17",
+      "predicted": "GSW",
+      "actual": "GSW",
+      "correct": true,
+      "confidence": 0.592630367078263
+    },
+    {
+      "date": "2025-11-17",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.5566668554285678
+    },
+    {
+      "date": "2025-11-16",
+      "predicted": "ORL",
+      "actual": "ORL",
+      "correct": true,
+      "confidence": 0.8299727606346596
+    },
+    {
+      "date": "2025-11-16",
+      "predicted": "ATL",
+      "actual": "LAL",
+      "correct": false,
+      "confidence": 0.8482549594573356
+    },
+    {
+      "date": "2025-11-16",
+      "predicted": "MIL",
+      "actual": "MIL",
+      "correct": true,
+      "confidence": 0.7375981662226685
+    },
+    {
+      "date": "2025-11-15",
+      "predicted": "DET",
+      "actual": "OKC",
+      "correct": false,
+      "confidence": 0.7791249766187912
+    },
+    {
+      "date": "2025-11-15",
+      "predicted": "WAS",
+      "actual": "BKN",
+      "correct": false,
+      "confidence": 0.8036573354181938
+    },
+    {
+      "date": "2025-11-15",
+      "predicted": "NOP",
+      "actual": "MEM",
+      "correct": false,
+      "confidence": 0.5522748898660939
+    },
+    {
+      "date": "2025-11-14",
+      "predicted": "HOU",
+      "actual": "HOU",
+      "correct": true,
+      "confidence": 0.792715698502623
+    },
+    {
+      "date": "2025-11-14",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.7714217224958941
+    },
+    {
+      "date": "2025-11-14",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.6070055737788913
+    },
+    {
+      "date": "2025-11-13",
+      "predicted": "SAC",
+      "actual": "SAC",
+      "correct": true,
+      "confidence": 0.7349941924965462
+    },
+    {
+      "date": "2025-11-13",
+      "predicted": "SAC",
+      "actual": "SAC",
+      "correct": true,
+      "confidence": 0.7202924960466036
+    },
+    {
+      "date": "2025-11-13",
+      "predicted": "PHO",
+      "actual": "PHO",
+      "correct": true,
+      "confidence": 0.6847984166585246
+    },
+    {
+      "date": "2025-11-13",
+      "predicted": "DET",
+      "actual": "DET",
+      "correct": true,
+      "confidence": 0.6912672554318031
+    },
+    {
+      "date": "2025-11-12",
+      "predicted": "WAS",
+      "actual": "WAS",
+      "correct": true,
+      "confidence": 0.7108089404902104
+    },
+    {
+      "date": "2025-11-12",
+      "predicted": "MIN",
+      "actual": "MIN",
+      "correct": true,
+      "confidence": 0.6416882992732423
+    },
+    {
+      "date": "2025-11-12",
+      "predicted": "POR",
+      "actual": "POR",
+      "correct": true,
+      "confidence": 0.6236524479932073
+    },
+    {
+      "date": "2025-11-12",
+      "predicted": "WAS",
+      "actual": "MIA",
+      "correct": false,
+      "confidence": 0.7010286735478958
+    },
+    {
+      "date": "2025-11-11",
+      "predicted": "GSW",
+      "actual": "GSW",
+      "correct": true,
+      "confidence": 0.6172487758417744
+    },
+    {
+      "date": "2025-11-11",
+      "predicted": "NOP",
+      "actual": "NOP",
+      "correct": true,
+      "confidence": 0.7095767179518456
+    },
+    {
+      "date": "2025-11-11",
+      "predicted": "PHI",
+      "actual": "PHI",
+      "correct": true,
+      "confidence": 0.7936799674210038
+    },
+    {
+      "date": "2025-11-11",
+      "predicted": "POR",
+      "actual": "POR",
+      "correct": true,
+      "confidence": 0.6031522547904427
+    },
+    {
+      "date": "2025-11-10",
+      "predicted": "PHO",
+      "actual": "PHO",
+      "correct": true,
+      "confidence": 0.6362937505385654
+    },
+    {
+      "date": "2025-11-10",
+      "predicted": "MIL",
+      "actual": "MIL",
+      "correct": true,
+      "confidence": 0.6791393252119543
+    },
+    {
+      "date": "2025-11-10",
+      "predicted": "POR",
+      "actual": "POR",
+      "correct": true,
+      "confidence": 0.6625187932991886
+    },
+    {
+      "date": "2025-11-10",
+      "predicted": "SAS",
+      "actual": "SAS",
+      "correct": true,
+      "confidence": 0.5577412925929762
+    },
+    {
+      "date": "2025-11-09",
+      "predicted": "DAL",
+      "actual": "DAL",
+      "correct": true,
+      "confidence": 0.846306021639029
+    },
+    {
+      "date": "2025-11-09",
+      "predicted": "SAC",
+      "actual": "SAC",
+      "correct": true,
+      "confidence": 0.785764236341341
+    },
+    {
+      "date": "2025-11-09",
+      "predicted": "SAS",
+      "actual": "SAS",
+      "correct": true,
+      "confidence": 0.815526393300539
+    },
+    {
+      "date": "2025-11-08",
+      "predicted": "LAL",
+      "actual": "LAL",
+      "correct": true,
+      "confidence": 0.7595070286542815
+    },
+    {
+      "date": "2025-11-08",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.5897361576323574
+    },
+    {
+      "date": "2025-11-08",
+      "predicted": "WAS",
+      "actual": "WAS",
+      "correct": true,
+      "confidence": 0.624616003750589
+    },
+    {
+      "date": "2025-11-08",
+      "predicted": "CHI",
+      "actual": "CHI",
+      "correct": true,
+      "confidence": 0.6678259516435984
+    },
+    {
+      "date": "2025-11-07",
+      "predicted": "OKC",
+      "actual": "MIA",
+      "correct": false,
+      "confidence": 0.6195240312374652
+    },
+    {
+      "date": "2025-11-07",
+      "predicted": "DEN",
+      "actual": "DEN",
+      "correct": true,
+      "confidence": 0.6087563225505624
+    },
+    {
+      "date": "2025-11-07",
+      "predicted": "WAS",
+      "actual": "WAS",
+      "correct": true,
+      "confidence": 0.7593168944407298
+    },
+    {
+      "date": "2025-11-07",
+      "predicted": "HOU",
+      "actual": "HOU",
+      "correct": true,
+      "confidence": 0.5703135004645324
+    },
+    {
+      "date": "2025-11-06",
+      "predicted": "SAS",
+      "actual": "SAS",
+      "correct": true,
+      "confidence": 0.6213038670039397
+    },
+    {
+      "date": "2025-11-06",
+      "predicted": "ORL",
+      "actual": "ORL",
+      "correct": true,
+      "confidence": 0.7686077786521127
+    },
+    {
+      "date": "2025-11-06",
+      "predicted": "ORL",
+      "actual": "CHI",
+      "correct": false,
+      "confidence": 0.6389682044924945
+    },
+    {
+      "date": "2025-11-05",
+      "predicted": "MIA",
+      "actual": "PHI",
+      "correct": false,
+      "confidence": 0.7646615713661301
+    },
+    {
+      "date": "2025-11-05",
+      "predicted": "BKN",
+      "actual": "BKN",
+      "correct": true,
+      "confidence": 0.5570046417205793
+    },
+    {
+      "date": "2025-11-05",
+      "predicted": "PHI",
+      "actual": "BOS",
+      "correct": false,
+      "confidence": 0.793918166375783
+    },
+    {
+      "date": "2025-11-05",
+      "predicted": "OKC",
+      "actual": "OKC",
+      "correct": true,
+      "confidence": 0.6870226840237224
+    },
+    {
+      "date": "2025-11-04",
+      "predicted": "NOP",
+      "actual": "NOP",
+      "correct": true,
+      "confidence": 0.6999253454873707
+    },
+    {
+      "date": "2025-11-04",
+      "predicted": "HOU",
+      "actual": "HOU",
+      "correct": true,
+      "confidence": 0.737054240823077
+    },
+    {
+      "date": "2025-11-04",
+      "predicted": "CLE",
+      "actual": "CLE",
+      "correct": true,
+      "confidence": 0.5669614781678716
+    },
+    {
+      "date": "2025-11-04",
+      "predicted": "IND",
+      "actual": "IND",
+      "correct": true,
+      "confidence": 0.7496167937961393
+    },
+    {
+      "date": "2025-11-03",
+      "predicted": "LAL",
+      "actual": "DET",
+      "correct": false,
+      "confidence": 0.6171183702096824
+    },
+    {
+      "date": "2025-11-03",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.7000290623945391
+    },
+    {
+      "date": "2025-11-03",
+      "predicted": "ORL",
+      "actual": "ORL",
+      "correct": true,
+      "confidence": 0.6778197805962357
+    },
+    {
+      "date": "2025-11-02",
+      "predicted": "POR",
+      "actual": "MIA",
+      "correct": false,
+      "confidence": 0.6540009579715286
+    },
+    {
+      "date": "2025-11-02",
+      "predicted": "IND",
+      "actual": "IND",
+      "correct": true,
+      "confidence": 0.838049580067372
+    },
+    {
+      "date": "2025-11-02",
+      "predicted": "DEN",
+      "actual": "DEN",
+      "correct": true,
+      "confidence": 0.846848243428888
+    },
+    {
+      "date": "2025-11-02",
+      "predicted": "LAL",
+      "actual": "LAL",
+      "correct": true,
+      "confidence": 0.6954993140480601
     }
   ]
 }

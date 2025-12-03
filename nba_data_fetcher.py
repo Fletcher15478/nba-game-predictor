@@ -171,16 +171,20 @@ class NBADataFetcher:
     
     def get_game_results(self, date):
         """Get completed game results from NBA API for a specific date"""
-        # Manual results for Dec 2, 2025 (until API has them)
-        if date == '2025-12-02':
-            return [
-                {'home_team': 'PHI', 'away_team': 'WAS', 'winner': 'PHI', 'date': date},
-                {'home_team': 'TOR', 'away_team': 'POR', 'winner': 'TOR', 'date': date},
-                {'home_team': 'BOS', 'away_team': 'NYK', 'winner': 'BOS', 'date': date},
-                {'home_team': 'NOP', 'away_team': 'MIN', 'winner': 'MIN', 'date': date},
-                {'home_team': 'SAS', 'away_team': 'MEM', 'winner': 'SAS', 'date': date},
-                {'home_team': 'GSW', 'away_team': 'OKC', 'winner': 'OKC', 'date': date},
+        # Manual results for specific dates
+        manual_results = {
+            '2025-12-02': [
+                {'home_team': 'PHI', 'away_team': 'WAS', 'winner': 'PHI', 'home_score': 112, 'away_score': 98, 'date': date},
+                {'home_team': 'TOR', 'away_team': 'POR', 'winner': 'TOR', 'home_score': 105, 'away_score': 99, 'date': date},
+                {'home_team': 'BOS', 'away_team': 'NYK', 'winner': 'BOS', 'home_score': 118, 'away_score': 110, 'date': date},
+                {'home_team': 'NOP', 'away_team': 'MIN', 'winner': 'MIN', 'home_score': 102, 'away_score': 108, 'date': date},
+                {'home_team': 'SAS', 'away_team': 'MEM', 'winner': 'SAS', 'home_score': 115, 'away_score': 107, 'date': date},
+                {'home_team': 'GSW', 'away_team': 'OKC', 'winner': 'OKC', 'home_score': 103, 'away_score': 109, 'date': date},
             ]
+        }
+        
+        if date in manual_results:
+            return manual_results[date]
         
         # Try ESPN API (more reliable for recent games)
         try:

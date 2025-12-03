@@ -11,12 +11,13 @@ export async function GET(request: Request) {
   }
 
   try {
-    // Try ESPN API for box score
+    // Try ESPN API for box score (works for past dates too)
     const dateFormatted = date.replace(/-/g, '')
     const espnUrl = `https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=${dateFormatted}`
     
     const response = await fetch(espnUrl, {
-      headers: { 'User-Agent': 'Mozilla/5.0' }
+      headers: { 'User-Agent': 'Mozilla/5.0' },
+      cache: 'no-store'
     })
     
     if (!response.ok) {
