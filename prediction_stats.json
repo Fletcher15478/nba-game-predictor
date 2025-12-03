@@ -1,5 +1,48 @@
 {
-  "total_predictions": 0,
-  "correct_predictions": 0,
-  "predictions_history": []
+  "total_predictions": 6,
+  "correct_predictions": 3,
+  "predictions_history": [
+    {
+      "date": "2025-12-02",
+      "predicted": "PHI",
+      "actual": "PHI",
+      "correct": true,
+      "confidence": 0.5234079145323698
+    },
+    {
+      "date": "2025-12-02",
+      "predicted": "POR",
+      "actual": "TOR",
+      "correct": false,
+      "confidence": 0.5401955446412209
+    },
+    {
+      "date": "2025-12-02",
+      "predicted": "NYK",
+      "actual": "BOS",
+      "correct": false,
+      "confidence": 0.5921879995545494
+    },
+    {
+      "date": "2025-12-02",
+      "predicted": "MIN",
+      "actual": "MIN",
+      "correct": true,
+      "confidence": 0.5157474679010521
+    },
+    {
+      "date": "2025-12-02",
+      "predicted": "MEM",
+      "actual": "SAS",
+      "correct": false,
+      "confidence": 0.5397248376101178
+    },
+    {
+      "date": "2025-12-02",
+      "predicted": "OKC",
+      "actual": "OKC",
+      "correct": true,
+      "confidence": 0.5615054041738188
+    }
+  ]
 }
