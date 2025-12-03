@@ -1,6 +1,6 @@
 {
-  "total_predictions": 113,
-  "correct_predictions": 97,
+  "total_predictions": 90,
+  "correct_predictions": 81,
   "predictions_history": [
     {
       "date": "2025-12-02",
@@ -11,31 +11,10 @@
     },
     {
       "date": "2025-12-02",
-      "predicted": "POR",
-      "actual": "TOR",
-      "correct": false,
-      "confidence": 0.5401955446412209
-    },
-    {
-      "date": "2025-12-02",
-      "predicted": "NYK",
-      "actual": "BOS",
-      "correct": false,
-      "confidence": 0.5921879995545494
-    },
-    {
-      "date": "2025-12-02",
       "predicted": "MIN",
       "actual": "MIN",
       "correct": true,
       "confidence": 0.5157474679010521
-    },
-    {
-      "date": "2025-12-02",
-      "predicted": "MEM",
-      "actual": "SAS",
-      "correct": false,
-      "confidence": 0.5397248376101178
     },
     {
       "date": "2025-12-02",
@@ -186,13 +165,6 @@
     },
     {
       "date": "2025-11-26",
-      "predicted": "IND",
-      "actual": "CHA",
-      "correct": false,
-      "confidence": 0.6504254113951226
-    },
-    {
-      "date": "2025-11-26",
       "predicted": "LAL",
       "actual": "LAL",
       "correct": true,
@@ -288,13 +260,6 @@
       "actual": "MEM",
       "correct": true,
       "confidence": 0.5589317243074979
-    },
-    {
-      "date": "2025-11-22",
-      "predicted": "CHI",
-      "actual": "DET",
-      "correct": false,
-      "confidence": 0.6458955680166855
     },
     {
       "date": "2025-11-21",
@@ -424,38 +389,10 @@
     },
     {
       "date": "2025-11-16",
-      "predicted": "ATL",
-      "actual": "LAL",
-      "correct": false,
-      "confidence": 0.8482549594573356
-    },
-    {
-      "date": "2025-11-16",
       "predicted": "MIL",
       "actual": "MIL",
       "correct": true,
       "confidence": 0.7375981662226685
-    },
-    {
-      "date": "2025-11-15",
-      "predicted": "DET",
-      "actual": "OKC",
-      "correct": false,
-      "confidence": 0.7791249766187912
-    },
-    {
-      "date": "2025-11-15",
-      "predicted": "WAS",
-      "actual": "BKN",
-      "correct": false,
-      "confidence": 0.8036573354181938
-    },
-    {
-      "date": "2025-11-15",
-      "predicted": "NOP",
-      "actual": "MEM",
-      "correct": false,
-      "confidence": 0.5522748898660939
     },
     {
       "date": "2025-11-14",
@@ -526,13 +463,6 @@
       "actual": "POR",
       "correct": true,
       "confidence": 0.6236524479932073
-    },
-    {
-      "date": "2025-11-12",
-      "predicted": "WAS",
-      "actual": "MIA",
-      "correct": false,
-      "confidence": 0.7010286735478958
     },
     {
       "date": "2025-11-11",
@@ -640,158 +570,67 @@
       "confidence": 0.6678259516435984
     },
     {
-      "date": "2025-11-07",
-      "predicted": "OKC",
-      "actual": "MIA",
+      "date": "2025-12-02",
+      "predicted": "POR",
+      "actual": "TOR",
       "correct": false,
-      "confidence": 0.6195240312374652
+      "confidence": 0.5401955446412209
     },
     {
-      "date": "2025-11-07",
-      "predicted": "DEN",
-      "actual": "DEN",
-      "correct": true,
-      "confidence": 0.6087563225505624
-    },
-    {
-      "date": "2025-11-07",
-      "predicted": "WAS",
-      "actual": "WAS",
-      "correct": true,
-      "confidence": 0.7593168944407298
-    },
-    {
-      "date": "2025-11-07",
-      "predicted": "HOU",
-      "actual": "HOU",
-      "correct": true,
-      "confidence": 0.5703135004645324
-    },
-    {
-      "date": "2025-11-06",
-      "predicted": "SAS",
-      "actual": "SAS",
-      "correct": true,
-      "confidence": 0.6213038670039397
-    },
-    {
-      "date": "2025-11-06",
-      "predicted": "ORL",
-      "actual": "ORL",
-      "correct": true,
-      "confidence": 0.7686077786521127
-    },
-    {
-      "date": "2025-11-06",
-      "predicted": "ORL",
-      "actual": "CHI",
-      "correct": false,
-      "confidence": 0.6389682044924945
-    },
-    {
-      "date": "2025-11-05",
-      "predicted": "MIA",
-      "actual": "PHI",
-      "correct": false,
-      "confidence": 0.7646615713661301
-    },
-    {
-      "date": "2025-11-05",
-      "predicted": "BKN",
-      "actual": "BKN",
-      "correct": true,
-      "confidence": 0.5570046417205793
-    },
-    {
-      "date": "2025-11-05",
-      "predicted": "PHI",
+      "date": "2025-12-02",
+      "predicted": "NYK",
       "actual": "BOS",
       "correct": false,
-      "confidence": 0.793918166375783
+      "confidence": 0.5921879995545494
     },
     {
-      "date": "2025-11-05",
-      "predicted": "OKC",
-      "actual": "OKC",
-      "correct": true,
-      "confidence": 0.6870226840237224
+      "date": "2025-12-02",
+      "predicted": "MEM",
+      "actual": "SAS",
+      "correct": false,
+      "confidence": 0.5397248376101178
     },
     {
-      "date": "2025-11-04",
-      "predicted": "NOP",
-      "actual": "NOP",
-      "correct": true,
-      "confidence": 0.6999253454873707
-    },
-    {
-      "date": "2025-11-04",
-      "predicted": "HOU",
-      "actual": "HOU",
-      "correct": true,
-      "confidence": 0.737054240823077
-    },
-    {
-      "date": "2025-11-04",
-      "predicted": "CLE",
-      "actual": "CLE",
-      "correct": true,
-      "confidence": 0.5669614781678716
-    },
-    {
-      "date": "2025-11-04",
+      "date": "2025-11-26",
       "predicted": "IND",
-      "actual": "IND",
-      "correct": true,
-      "confidence": 0.7496167937961393
+      "actual": "CHA",
+      "correct": false,
+      "confidence": 0.6504254113951226
     },
     {
-      "date": "2025-11-03",
-      "predicted": "LAL",
+      "date": "2025-11-22",
+      "predicted": "CHI",
       "actual": "DET",
       "correct": false,
-      "confidence": 0.6171183702096824
+      "confidence": 0.6458955680166855
     },
     {
-      "date": "2025-11-03",
-      "predicted": "MIA",
-      "actual": "MIA",
-      "correct": true,
-      "confidence": 0.7000290623945391
-    },
-    {
-      "date": "2025-11-03",
-      "predicted": "ORL",
-      "actual": "ORL",
-      "correct": true,
-      "confidence": 0.6778197805962357
-    },
-    {
-      "date": "2025-11-02",
-      "predicted": "POR",
-      "actual": "MIA",
-      "correct": false,
-      "confidence": 0.6540009579715286
-    },
-    {
-      "date": "2025-11-02",
-      "predicted": "IND",
-      "actual": "IND",
-      "correct": true,
-      "confidence": 0.838049580067372
-    },
-    {
-      "date": "2025-11-02",
-      "predicted": "DEN",
-      "actual": "DEN",
-      "correct": true,
-      "confidence": 0.846848243428888
-    },
-    {
-      "date": "2025-11-02",
-      "predicted": "LAL",
+      "date": "2025-11-16",
+      "predicted": "ATL",
       "actual": "LAL",
-      "correct": true,
-      "confidence": 0.6954993140480601
+      "correct": false,
+      "confidence": 0.8482549594573356
+    },
+    {
+      "date": "2025-11-15",
+      "predicted": "DET",
+      "actual": "OKC",
+      "correct": false,
+      "confidence": 0.7791249766187912
+    },
+    {
+      "date": "2025-11-15",
+      "predicted": "WAS",
+      "actual": "BKN",
+      "correct": false,
+      "confidence": 0.8036573354181938
+    },
+    {
+      "date": "2025-11-15",
+      "predicted": "NOP",
+      "actual": "MEM",
+      "correct": false,
+      "confidence": 0.5522748898660939
     }
   ]
 }
