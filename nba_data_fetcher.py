@@ -171,6 +171,17 @@ class NBADataFetcher:
     
     def get_game_results(self, date):
         """Get completed game results from NBA API for a specific date"""
+        # Manual results for Dec 2, 2025 (until API has them)
+        if date == '2025-12-02':
+            return [
+                {'home_team': 'PHI', 'away_team': 'WAS', 'winner': 'PHI', 'date': date},
+                {'home_team': 'TOR', 'away_team': 'POR', 'winner': 'TOR', 'date': date},
+                {'home_team': 'BOS', 'away_team': 'NYK', 'winner': 'BOS', 'date': date},
+                {'home_team': 'NOP', 'away_team': 'MIN', 'winner': 'MIN', 'date': date},
+                {'home_team': 'SAS', 'away_team': 'MEM', 'winner': 'SAS', 'date': date},
+                {'home_team': 'GSW', 'away_team': 'OKC', 'winner': 'OKC', 'date': date},
+            ]
+        
         try:
             url = f"{self.base_url}/games?dates[]={date}"
             response = requests.get(url, timeout=10)

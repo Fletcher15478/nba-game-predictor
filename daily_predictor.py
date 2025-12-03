@@ -125,7 +125,7 @@ def update_accuracy(df, predictor):
     
     # Check each date
     for check_date in dates_to_check:
-        date_str = check_date.date().isoformat()
+        date_str = check_date.isoformat() if isinstance(check_date, datetime) else str(check_date)
         if date_str in processed_dates:
             continue
         
@@ -133,7 +133,8 @@ def update_accuracy(df, predictor):
         api_results = data_fetcher.get_game_results(date_str)
         
         # Also check dataset
-        date_games = df[df['Data'].dt.date == check_date.date()]
+        check_date_obj = check_date.date() if isinstance(check_date, datetime) else check_date
+        date_games = df[df['Data'].dt.date == check_date_obj]
         
         # Find predictions for this date
         date_predictions = [p for p in all_predictions if p.get('date') == date_str]
@@ -208,7 +209,12 @@ def generate_todays_predictions():
     
     # Update accuracy from completed games (yesterday and earlier)
     print("Updating accuracy from completed games...")
-    update_accuracy(df, predictor)
+    try:
+        update_accuracy(df, predictor)
+    except Exception as e:
+        print(f"Error updating accuracy: {e}")
+        import traceback
+        traceback.print_exc()
     
     # Get today's games
     print("Getting today's games...")
