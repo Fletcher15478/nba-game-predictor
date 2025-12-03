@@ -289,9 +289,23 @@ def generate_todays_predictions():
             import traceback
             traceback.print_exc()
     
-    # Save today's predictions
+    # Load existing predictions and merge (keep history)
+    existing_predictions = []
+    if os.path.exists(PREDICTIONS_FILE):
+        with open(PREDICTIONS_FILE, 'r') as f:
+            existing_predictions = json.load(f)
+    
+    # Remove old predictions for today's date (if regenerating)
+    today_str = datetime.now().date().isoformat()
+    existing_predictions = [p for p in existing_predictions if p.get('date') != today_str]
+    
+    # Add today's predictions
+    existing_predictions.extend(predictions)
+    
+    # Save all predictions (sorted by date, most recent first)
+    existing_predictions.sort(key=lambda x: x.get('date', ''), reverse=True)
     with open(PREDICTIONS_FILE, 'w') as f:
-        json.dump(predictions, f, indent=2)
+        json.dump(existing_predictions, f, indent=2)
     
     # Ensure stats file exists (save current stats)
     stats = load_stats()

@@ -45,25 +45,35 @@ export default function Home() {
   const [selectedGame, setSelectedGame] = useState<Prediction | null>(null)
   const [boxScore, setBoxScore] = useState<BoxScore | null>(null)
   const [loadingBoxScore, setLoadingBoxScore] = useState(false)
+  const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0])
 
   useEffect(() => {
     fetchData()
   }, [])
 
-  const fetchData = async () => {
+  const fetchData = async (date?: string) => {
     try {
       setLoading(true)
+      const dateToFetch = date || selectedDate
       const [predictionsRes, statsRes] = await Promise.all([
-        axios.get('/api/predictions'),
+        axios.get('/api/predictions', { params: { date: dateToFetch } }),
         axios.get('/api/stats')
       ])
       setPredictions(predictionsRes.data.predictions || [])
       setStats(statsRes.data)
+      setSelectedDate(dateToFetch)
     } catch (err: any) {
       setError(err.message || 'Failed to load data')
     } finally {
       setLoading(false)
     }
+  }
+
+  const changeDate = (days: number) => {
+    const currentDate = new Date(selectedDate + 'T00:00:00')
+    currentDate.setDate(currentDate.getDate() + days)
+    const newDate = currentDate.toISOString().split('T')[0]
+    fetchData(newDate)
   }
 
   const getConfidenceClass = (confidence: number) => {
@@ -145,9 +155,44 @@ export default function Home() {
       )}
 
       <div className="card">
-        <h2 style={{ marginBottom: '1.5rem', color: '#333' }}>
-          Today's Predictions
-        </h2>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+          <button 
+            onClick={() => changeDate(-1)}
+            style={{ 
+              background: '#667eea', 
+              color: 'white', 
+              border: 'none', 
+              padding: '0.5rem 1rem', 
+              borderRadius: '8px', 
+              cursor: 'pointer',
+              fontSize: '1.2rem',
+              fontWeight: 'bold'
+            }}
+          >
+            ←
+          </button>
+          <h2 style={{ margin: 0, color: '#333', textAlign: 'center' }}>
+            {selectedDate === new Date().toISOString().split('T')[0] 
+              ? "Today's Predictions" 
+              : `Predictions: ${formatDate(selectedDate)}`}
+          </h2>
+          <button 
+            onClick={() => changeDate(1)}
+            disabled={selectedDate >= new Date().toISOString().split('T')[0]}
+            style={{ 
+              background: selectedDate >= new Date().toISOString().split('T')[0] ? '#ccc' : '#667eea', 
+              color: 'white', 
+              border: 'none', 
+              padding: '0.5rem 1rem', 
+              borderRadius: '8px', 
+              cursor: selectedDate >= new Date().toISOString().split('T')[0] ? 'not-allowed' : 'pointer',
+              fontSize: '1.2rem',
+              fontWeight: 'bold'
+            }}
+          >
+            →
+          </button>
+        </div>
         
         {predictions.length === 0 ? (
           <p style={{ textAlign: 'center', color: '#666', padding: '2rem' }}>
