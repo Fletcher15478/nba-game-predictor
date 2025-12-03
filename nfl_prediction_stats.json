@@ -1831,12 +1831,12 @@
       "week": 13,
       "home_team": "WAS",
       "away_team": "DEN",
-      "predicted": "WAS",
-      "actual": "WAS",
+      "predicted": "DEN",
+      "actual": "DEN",
       "correct": true,
       "confidence": 0.764784754971915,
-      "home_score": 28,
-      "away_score": 23
+      "home_score": 26,
+      "away_score": 27
     },
     {
       "date": "2025-12-02",
