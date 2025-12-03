@@ -37,23 +37,6 @@ interface Stats {
   record: string
 }
 
-interface BoxScore {
-  home: {
-    team: string
-    abbreviation: string
-    score: string
-    record?: string
-  }
-  away: {
-    team: string
-    abbreviation: string
-    score: string
-    record?: string
-  }
-  status?: string
-  date?: string
-}
-
 export default function Home() {
   const [predictions, setPredictions] = useState<Prediction[]>([])
   const [stats, setStats] = useState<Stats | null>(null)
@@ -97,26 +80,6 @@ export default function Home() {
       day: 'numeric',
       year: 'numeric'
     })
-  }
-
-  const fetchBoxScore = async (prediction: Prediction) => {
-    setLoadingBoxScore(true)
-    setSelectedGame(prediction)
-    try {
-      const response = await axios.get('/api/boxscore', {
-        params: {
-          home: prediction.home_team,
-          away: prediction.away_team,
-          date: prediction.date
-        }
-      })
-      setBoxScore(response.data)
-    } catch (err: any) {
-      console.error('Error fetching box score:', err)
-      setBoxScore(null)
-    } finally {
-      setLoadingBoxScore(false)
-    }
   }
 
   const fetchBoxScore = async (prediction: Prediction) => {
