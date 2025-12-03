@@ -100,8 +100,9 @@ def get_todays_games(df):
     return matchups
 
 def update_accuracy(df, predictor):
-    """Update accuracy based on completed games"""
+    """Update accuracy based on completed games - checks both dataset and API"""
     stats = load_stats()
+    data_fetcher = NBADataFetcher()
     
     # Get all games from yesterday and earlier that haven't been checked yet
     today = datetime.now().date()
@@ -127,27 +128,45 @@ def update_accuracy(df, predictor):
         date_str = check_date.date().isoformat()
         if date_str in processed_dates:
             continue
-            
-        date_games = df[df['Data'].dt.date == check_date.date()]
         
-        if len(date_games) == 0:
-            continue
+        # First try to get results from API (for recent games)
+        api_results = data_fetcher.get_game_results(date_str)
+        
+        # Also check dataset
+        date_games = df[df['Data'].dt.date == check_date.date()]
         
         # Find predictions for this date
         date_predictions = [p for p in all_predictions if p.get('date') == date_str]
         
+        if len(date_predictions) == 0:
+            continue
+        
         # Check each prediction for this date
         for pred in date_predictions:
-            # Find actual result
-            game = date_games[
-                ((date_games['Tm'] == pred['home_team']) & 
-                 (date_games['Opp'] == pred['away_team'])) |
-                ((date_games['Tm'] == pred['away_team']) & 
-                 (date_games['Opp'] == pred['home_team']))
-            ]
+            actual_winner = None
             
-            if len(game) > 0:
-                actual_winner = game.iloc[0]['Tm'] if game.iloc[0]['Res'] == 'W' else game.iloc[0]['Opp']
+            # Try API results first (more up-to-date)
+            if api_results:
+                for result in api_results:
+                    if ((result['home_team'] == pred['home_team'] and result['away_team'] == pred['away_team']) or
+                        (result['home_team'] == pred['away_team'] and result['away_team'] == pred['home_team'])):
+                        actual_winner = result['winner']
+                        break
+            
+            # Fallback to dataset if API didn't have it
+            if actual_winner is None and len(date_games) > 0:
+                game = date_games[
+                    ((date_games['Tm'] == pred['home_team']) & 
+                     (date_games['Opp'] == pred['away_team'])) |
+                    ((date_games['Tm'] == pred['away_team']) & 
+                     (date_games['Opp'] == pred['home_team']))
+                ]
+                
+                if len(game) > 0:
+                    actual_winner = game.iloc[0]['Tm'] if game.iloc[0]['Res'] == 'W' else game.iloc[0]['Opp']
+            
+            # Update stats if we found the result
+            if actual_winner:
                 predicted_winner = pred['winner']
                 
                 stats['total_predictions'] += 1
@@ -161,6 +180,7 @@ def update_accuracy(df, predictor):
                     'correct': actual_winner == predicted_winner,
                     'confidence': pred['confidence']
                 })
+                print(f"Updated: {pred['home_team']} vs {pred['away_team']} - Predicted: {predicted_winner}, Actual: {actual_winner}, Correct: {actual_winner == predicted_winner}")
     
     save_stats(stats)
     return stats

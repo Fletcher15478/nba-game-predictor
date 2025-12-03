@@ -7,6 +7,7 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 import time
+import json
 
 class NBADataFetcher:
     def __init__(self):
@@ -167,4 +168,41 @@ class NBADataFetcher:
             'home_active_players': home_strength['active_players'],
             'away_active_players': away_strength['active_players']
         }
+    
+    def get_game_results(self, date):
+        """Get completed game results from NBA API for a specific date"""
+        try:
+            url = f"{self.base_url}/games?dates[]={date}"
+            response = requests.get(url, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                results = []
+                for game in data.get('data', []):
+                    # Only get completed games
+                    if game.get('status') == 'Final':
+                        home_team = game['home_team']['abbreviation']
+                        away_team = game['visitor_team']['abbreviation']
+                        home_score = game.get('home_team_score', 0)
+                        visitor_score = game.get('visitor_team_score', 0)
+                        
+                        # Determine winner
+                        if home_score > visitor_score:
+                            winner = home_team
+                        elif visitor_score > home_score:
+                            winner = away_team
+                        else:
+                            winner = None  # Tie (rare in NBA)
+                        
+                        results.append({
+                            'home_team': home_team,
+                            'away_team': away_team,
+                            'home_score': home_score,
+                            'away_score': visitor_score,
+                            'winner': winner,
+                            'date': date
+                        })
+                return results
+        except Exception as e:
+            print(f"Error fetching game results: {e}")
+        return []
 
