@@ -56,7 +56,7 @@ def get_todays_games_from_api():
     except Exception as e:
         print(f"API error: {e}")
     
-    # Fallback: manual list for today (Dec 2, 2025)
+    # Fallback: manual lists for specific dates
     today_str = today.isoformat()
     if today_str == '2025-12-02':
         return [
@@ -66,6 +66,18 @@ def get_todays_games_from_api():
             {'home_team': 'NOP', 'away_team': 'MIN', 'date': today_str},
             {'home_team': 'SAS', 'away_team': 'MEM', 'date': today_str},
             {'home_team': 'GSW', 'away_team': 'OKC', 'date': today_str},
+        ]
+    elif today_str == '2025-12-03':
+        return [
+            {'home_team': 'IND', 'away_team': 'DEN', 'date': today_str},
+            {'home_team': 'CLE', 'away_team': 'POR', 'date': today_str},
+            {'home_team': 'ORL', 'away_team': 'SAS', 'date': today_str},
+            {'home_team': 'ATL', 'away_team': 'LAC', 'date': today_str},
+            {'home_team': 'NYK', 'away_team': 'CHO', 'date': today_str},
+            {'home_team': 'CHI', 'away_team': 'BKN', 'date': today_str},
+            {'home_team': 'MIL', 'away_team': 'DET', 'date': today_str},
+            {'home_team': 'HOU', 'away_team': 'SAC', 'date': today_str},
+            {'home_team': 'DAL', 'away_team': 'MIA', 'date': today_str},
         ]
     
     return []

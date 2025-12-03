@@ -13,6 +13,23 @@ interface Prediction {
   date: string
 }
 
+interface BoxScore {
+  home: {
+    team: string
+    abbreviation: string
+    score: string
+    record?: string
+  }
+  away: {
+    team: string
+    abbreviation: string
+    score: string
+    record?: string
+  }
+  status?: string
+  date?: string
+}
+
 interface Stats {
   total_predictions: number
   correct_predictions: number
@@ -25,6 +42,9 @@ export default function Home() {
   const [stats, setStats] = useState<Stats | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [selectedGame, setSelectedGame] = useState<Prediction | null>(null)
+  const [boxScore, setBoxScore] = useState<BoxScore | null>(null)
+  const [loadingBoxScore, setLoadingBoxScore] = useState(false)
 
   useEffect(() => {
     fetchData()
@@ -60,6 +80,26 @@ export default function Home() {
       day: 'numeric',
       year: 'numeric'
     })
+  }
+
+  const fetchBoxScore = async (prediction: Prediction) => {
+    setLoadingBoxScore(true)
+    setSelectedGame(prediction)
+    try {
+      const response = await axios.get('/api/boxscore', {
+        params: {
+          home: prediction.home_team,
+          away: prediction.away_team,
+          date: prediction.date
+        }
+      })
+      setBoxScore(response.data)
+    } catch (err: any) {
+      console.error('Error fetching box score:', err)
+      setBoxScore(null)
+    } finally {
+      setLoadingBoxScore(false)
+    }
   }
 
   if (loading) {
@@ -158,6 +198,52 @@ export default function Home() {
           </div>
         )}
       </div>
+
+      {selectedGame && (
+        <div className="card" style={{ marginTop: '2rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
+            <h2 style={{ margin: 0, color: '#333' }}>
+              Box Score: {selectedGame.away_team} @ {selectedGame.home_team}
+            </h2>
+            <button 
+              onClick={() => { setSelectedGame(null); setBoxScore(null); }}
+              style={{ background: '#f44336', color: 'white', border: 'none', padding: '0.5rem 1rem', borderRadius: '4px', cursor: 'pointer' }}
+            >
+              Close
+            </button>
+          </div>
+          
+          {loadingBoxScore ? (
+            <p style={{ textAlign: 'center', padding: '2rem' }}>Loading box score...</p>
+          ) : boxScore ? (
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginBottom: '1rem', padding: '1rem', background: '#f5f5f5', borderRadius: '8px' }}>
+                <div>
+                  <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{boxScore.away.team}</div>
+                  <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#667eea' }}>{boxScore.away.score || '--'}</div>
+                  {boxScore.away.record && <div style={{ fontSize: '0.9rem', color: '#666' }}>{boxScore.away.record}</div>}
+                </div>
+                <div style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>@</div>
+                <div>
+                  <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{boxScore.home.team}</div>
+                  <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#667eea' }}>{boxScore.home.score || '--'}</div>
+                  {boxScore.home.record && <div style={{ fontSize: '0.9rem', color: '#666' }}>{boxScore.home.record}</div>}
+                </div>
+              </div>
+              {boxScore.status && (
+                <div style={{ color: '#666', fontSize: '0.9rem' }}>Status: {boxScore.status}</div>
+              )}
+              {!boxScore.away.score && !boxScore.home.score && (
+                <p style={{ color: '#666', padding: '1rem' }}>Game hasn't started yet or box score not available.</p>
+              )}
+            </div>
+          ) : (
+            <p style={{ textAlign: 'center', color: '#666', padding: '2rem' }}>
+              Box score not available for this game.
+            </p>
+          )}
+        </div>
+      )}
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
         <button className="btn" onClick={fetchData}>
