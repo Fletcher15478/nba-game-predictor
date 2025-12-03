@@ -103,48 +103,64 @@ def update_accuracy(df, predictor):
     """Update accuracy based on completed games"""
     stats = load_stats()
     
-    # Get yesterday's games to check accuracy
-    yesterday = (datetime.now() - pd.Timedelta(days=1)).date()
-    yesterday_games = df[df['Data'].dt.date == yesterday]
+    # Get all games from yesterday and earlier that haven't been checked yet
+    today = datetime.now().date()
+    yesterday = (today - pd.Timedelta(days=1))
     
-    if len(yesterday_games) == 0:
-        return stats
+    # Check all games from the past week that we predicted
+    dates_to_check = [yesterday - pd.Timedelta(days=i) for i in range(7)]
     
-    # Load yesterday's predictions
+    # Load previous predictions
     if os.path.exists(PREDICTIONS_FILE):
         with open(PREDICTIONS_FILE, 'r') as f:
-            yesterday_predictions = json.load(f)
+            all_predictions = json.load(f)
     else:
-        yesterday_predictions = []
+        all_predictions = []
     
-    # Check each prediction
-    for pred in yesterday_predictions:
-        if pred['date'] != yesterday.isoformat():
+    # Track which dates we've already processed
+    processed_dates = set()
+    if 'predictions_history' in stats:
+        processed_dates = {entry.get('date') for entry in stats['predictions_history']}
+    
+    # Check each date
+    for check_date in dates_to_check:
+        date_str = check_date.date().isoformat()
+        if date_str in processed_dates:
+            continue
+            
+        date_games = df[df['Data'].dt.date == check_date.date()]
+        
+        if len(date_games) == 0:
             continue
         
-        # Find actual result
-        game = yesterday_games[
-            ((yesterday_games['Tm'] == pred['home_team']) & 
-             (yesterday_games['Opp'] == pred['away_team'])) |
-            ((yesterday_games['Tm'] == pred['away_team']) & 
-             (yesterday_games['Opp'] == pred['home_team']))
-        ]
+        # Find predictions for this date
+        date_predictions = [p for p in all_predictions if p.get('date') == date_str]
         
-        if len(game) > 0:
-            actual_winner = game.iloc[0]['Tm'] if game.iloc[0]['Res'] == 'W' else game.iloc[0]['Opp']
-            predicted_winner = pred['winner']
+        # Check each prediction for this date
+        for pred in date_predictions:
+            # Find actual result
+            game = date_games[
+                ((date_games['Tm'] == pred['home_team']) & 
+                 (date_games['Opp'] == pred['away_team'])) |
+                ((date_games['Tm'] == pred['away_team']) & 
+                 (date_games['Opp'] == pred['home_team']))
+            ]
             
-            stats['total_predictions'] += 1
-            if actual_winner == predicted_winner:
-                stats['correct_predictions'] += 1
-            
-            stats['predictions_history'].append({
-                'date': pred['date'],
-                'predicted': predicted_winner,
-                'actual': actual_winner,
-                'correct': actual_winner == predicted_winner,
-                'confidence': pred['confidence']
-            })
+            if len(game) > 0:
+                actual_winner = game.iloc[0]['Tm'] if game.iloc[0]['Res'] == 'W' else game.iloc[0]['Opp']
+                predicted_winner = pred['winner']
+                
+                stats['total_predictions'] += 1
+                if actual_winner == predicted_winner:
+                    stats['correct_predictions'] += 1
+                
+                stats['predictions_history'].append({
+                    'date': date_str,
+                    'predicted': predicted_winner,
+                    'actual': actual_winner,
+                    'correct': actual_winner == predicted_winner,
+                    'confidence': pred['confidence']
+                })
     
     save_stats(stats)
     return stats
@@ -170,8 +186,8 @@ def generate_todays_predictions():
     df = predictor.load_data()
     print(f"Loaded {len(df)} game records from 2024-25 season")
     
-    # Update accuracy from yesterday
-    print("Updating accuracy from yesterday's games...")
+    # Update accuracy from completed games (yesterday and earlier)
+    print("Updating accuracy from completed games...")
     update_accuracy(df, predictor)
     
     # Get today's games
