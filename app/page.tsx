@@ -38,6 +38,14 @@ interface Stats {
   correct_predictions: number
   accuracy: number
   record: string
+  predictions_history?: Array<{
+    home_team: string
+    away_team: string
+    week: number
+    actual: string
+    predicted: string
+    correct: boolean
+  }>
 }
 
 export default function Home() {
@@ -270,6 +278,20 @@ export default function Home() {
             {predictions.map((pred, idx) => {
               const gameDate = pred.date ? new Date(pred.date + 'T00:00:00') : null
               const dayLabel = pred.day || (gameDate ? gameDate.toLocaleDateString('en-US', { weekday: 'long' }) : '')
+              const isPast = gameDate ? gameDate < new Date() : false
+              
+              // Get actual winner from stats if past game
+              let actualWinner = null
+              if (isPast && stats && stats.predictions_history) {
+                const result = stats.predictions_history.find((r: any) => 
+                  r.home_team === pred.home_team && 
+                  r.away_team === pred.away_team &&
+                  r.week === pred.week
+                )
+                if (result) {
+                  actualWinner = result.actual
+                }
+              }
               
               return (
               <div
@@ -294,6 +316,20 @@ export default function Home() {
                 <div style={{ marginBottom: '1rem', color: '#666', fontSize: '0.9rem' }}>
                   {formatDate(pred.date)}
                 </div>
+                
+                {isPast && actualWinner && (
+                  <div style={{ 
+                    marginBottom: '1rem', 
+                    padding: '0.5rem', 
+                    background: '#e8f5e9', 
+                    borderRadius: '8px',
+                    textAlign: 'center',
+                    fontWeight: 'bold',
+                    color: '#2e7d32'
+                  }}>
+                    Winner: {actualWinner} ✓
+                  </div>
+                )}
                 
                 <div style={{ marginBottom: '1rem' }}>
                   <div className="team-name" style={{ color: pred.winner === pred.home_team ? '#4caf50' : '#333' }}>
@@ -320,7 +356,7 @@ export default function Home() {
                 <div
                   className={`confidence ${getConfidenceClass(pred.confidence)}`}
                 >
-                  Confidence: {(pred.confidence * 100).toFixed(1)}%
+                  {isPast ? 'Predicted' : 'Confidence'}: {(pred.confidence * 100).toFixed(1)}%
                 </div>
               </div>
             )
