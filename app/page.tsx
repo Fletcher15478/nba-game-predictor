@@ -11,6 +11,8 @@ interface Prediction {
   home_win_prob: number
   away_win_prob: number
   date: string
+  week?: number
+  season?: number
 }
 
 interface BoxScore {
