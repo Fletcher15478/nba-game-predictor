@@ -293,7 +293,7 @@ export default function Home() {
       )}
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-        <button className="btn" onClick={fetchData}>
+        <button className="btn" onClick={() => fetchData()}>
           Refresh Predictions
         </button>
       </div>
