@@ -182,6 +182,50 @@ class NBADataFetcher:
                 {'home_team': 'GSW', 'away_team': 'OKC', 'winner': 'OKC', 'date': date},
             ]
         
+        # Try ESPN API (more reliable for recent games)
+        try:
+            # ESPN API endpoint for NBA scores
+            espn_url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates={date.replace('-', '')}"
+            response = requests.get(espn_url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
+            if response.status_code == 200:
+                data = response.json()
+                results = []
+                for event in data.get('events', []):
+                    if event.get('status', {}).get('type', {}).get('completed') == True:
+                        competitions = event.get('competitions', [])
+                        if competitions:
+                            comp = competitions[0]
+                            competitors = comp.get('competitors', [])
+                            if len(competitors) == 2:
+                                home = next((c for c in competitors if c.get('homeAway') == 'home'), None)
+                                away = next((c for c in competitors if c.get('homeAway') == 'away'), None)
+                                if home and away:
+                                    home_team = home.get('team', {}).get('abbreviation', '')
+                                    away_team = away.get('team', {}).get('abbreviation', '')
+                                    home_score = int(home.get('score', 0))
+                                    away_score = int(away.get('score', 0))
+                                    
+                                    if home_score > away_score:
+                                        winner = home_team
+                                    elif away_score > home_score:
+                                        winner = away_team
+                                    else:
+                                        winner = None
+                                    
+                                    results.append({
+                                        'home_team': home_team,
+                                        'away_team': away_team,
+                                        'home_score': home_score,
+                                        'away_score': away_score,
+                                        'winner': winner,
+                                        'date': date
+                                    })
+                if results:
+                    return results
+        except Exception as e:
+            print(f"ESPN API error: {e}")
+        
+        # Fallback to balldontlie
         try:
             url = f"{self.base_url}/games?dates[]={date}"
             response = requests.get(url, timeout=10)
@@ -189,20 +233,18 @@ class NBADataFetcher:
                 data = response.json()
                 results = []
                 for game in data.get('data', []):
-                    # Only get completed games
                     if game.get('status') == 'Final':
                         home_team = game['home_team']['abbreviation']
                         away_team = game['visitor_team']['abbreviation']
                         home_score = game.get('home_team_score', 0)
                         visitor_score = game.get('visitor_team_score', 0)
                         
-                        # Determine winner
                         if home_score > visitor_score:
                             winner = home_team
                         elif visitor_score > home_score:
                             winner = away_team
                         else:
-                            winner = None  # Tie (rare in NBA)
+                            winner = None
                         
                         results.append({
                             'home_team': home_team,
