@@ -54,15 +54,22 @@ export default function Home() {
     fetchData()
   }, [league])
 
-  const fetchData = async (date?: string) => {
+  const fetchData = async (date?: string, week?: number) => {
     try {
       setLoading(true)
       const dateToFetch = date || selectedDate
       const apiPath = league === 'nba' ? '/api/predictions' : '/api/nfl/predictions'
       const statsPath = league === 'nba' ? '/api/stats' : '/api/nfl/stats'
       
+      const params: any = {}
+      if (league === 'nfl' && week) {
+        params.week = week
+      } else if (league === 'nba') {
+        params.date = dateToFetch
+      }
+      
       const [predictionsRes, statsRes] = await Promise.all([
-        axios.get(apiPath, { params: { date: dateToFetch } }),
+        axios.get(apiPath, { params }),
         axios.get(statsPath)
       ])
       setPredictions(predictionsRes.data.predictions || [])
@@ -77,8 +84,14 @@ export default function Home() {
 
   const changeDate = (days: number) => {
     if (league === 'nfl') {
-      // For NFL, navigate by week (simplified - just refresh current week)
-      fetchData()
+      // For NFL, navigate by week
+      const currentWeek = predictions[0]?.week || 14
+      const newWeek = currentWeek + (days * -1) // Invert because left arrow should go to previous week
+      
+      // Allow weeks 1-18
+      if (newWeek >= 1 && newWeek <= 18) {
+        fetchData(undefined, newWeek)
+      }
       return
     }
     
@@ -214,21 +227,21 @@ export default function Home() {
           </button>
           <h2 style={{ margin: 0, color: '#333', textAlign: 'center' }}>
             {league === 'nfl' 
-              ? `Week ${predictions[0]?.week || 1} Predictions`
+              ? `Week ${predictions[0]?.week || 14} Predictions`
               : selectedDate === new Date().toISOString().split('T')[0] 
                 ? "Today's Predictions" 
                 : `Predictions: ${formatDate(selectedDate)}`}
           </h2>
           <button 
             onClick={() => changeDate(1)}
-            disabled={selectedDate >= new Date().toISOString().split('T')[0]}
+            disabled={league === 'nfl' ? (predictions[0]?.week || 14) >= 14 : selectedDate >= new Date().toISOString().split('T')[0]}
             style={{ 
-              background: selectedDate >= new Date().toISOString().split('T')[0] ? '#ccc' : '#667eea', 
+              background: (league === 'nfl' ? (predictions[0]?.week || 14) >= 14 : selectedDate >= new Date().toISOString().split('T')[0]) ? '#ccc' : '#667eea', 
               color: 'white', 
               border: 'none', 
               padding: '0.5rem 1rem', 
               borderRadius: '8px', 
-              cursor: selectedDate >= new Date().toISOString().split('T')[0] ? 'not-allowed' : 'pointer',
+              cursor: (league === 'nfl' ? (predictions[0]?.week || 14) >= 14 : selectedDate >= new Date().toISOString().split('T')[0]) ? 'not-allowed' : 'pointer',
               fontSize: '1.2rem',
               fontWeight: 'bold'
             }}

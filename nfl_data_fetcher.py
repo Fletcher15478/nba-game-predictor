@@ -25,17 +25,32 @@ class NFLDataFetcher:
     def get_week_games(self, week=None, season=2025):
         """Get all games for a specific week"""
         if week is None:
-            # Get current week
+            # Get current week - try multiple approaches
             try:
+                # Try current scoreboard
                 url = f"{self.base_url}/scoreboard"
                 response = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
                 if response.status_code == 200:
                     data = response.json()
                     week = data.get('week', {}).get('number', 1)
-            except:
-                week = 1
+                    if week:
+                        print(f"Found current week: {week}")
+            except Exception as e:
+                print(f"Error getting current week: {e}")
+            
+            # Fallback: calculate week from date (NFL season starts early September)
+            if not week:
+                today = datetime.now().date()
+                season_start = datetime(season, 9, 5).date()  # Approximate season start
+                if today < season_start:
+                    season_start = datetime(season - 1, 9, 5).date()
+                
+                days_diff = (today - season_start).days
+                week = max(1, min(18, (days_diff // 7) + 1))
+                print(f"Calculated week from date: {week}")
         
         try:
+            # Try regular season first
             url = f"{self.base_url}/scoreboard?seasontype=2&week={week}"
             response = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
             if response.status_code == 200:
@@ -61,10 +76,13 @@ class NFLDataFetcher:
                                     'week': week,
                                     'season': season
                                 })
-                return games
+                if games:
+                    return games
         except Exception as e:
             print(f"Error fetching week games: {e}")
         
+        # Fallback: return empty (will use historical data if available)
+        print(f"No games found for week {week}, returning empty list")
         return []
     
     def get_team_stats(self, team_abbr, season=2025):
