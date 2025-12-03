@@ -2,10 +2,11 @@ name: Daily NBA Predictions
 
 on:
   schedule:
-    # Runs daily at 12:00 PM UTC (for next day predictions)
+    # Runs daily at 12:00 PM UTC (7 AM EST) - Generates NEW predictions for today
     - cron: '0 12 * * *'
-    # Also runs at 2:00 AM UTC (to update accuracy after games finish)
-    - cron: '0 2 * * *'
+    # Runs at 6:00 AM UTC (1 AM EST / 10 PM PST) - Updates accuracy after games finish
+    # This catches games that finish late (usually done by 11 PM EST)
+    - cron: '0 6 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
