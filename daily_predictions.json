@@ -1,68 +1,90 @@
 [
   {
-    "home_team": "PHI",
-    "away_team": "WAS",
-    "winner": "PHI",
-    "confidence": 0.5234079145323698,
-    "home_win_prob": 0.5234079145323698,
-    "away_win_prob": 0.47659208546763027,
+    "home_team": "IND",
+    "away_team": "DEN",
+    "winner": "DEN",
+    "confidence": 0.5426361615677133,
+    "home_win_prob": 0.4573638384322867,
+    "away_win_prob": 0.5426361615677133,
     "home_injury_factor": 0.8,
     "away_injury_factor": 0.8,
-    "date": "2025-12-02"
+    "date": "2025-12-03"
   },
   {
-    "home_team": "TOR",
+    "home_team": "CLE",
     "away_team": "POR",
-    "winner": "POR",
-    "confidence": 0.5401955446412209,
-    "home_win_prob": 0.4598044553587791,
-    "away_win_prob": 0.5401955446412209,
+    "winner": "CLE",
+    "confidence": 0.5898291801122013,
+    "home_win_prob": 0.5898291801122013,
+    "away_win_prob": 0.41017081988779885,
     "home_injury_factor": 0.8,
     "away_injury_factor": 0.8,
-    "date": "2025-12-02"
+    "date": "2025-12-03"
   },
   {
-    "home_team": "BOS",
-    "away_team": "NYK",
+    "home_team": "ORL",
+    "away_team": "SAS",
+    "winner": "ORL",
+    "confidence": 0.5457570089077695,
+    "home_win_prob": 0.5457570089077695,
+    "away_win_prob": 0.45424299109223054,
+    "home_injury_factor": 0.8,
+    "away_injury_factor": 0.8,
+    "date": "2025-12-03"
+  },
+  {
+    "home_team": "ATL",
+    "away_team": "LAC",
+    "winner": "LAC",
+    "confidence": 0.5361579385139782,
+    "home_win_prob": 0.4638420614860218,
+    "away_win_prob": 0.5361579385139782,
+    "home_injury_factor": 0.8,
+    "away_injury_factor": 0.8,
+    "date": "2025-12-03"
+  },
+  {
+    "home_team": "NYK",
+    "away_team": "CHO",
     "winner": "NYK",
-    "confidence": 0.5921879995545494,
-    "home_win_prob": 0.40781200044545074,
-    "away_win_prob": 0.5921879995545494,
+    "confidence": 0.6373472587246657,
+    "home_win_prob": 0.6373472587246657,
+    "away_win_prob": 0.3626527412753343,
     "home_injury_factor": 0.8,
     "away_injury_factor": 0.8,
-    "date": "2025-12-02"
+    "date": "2025-12-03"
   },
   {
-    "home_team": "NOP",
-    "away_team": "MIN",
-    "winner": "MIN",
-    "confidence": 0.5157474679010521,
-    "home_win_prob": 0.4842525320989479,
-    "away_win_prob": 0.5157474679010521,
+    "home_team": "MIL",
+    "away_team": "DET",
+    "winner": "DET",
+    "confidence": 0.5245396879938401,
+    "home_win_prob": 0.47546031200616,
+    "away_win_prob": 0.5245396879938401,
     "home_injury_factor": 0.8,
     "away_injury_factor": 0.8,
-    "date": "2025-12-02"
+    "date": "2025-12-03"
   },
   {
-    "home_team": "SAS",
-    "away_team": "MEM",
-    "winner": "MEM",
-    "confidence": 0.5397248376101178,
-    "home_win_prob": 0.46027516238988225,
-    "away_win_prob": 0.5397248376101178,
+    "home_team": "HOU",
+    "away_team": "SAC",
+    "winner": "HOU",
+    "confidence": 0.5651546824666127,
+    "home_win_prob": 0.5651546824666127,
+    "away_win_prob": 0.43484531753338734,
     "home_injury_factor": 0.8,
     "away_injury_factor": 0.8,
-    "date": "2025-12-02"
+    "date": "2025-12-03"
   },
   {
-    "home_team": "GSW",
-    "away_team": "OKC",
-    "winner": "OKC",
-    "confidence": 0.5615054041738188,
-    "home_win_prob": 0.43849459582618133,
-    "away_win_prob": 0.5615054041738188,
+    "home_team": "DAL",
+    "away_team": "MIA",
+    "winner": "MIA",
+    "confidence": 0.538941054494644,
+    "home_win_prob": 0.46105894550535603,
+    "away_win_prob": 0.538941054494644,
     "home_injury_factor": 0.8,
     "away_injury_factor": 0.8,
-    "date": "2025-12-02"
+    "date": "2025-12-03"
   }
 ]
