@@ -1,6 +1,6 @@
 {
-  "total_predictions": 175,
-  "correct_predictions": 161,
+  "total_predictions": 191,
+  "correct_predictions": 177,
   "predictions_history": [
     {
       "date": "2025-09-07",
@@ -2101,6 +2101,198 @@
       "confidence": 0.6942894306153624,
       "home_score": 23,
       "away_score": 31
+    },
+    {
+      "date": "2025-11-27",
+      "week": 13,
+      "home_team": "DET",
+      "away_team": "GB",
+      "predicted": "GB",
+      "actual": "GB",
+      "correct": true,
+      "confidence": 0.5985635699438565,
+      "home_score": 24,
+      "away_score": 31
+    },
+    {
+      "date": "2025-11-27",
+      "week": 13,
+      "home_team": "DAL",
+      "away_team": "KC",
+      "predicted": "DAL",
+      "actual": "DAL",
+      "correct": true,
+      "confidence": 0.6105287892075231,
+      "home_score": 31,
+      "away_score": 28
+    },
+    {
+      "date": "2025-11-27",
+      "week": 13,
+      "home_team": "BAL",
+      "away_team": "CIN",
+      "predicted": "CIN",
+      "actual": "CIN",
+      "correct": true,
+      "confidence": 0.7129028863628987,
+      "home_score": 14,
+      "away_score": 32
+    },
+    {
+      "date": "2025-11-28",
+      "week": 13,
+      "home_team": "PHI",
+      "away_team": "CHI",
+      "predicted": "CHI",
+      "actual": "CHI",
+      "correct": true,
+      "confidence": 0.6653600289666475,
+      "home_score": 15,
+      "away_score": 24
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "CLE",
+      "away_team": "SF",
+      "predicted": "SF",
+      "actual": "SF",
+      "correct": true,
+      "confidence": 0.6014598085355537,
+      "home_score": 8,
+      "away_score": 26
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "TEN",
+      "away_team": "JAX",
+      "predicted": "JAX",
+      "actual": "JAX",
+      "correct": true,
+      "confidence": 0.5666573122071532,
+      "home_score": 3,
+      "away_score": 25
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "IND",
+      "away_team": "HOU",
+      "predicted": "HOU",
+      "actual": "HOU",
+      "correct": true,
+      "confidence": 0.5531911993757422,
+      "home_score": 16,
+      "away_score": 20
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "MIA",
+      "away_team": "NO",
+      "predicted": "MIA",
+      "actual": "MIA",
+      "correct": true,
+      "confidence": 0.7401010185373686,
+      "home_score": 21,
+      "away_score": 17
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "NYJ",
+      "away_team": "ATL",
+      "predicted": "NYJ",
+      "actual": "NYJ",
+      "correct": true,
+      "confidence": 0.7005032210915099,
+      "home_score": 27,
+      "away_score": 24
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "TB",
+      "away_team": "ARI",
+      "predicted": "TB",
+      "actual": "TB",
+      "correct": true,
+      "confidence": 0.7412654308065815,
+      "home_score": 20,
+      "away_score": 17
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "CAR",
+      "away_team": "LAR",
+      "predicted": "CAR",
+      "actual": "CAR",
+      "correct": true,
+      "confidence": 0.5896577557852924,
+      "home_score": 31,
+      "away_score": 28
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "SEA",
+      "away_team": "MIN",
+      "predicted": "SEA",
+      "actual": "SEA",
+      "correct": true,
+      "confidence": 0.61393223846736,
+      "home_score": 26,
+      "away_score": 0
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "PIT",
+      "away_team": "BUF",
+      "predicted": "BUF",
+      "actual": "BUF",
+      "correct": true,
+      "confidence": 0.7055892803039865,
+      "home_score": 7,
+      "away_score": 26
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "LAC",
+      "away_team": "LV",
+      "predicted": "LAC",
+      "actual": "LAC",
+      "correct": true,
+      "confidence": 0.6042978876651048,
+      "home_score": 31,
+      "away_score": 14
+    },
+    {
+      "date": "2025-11-30",
+      "week": 13,
+      "home_team": "WAS",
+      "away_team": "DEN",
+      "predicted": "DEN",
+      "actual": "DEN",
+      "correct": true,
+      "confidence": 0.6479968784236232,
+      "home_score": 26,
+      "away_score": 27
+    },
+    {
+      "date": "2025-12-01",
+      "week": 13,
+      "home_team": "NE",
+      "away_team": "NYG",
+      "predicted": "NE",
+      "actual": "NE",
+      "correct": true,
+      "confidence": 0.5724309026444305,
+      "home_score": 33,
+      "away_score": 15
     }
   ]
 }
