@@ -235,14 +235,14 @@ export default function Home() {
           </h2>
           <button 
             onClick={() => changeDate(1)}
-            disabled={league === 'nfl' ? (predictions[0]?.week || 14) >= 14 : selectedDate >= new Date().toISOString().split('T')[0]}
+            disabled={league === 'nfl' ? (predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]}
             style={{ 
-              background: (league === 'nfl' ? (predictions[0]?.week || 14) >= 14 : selectedDate >= new Date().toISOString().split('T')[0]) ? '#ccc' : '#667eea', 
+              background: (league === 'nfl' ? (predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? '#ccc' : '#667eea', 
               color: 'white', 
               border: 'none', 
               padding: '0.5rem 1rem', 
               borderRadius: '8px', 
-              cursor: (league === 'nfl' ? (predictions[0]?.week || 14) >= 14 : selectedDate >= new Date().toISOString().split('T')[0]) ? 'not-allowed' : 'pointer',
+              cursor: (league === 'nfl' ? (predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? 'not-allowed' : 'pointer',
               fontSize: '1.2rem',
               fontWeight: 'bold'
             }}
@@ -257,7 +257,11 @@ export default function Home() {
           </p>
         ) : (
           <div className="predictions-grid">
-            {predictions.map((pred, idx) => (
+            {predictions.map((pred, idx) => {
+              const gameDate = pred.date ? new Date(pred.date + 'T00:00:00') : null
+              const dayLabel = pred.day || (gameDate ? gameDate.toLocaleDateString('en-US', { weekday: 'long' }) : '')
+              
+              return (
               <div
                 key={idx}
                 className={`prediction-card ${
@@ -266,6 +270,17 @@ export default function Home() {
                 onClick={() => fetchBoxScore(pred)}
                 style={{ cursor: 'pointer' }}
               >
+                {dayLabel && (
+                  <div style={{ 
+                    fontSize: '0.85rem', 
+                    color: '#667eea', 
+                    fontWeight: 'bold', 
+                    marginBottom: '0.5rem',
+                    textAlign: 'center'
+                  }}>
+                    {dayLabel}
+                  </div>
+                )}
                 <div style={{ marginBottom: '1rem', color: '#666', fontSize: '0.9rem' }}>
                   {formatDate(pred.date)}
                 </div>
@@ -298,7 +313,8 @@ export default function Home() {
                   Confidence: {(pred.confidence * 100).toFixed(1)}%
                 </div>
               </div>
-            ))}
+            )
+            })}
           </div>
         )}
       </div>
