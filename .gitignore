@@ -62,4 +62,6 @@ npm-debug.log*
 # Stats and predictions (keep these for deployment)
 # prediction_stats.json
 # daily_predictions.json
+!nfl_daily_predictions.json
+!nfl_prediction_stats.json
 
