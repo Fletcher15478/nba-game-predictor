@@ -141,30 +141,28 @@ export default function Home() {
 
     if (league === 'nfl') {
       // For NFL, navigate by week
-      // Right arrow (days=1) goes to larger weeks (future), left arrow (days=-1) goes to smaller weeks (past)
       const week = currentWeek || predictions[0]?.week || 14
       const newWeek = week + days
-      
-      // Allow weeks 1-18
       if (newWeek >= 1 && newWeek <= 18) {
         fetchData(undefined, newWeek)
       }
       return
     }
-    
-    const today = new Date().toISOString().split('T')[0]
-    const yesterday = new Date()
-    yesterday.setDate(yesterday.getDate() - 1)
-    const yesterdayStr = yesterday.toISOString().split('T')[0]
-    
+
+    // NBA: allow full range Jan 1 – today (same as Scores)
+    const today = new Date()
+    const todayStr = today.toISOString().split('T')[0]
+    const currentYear = today.getFullYear()
+    const minDate = new Date(`${currentYear}-01-01T00:00:00`)
+
     const currentDate = new Date(selectedDate + 'T00:00:00')
     currentDate.setDate(currentDate.getDate() + days)
     const newDate = currentDate.toISOString().split('T')[0]
-    
-    // Only allow today or yesterday
-    if (newDate === today || newDate === yesterdayStr) {
-      fetchData(newDate)
+
+    if (currentDate < minDate || currentDate > today) {
+      return
     }
+    fetchData(newDate)
   }
 
   const getConfidenceClass = (confidence: number) => {
@@ -353,11 +351,15 @@ export default function Home() {
                 `Scores: ${formatDate(selectedDate)}`
               )}
             </h2>
-            {viewMode === 'results' && (
+            {(viewMode === 'results' || (viewMode === 'predictions' && league === 'nba')) && (
               <input
                 type="date"
                 value={selectedDate}
-                onChange={(e) => fetchResults(e.target.value)}
+                onChange={(e) => {
+                  const d = e.target.value
+                  if (viewMode === 'results') fetchResults(d)
+                  else fetchData(d)
+                }}
                 max={new Date().toISOString().split('T')[0]}
                 min={`${new Date().getFullYear()}-01-01`}
                 style={{
@@ -416,7 +418,9 @@ export default function Home() {
         {viewMode === 'predictions' ? (
           predictions.length === 0 ? (
             <p style={{ textAlign: 'center', color: '#666', padding: '2rem' }}>
-              No games scheduled for today. Check back tomorrow!
+              {selectedDate >= new Date().toISOString().split('T')[0]
+                ? 'No games scheduled for today. Check back tomorrow!'
+                : 'No predictions for this date.'}
             </p>
           ) : (
             <div className="predictions-grid">
