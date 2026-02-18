@@ -1,7 +1,9 @@
-name: Daily NBA Predictions
+name: Daily NBA/NFL Predictions
 
 on:
   schedule:
+    # Runs every hour to keep data fresh
+    - cron: '0 * * * *'
     # Runs daily at 12:00 PM UTC (7 AM EST) - Generates NEW predictions for today
     - cron: '0 12 * * *'
     # Runs at 6:00 AM UTC (1 AM EST / 10 PM PST) - Updates accuracy after games finish
@@ -26,16 +28,26 @@ jobs:
       run: |
         pip install -r requirements.txt
         
+    - name: Fetch historical data (Super Bowl to All-Star)
+      run: |
+        # Fetch historical NBA and NFL data from Super Bowl (Feb 9) to All-Star (Feb 18)
+        python3 fetch_historical_data.py || echo "Historical data fetch completed (may have warnings)"
+        
     - name: Generate daily predictions
       run: |
         # Ensure files exist before running script
         [ -f daily_predictions.json ] || echo '[]' > daily_predictions.json
         [ -f prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > prediction_stats.json
-        # Run prediction script
-        python3 daily_predictor.py || echo "Prediction script completed (may have warnings)"
+        [ -f nfl_daily_predictions.json ] || echo '[]' > nfl_daily_predictions.json
+        [ -f nfl_prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > nfl_prediction_stats.json
+        # Run prediction scripts
+        python3 daily_predictor.py || echo "NBA prediction script completed (may have warnings)"
+        python3 nfl_daily_predictor.py || echo "NFL prediction script completed (may have warnings)"
         # Verify files exist after script
         [ -f daily_predictions.json ] || echo '[]' > daily_predictions.json
         [ -f prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > prediction_stats.json
+        [ -f nfl_daily_predictions.json ] || echo '[]' > nfl_daily_predictions.json
+        [ -f nfl_prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > nfl_prediction_stats.json
         
     - name: Commit and push if changed
       run: |
@@ -44,11 +56,15 @@ jobs:
         # Ensure files exist
         [ -f daily_predictions.json ] || echo '[]' > daily_predictions.json
         [ -f prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > prediction_stats.json
-        # Add files
-        git add daily_predictions.json prediction_stats.json
+        [ -f nfl_daily_predictions.json ] || echo '[]' > nfl_daily_predictions.json
+        [ -f nfl_prediction_stats.json ] || echo '{"total_predictions": 0, "correct_predictions": 0, "predictions_history": []}' > nfl_prediction_stats.json
+        [ -f nba_historical_data.json ] || echo '[]' > nba_historical_data.json
+        [ -f nfl_historical_data.json ] || echo '[]' > nfl_historical_data.json
+        # Add all data files
+        git add daily_predictions.json prediction_stats.json nfl_daily_predictions.json nfl_prediction_stats.json nba_historical_data.json nfl_historical_data.json
         # Only commit if there are changes
         if ! git diff --staged --quiet; then
-          git commit -m "Auto-update: Daily predictions $(date +%Y-%m-%d)" || exit 0
+          git commit -m "Auto-update: Predictions and historical data $(date +%Y-%m-%d-%H:%M)" || exit 0
           git push || exit 0
         else
           echo "No changes to commit"

@@ -146,7 +146,17 @@ def update_accuracy(df, predictor):
         if date_str in processed_dates:
             continue
         
-        # First try to get results from API (for recent games)
+        # First try to get results from historical data file (most up-to-date)
+        historical_results = []
+        if os.path.exists('nba_historical_data.json'):
+            try:
+                with open('nba_historical_data.json', 'r') as f:
+                    historical_data = json.load(f)
+                    historical_results = [g for g in historical_data if g.get('date') == date_str and g.get('status') == 'completed']
+            except Exception as e:
+                print(f"Error loading historical data: {e}")
+        
+        # Then try API (for recent games)
         api_results = data_fetcher.get_game_results(date_str)
         
         # Also check dataset
@@ -163,8 +173,16 @@ def update_accuracy(df, predictor):
         for pred in date_predictions:
             actual_winner = None
             
-            # Try API results first (more up-to-date)
-            if api_results:
+            # Try historical data first (most up-to-date)
+            if historical_results:
+                for result in historical_results:
+                    if ((result['home_team'] == pred['home_team'] and result['away_team'] == pred['away_team']) or
+                        (result['home_team'] == pred['away_team'] and result['away_team'] == pred['home_team'])):
+                        actual_winner = result.get('winner')
+                        break
+            
+            # Then try API results
+            if actual_winner is None and api_results:
                 for result in api_results:
                     if ((result['home_team'] == pred['home_team'] and result['away_team'] == pred['away_team']) or
                         (result['home_team'] == pred['away_team'] and result['away_team'] == pred['home_team'])):

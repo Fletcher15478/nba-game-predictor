@@ -48,6 +48,17 @@ interface Stats {
   }>
 }
 
+interface ResultGame {
+  date: string
+  home_team: string
+  away_team: string
+  status: string
+  home_score: number | null
+  away_score: number | null
+  winner?: string
+  week?: number | null
+}
+
 export default function Home() {
   const [predictions, setPredictions] = useState<Prediction[]>([])
   const [stats, setStats] = useState<Stats | null>(null)
@@ -59,10 +70,16 @@ export default function Home() {
   const [selectedDate, setSelectedDate] = useState<string>(new Date().toISOString().split('T')[0])
   const [league, setLeague] = useState<'nba' | 'nfl'>('nba')
   const [currentWeek, setCurrentWeek] = useState<number | null>(null)
+  const [viewMode, setViewMode] = useState<'predictions' | 'results'>('predictions')
+  const [results, setResults] = useState<ResultGame[]>([])
 
   useEffect(() => {
-    fetchData()
-  }, [league])
+    if (viewMode === 'predictions') {
+      fetchData()
+    } else {
+      fetchResults(selectedDate)
+    }
+  }, [league, viewMode])
 
   const fetchData = async (date?: string, week?: number) => {
     try {
@@ -101,6 +118,26 @@ export default function Home() {
   }
 
   const changeDate = (days: number) => {
+    // Results mode: allow full navigation within current year
+    if (viewMode === 'results') {
+      const today = new Date()
+      const currentYear = today.getFullYear()
+      const minDate = new Date(`${currentYear}-01-01T00:00:00`)
+      const maxDate = today
+
+      const currentDate = new Date(selectedDate + 'T00:00:00')
+      currentDate.setDate(currentDate.getDate() + days)
+
+      if (currentDate < minDate || currentDate > maxDate) {
+        return
+      }
+
+      const newDate = currentDate.toISOString().split('T')[0]
+      setSelectedDate(newDate)
+      fetchResults(newDate)
+      return
+    }
+
     if (league === 'nfl') {
       // For NFL, navigate by week
       // Right arrow (days=1) goes to larger weeks (future), left arrow (days=-1) goes to smaller weeks (past)
@@ -145,6 +182,22 @@ export default function Home() {
     })
   }
 
+  const fetchResults = async (date: string) => {
+    try {
+      setLoading(true)
+      setError(null)
+      const apiPath = league === 'nba' ? '/api/historical' : '/api/nfl/historical'
+      const res = await axios.get(apiPath, { params: { date } })
+      setResults(res.data.games || [])
+      setSelectedDate(date)
+    } catch (err: any) {
+      setError(err.message || 'Failed to load results')
+      setResults([])
+    } finally {
+      setLoading(false)
+    }
+  }
+
   const fetchBoxScore = async (prediction: Prediction) => {
     setLoadingBoxScore(true)
     setSelectedGame(prediction)
@@ -179,24 +232,61 @@ export default function Home() {
       <div className="header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
           <div>
-            <h1>{league === 'nba' ? '🏀 NBA' : '🏈 NFL'} Game Predictor</h1>
-            <p>Machine Learning Powered Predictions</p>
+            <h1>
+              {league === 'nba' ? '🏀 NBA' : '🏈 NFL'}{' '}
+              {viewMode === 'predictions' ? 'Game Predictor' : 'Scores'}
+            </h1>
+            <p>
+              {viewMode === 'predictions'
+                ? 'Machine Learning Powered Predictions'
+                : 'Final scores and results'}
+            </p>
           </div>
-          <select 
-            value={league} 
-            onChange={(e) => setLeague(e.target.value as 'nba' | 'nfl')}
-            style={{
-              padding: '0.5rem 1rem',
-              fontSize: '1rem',
-              borderRadius: '8px',
-              border: '2px solid #667eea',
-              background: 'white',
-              cursor: 'pointer'
-            }}
-          >
-            <option value="nba">NBA</option>
-            <option value="nfl">NFL</option>
-          </select>
+          <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+            <select 
+              value={league} 
+              onChange={(e) => setLeague(e.target.value as 'nba' | 'nfl')}
+              style={{
+                padding: '0.5rem 1rem',
+                fontSize: '1rem',
+                borderRadius: '8px',
+                border: '2px solid #667eea',
+                background: 'white',
+                cursor: 'pointer'
+              }}
+            >
+              <option value="nba">NBA</option>
+              <option value="nfl">NFL</option>
+            </select>
+            <div style={{ display: 'flex', borderRadius: '999px', overflow: 'hidden', border: '1px solid #4b5563' }}>
+              <button
+                onClick={() => setViewMode('predictions')}
+                style={{
+                  padding: '0.35rem 0.85rem',
+                  fontSize: '0.9rem',
+                  border: 'none',
+                  cursor: 'pointer',
+                  background: viewMode === 'predictions' ? '#4f46e5' : 'transparent',
+                  color: viewMode === 'predictions' ? '#fff' : '#e5e7eb'
+                }}
+              >
+                Predictions
+              </button>
+              <button
+                onClick={() => setViewMode('results')}
+                style={{
+                  padding: '0.35rem 0.85rem',
+                  fontSize: '0.9rem',
+                  border: 'none',
+                  cursor: 'pointer',
+                  background: viewMode === 'results' ? '#4f46e5' : 'transparent',
+                  color: viewMode === 'results' ? '#fff' : '#e5e7eb'
+                }}
+              >
+                Scores
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -206,7 +296,7 @@ export default function Home() {
         </div>
       )}
 
-      {stats && (
+      {viewMode === 'predictions' && stats && (
         <div className="stats-grid">
           <div className="stat-card">
             <h3>Total Predictions</h3>
@@ -244,23 +334,70 @@ export default function Home() {
           >
             ←
           </button>
-          <h2 style={{ margin: 0, color: '#e2e8f0', textAlign: 'center', fontSize: '1.8rem', fontWeight: '700' }}>
-            {league === 'nfl' 
-              ? `Week ${currentWeek || predictions[0]?.week || 14} Predictions`
-              : selectedDate === new Date().toISOString().split('T')[0] 
-                ? "Today's Predictions" 
-                : `Predictions: ${formatDate(selectedDate)}`}
-          </h2>
+          <div style={{ textAlign: 'center' }}>
+            <h2 style={{ margin: 0, color: '#e2e8f0', fontSize: '1.8rem', fontWeight: '700' }}>
+              {viewMode === 'predictions' ? (
+                league === 'nfl' 
+                  ? `Week ${currentWeek || predictions[0]?.week || 14} Predictions`
+                  : selectedDate === new Date().toISOString().split('T')[0] 
+                    ? "Today's Predictions" 
+                    : `Predictions: ${formatDate(selectedDate)}`
+              ) : (
+                `Scores: ${formatDate(selectedDate)}`
+              )}
+            </h2>
+            {viewMode === 'results' && (
+              <input
+                type="date"
+                value={selectedDate}
+                onChange={(e) => fetchResults(e.target.value)}
+                max={new Date().toISOString().split('T')[0]}
+                min={`${new Date().getFullYear()}-01-01`}
+                style={{
+                  marginTop: '0.5rem',
+                  padding: '0.35rem 0.75rem',
+                  borderRadius: '8px',
+                  border: '1px solid #4b5563',
+                  background: '#020617',
+                  color: '#e5e7eb'
+                }}
+              />
+            )}
+          </div>
           <button 
             onClick={() => changeDate(1)}
-            disabled={league === 'nfl' ? (currentWeek || predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]}
+            disabled={
+              viewMode === 'predictions'
+                ? (league === 'nfl'
+                    ? (currentWeek || predictions[0]?.week || 14) >= 18
+                    : selectedDate >= new Date().toISOString().split('T')[0])
+                : selectedDate >= new Date().toISOString().split('T')[0]
+            }
             style={{ 
-              background: (league === 'nfl' ? (currentWeek || predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? '#ccc' : '#667eea', 
+              background:
+                viewMode === 'predictions'
+                  ? (league === 'nfl'
+                      ? (currentWeek || predictions[0]?.week || 14) >= 18
+                      : selectedDate >= new Date().toISOString().split('T')[0])
+                    ? '#ccc'
+                    : '#667eea'
+                  : selectedDate >= new Date().toISOString().split('T')[0]
+                    ? '#ccc'
+                    : '#667eea',
               color: 'white', 
               border: 'none', 
               padding: '0.5rem 1rem', 
               borderRadius: '8px', 
-              cursor: (league === 'nfl' ? (currentWeek || predictions[0]?.week || 14) >= 18 : selectedDate >= new Date().toISOString().split('T')[0]) ? 'not-allowed' : 'pointer',
+              cursor:
+                viewMode === 'predictions'
+                  ? (league === 'nfl'
+                      ? (currentWeek || predictions[0]?.week || 14) >= 18
+                      : selectedDate >= new Date().toISOString().split('T')[0])
+                    ? 'not-allowed'
+                    : 'pointer'
+                  : selectedDate >= new Date().toISOString().split('T')[0]
+                    ? 'not-allowed'
+                    : 'pointer',
               fontSize: '1.2rem',
               fontWeight: 'bold'
             }}
@@ -269,12 +406,13 @@ export default function Home() {
           </button>
         </div>
         
-        {predictions.length === 0 ? (
-          <p style={{ textAlign: 'center', color: '#666', padding: '2rem' }}>
-            No games scheduled for today. Check back tomorrow!
-          </p>
-        ) : (
-          <div className="predictions-grid">
+        {viewMode === 'predictions' ? (
+          predictions.length === 0 ? (
+            <p style={{ textAlign: 'center', color: '#666', padding: '2rem' }}>
+              No games scheduled for today. Check back tomorrow!
+            </p>
+          ) : (
+            <div className="predictions-grid">
             {predictions.map((pred, idx) => {
               const gameDate = pred.date ? new Date(pred.date + 'T00:00:00') : null
               const dayLabel = pred.day || (gameDate ? gameDate.toLocaleDateString('en-US', { weekday: 'long' }) : '')
@@ -360,11 +498,77 @@ export default function Home() {
               </div>
             )
             })}
-          </div>
+            </div>
+          )
+        ) : (
+          <>
+            {results.length === 0 ? (
+              <p style={{ textAlign: 'center', color: '#666', padding: '2rem' }}>
+                No games found for this date.
+              </p>
+            ) : (
+              <div className="predictions-grid">
+                {results.map((game, idx) => {
+                  const isCompleted = game.status === 'completed' || game.home_score !== null || game.away_score !== null
+                  const winnerLabel =
+                    isCompleted && game.winner
+                      ? `Winner: ${game.winner}`
+                      : !isCompleted
+                        ? 'Scheduled'
+                        : 'Final'
+
+                  return (
+                    <div
+                      key={idx}
+                      className="prediction-card"
+                      style={{ cursor: 'default' }}
+                    >
+                      <div style={{ marginBottom: '0.5rem', color: '#94a3b8', fontSize: '0.9rem', textAlign: 'center' }}>
+                        {league === 'nfl' && game.week ? `Week ${game.week}` : formatDate(game.date)}
+                      </div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
+                        <div className="team-name" style={{ color: '#e2e8f0' }}>
+                          {game.away_team}
+                        </div>
+                        <div style={{ fontWeight: 'bold', color: '#f97316' }}>
+                          {game.away_score !== null ? game.away_score : '--'}
+                        </div>
+                      </div>
+                      <div style={{ textAlign: 'center', margin: '0.25rem 0', color: '#64748b', fontSize: '0.9rem', fontWeight: '600' }}>
+                        @
+                      </div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
+                        <div className="team-name" style={{ color: '#e2e8f0' }}>
+                          {game.home_team}
+                        </div>
+                        <div style={{ fontWeight: 'bold', color: '#22c55e' }}>
+                          {game.home_score !== null ? game.home_score : '--'}
+                        </div>
+                      </div>
+                      <div
+                        style={{
+                          marginTop: '0.5rem',
+                          padding: '0.35rem 0.5rem',
+                          borderRadius: '999px',
+                          fontSize: '0.8rem',
+                          textAlign: 'center',
+                          background: '#020617',
+                          color: '#e5e7eb',
+                          border: '1px solid #1e293b'
+                        }}
+                      >
+                        {winnerLabel}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            )}
+          </>
         )}
       </div>
 
-      {selectedGame && (
+      {viewMode === 'predictions' && selectedGame && (
         <div className="card" style={{ marginTop: '2rem' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
             <h2 style={{ margin: 0, color: '#333' }}>
@@ -410,11 +614,13 @@ export default function Home() {
         </div>
       )}
 
-      <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-        <button className="btn" onClick={() => fetchData()}>
-          Refresh Predictions
-        </button>
-      </div>
+      {viewMode === 'predictions' && (
+        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+          <button className="btn" onClick={() => fetchData()}>
+            Refresh Predictions
+          </button>
+        </div>
+      )}
     </div>
   )
 }

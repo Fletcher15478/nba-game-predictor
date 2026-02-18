@@ -93,7 +93,38 @@ def update_accuracy(df, predictor, data_fetcher):
     """Update accuracy from completed games"""
     stats = load_stats()
     
-    # Get last week's results
+    # First check historical data file (most up-to-date)
+    historical_results = []
+    if os.path.exists('nfl_historical_data.json'):
+        try:
+            with open('nfl_historical_data.json', 'r') as f:
+                historical_data = json.load(f)
+                historical_results = [g for g in historical_data if g.get('status') == 'completed' and g.get('winner')]
+        except Exception as e:
+            print(f"Error loading NFL historical data: {e}")
+    
+    # Process historical results
+    for result in historical_results:
+        # Check if we predicted this game
+        predicted = None
+        for pred in stats.get('predictions_history', []):
+            if (pred.get('home_team') == result['home_team'] and 
+                pred.get('away_team') == result['away_team']):
+                # Check if we haven't already processed this
+                if 'actual' not in pred or pred.get('actual') is None:
+                    predicted = pred
+                    break
+        
+        if predicted:
+            correct = predicted['predicted'] == result['winner']
+            predicted['actual'] = result['winner']
+            predicted['correct'] = correct
+            
+            if correct:
+                stats['correct_predictions'] += 1
+            stats['total_predictions'] += 1
+    
+    # Get last week's results from API as backup
     try:
         last_week = data_fetcher.get_week_games()
         if last_week:
@@ -102,14 +133,16 @@ def update_accuracy(df, predictor, data_fetcher):
                 results = data_fetcher.get_game_results(week_num)
                 
                 for result in results:
-                    # Check if we predicted this game
+                    # Check if we predicted this game and haven't processed it yet
                     predicted = None
-                    for pred in stats['predictions_history']:
+                    for pred in stats.get('predictions_history', []):
                         if (pred.get('home_team') == result['home_team'] and 
                             pred.get('away_team') == result['away_team'] and
                             pred.get('week') == result['week']):
-                            predicted = pred
-                            break
+                            # Only process if not already done
+                            if 'actual' not in pred or pred.get('actual') is None:
+                                predicted = pred
+                                break
                     
                     if predicted:
                         correct = predicted['predicted'] == result['winner']
@@ -120,7 +153,7 @@ def update_accuracy(df, predictor, data_fetcher):
                             stats['correct_predictions'] += 1
                         stats['total_predictions'] += 1
     except Exception as e:
-        print(f"Error updating accuracy: {e}")
+        print(f"Error updating accuracy from API: {e}")
     
     save_stats(stats)
     return stats
