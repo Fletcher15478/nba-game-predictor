@@ -1,0 +1,282 @@
+[
+  {
+    "home_team": "TB",
+    "away_team": "CAR",
+    "date": "2026-01-03",
+    "week": null,
+    "winner": "TB",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "SF",
+    "away_team": "SEA",
+    "date": "2026-01-03",
+    "week": null,
+    "winner": "SF",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "ATL",
+    "away_team": "NO",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "ATL",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "CIN",
+    "away_team": "CLE",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "CIN",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "MIN",
+    "away_team": "GB",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "MIN",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "NYG",
+    "away_team": "DAL",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "NYG",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "JAX",
+    "away_team": "TEN",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "JAX",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "HOU",
+    "away_team": "IND",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "HOU",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "BUF",
+    "away_team": "NYJ",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "BUF",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "DET",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "CHI",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "LAC",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "DEN",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "LV",
+    "away_team": "KC",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "LV",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "LAR",
+    "away_team": "ARI",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "LAR",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "NE",
+    "away_team": "MIA",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "NE",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "PIT",
+    "away_team": "BAL",
+    "date": "2026-01-04",
+    "week": null,
+    "winner": "PIT",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "CAR",
+    "away_team": "LAR",
+    "date": "2026-01-10",
+    "week": null,
+    "winner": "LAR",
+    "confidence": 0.92,
+    "home_win_prob": 0.07999999999999996,
+    "away_win_prob": 0.92
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "GB",
+    "date": "2026-01-10",
+    "week": null,
+    "winner": "CHI",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "JAX",
+    "away_team": "BUF",
+    "date": "2026-01-11",
+    "week": null,
+    "winner": "JAX",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "PHI",
+    "away_team": "SF",
+    "date": "2026-01-11",
+    "week": null,
+    "winner": "PHI",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "NE",
+    "away_team": "LAC",
+    "date": "2026-01-11",
+    "week": null,
+    "winner": "NE",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
+    "home_team": "PIT",
+    "away_team": "HOU",
+    "date": "2026-01-12",
+    "week": null,
+    "winner": "HOU",
+    "confidence": 0.55,
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "BUF",
+    "date": "2026-01-17",
+    "week": null,
+    "winner": "BUF",
+    "confidence": 0.55,
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
+  },
+  {
+    "home_team": "SEA",
+    "away_team": "SF",
+    "date": "2026-01-17",
+    "week": null,
+    "winner": "SEA",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
+    "home_team": "NE",
+    "away_team": "HOU",
+    "date": "2026-01-18",
+    "week": null,
+    "winner": "HOU",
+    "confidence": 0.55,
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "LAR",
+    "date": "2026-01-18",
+    "week": null,
+    "winner": "LAR",
+    "confidence": 0.92,
+    "home_win_prob": 0.07999999999999996,
+    "away_win_prob": 0.92
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "NE",
+    "date": "2026-01-25",
+    "week": null,
+    "winner": "NE",
+    "confidence": 0.55,
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
+  },
+  {
+    "home_team": "SEA",
+    "away_team": "LAR",
+    "date": "2026-01-25",
+    "week": null,
+    "winner": "LAR",
+    "confidence": 0.55,
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
+  },
+  {
+    "home_team": "NE",
+    "away_team": "SEA",
+    "date": "2026-02-08",
+    "week": null,
+    "winner": "SEA",
+    "confidence": 0.55,
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
+  }
+]

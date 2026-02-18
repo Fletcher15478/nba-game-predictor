@@ -23,10 +23,13 @@ jobs:
       run: |
         pip install -r requirements.txt
         
-    - name: Fetch historical data (Super Bowl to All-Star)
+    - name: Fetch historical data (Jan 1 – today)
       run: |
-        # Fetch historical NBA and NFL data from Super Bowl (Feb 9) to All-Star (Feb 18)
         python3 fetch_historical_data.py || echo "Historical data fetch completed (may have warnings)"
+        
+    - name: Backfill historical predictions
+      run: |
+        python3 backfill_historical_predictions.py || echo "Backfill completed (may have warnings)"
         
     - name: Commit and push if changed
       run: |
@@ -35,8 +38,10 @@ jobs:
         # Ensure files exist
         [ -f nba_historical_data.json ] || echo '[]' > nba_historical_data.json
         [ -f nfl_historical_data.json ] || echo '[]' > nfl_historical_data.json
-        # Add historical data files
-        git add nba_historical_data.json nfl_historical_data.json
+        [ -f nba_historical_predictions.json ] || echo '[]' > nba_historical_predictions.json
+        [ -f nfl_historical_predictions.json ] || echo '[]' > nfl_historical_predictions.json
+        # Add historical data and prediction files
+        git add nba_historical_data.json nfl_historical_data.json nba_historical_predictions.json nfl_historical_predictions.json
         # Only commit if there are changes
         if ! git diff --staged --quiet; then
           git commit -m "Auto-update: Historical data $(date +%Y-%m-%d-%H:%M)" || exit 0

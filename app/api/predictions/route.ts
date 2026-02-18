@@ -19,14 +19,34 @@ export async function GET(request: Request) {
       // Filter by date if requested
       if (requestedDate) {
         const filtered = allPredictions.filter((p: any) => p.date === requestedDate)
-        return NextResponse.json({ predictions: filtered })
+        if (filtered.length > 0) {
+          return NextResponse.json({ predictions: filtered })
+        }
+        // Fall back to historical backfill so past dates (Jan–today) show predictions
+        const histPath = path.join(process.cwd(), 'nba_historical_predictions.json')
+        if (fs.existsSync(histPath)) {
+          const histData = fs.readFileSync(histPath, 'utf8')
+          const hist = JSON.parse(histData)
+          const histFiltered = hist.filter((p: any) => p.date === requestedDate)
+          return NextResponse.json({ predictions: histFiltered })
+        }
+        return NextResponse.json({ predictions: [] })
       }
       
       // Return all predictions (most recent first)
       return NextResponse.json({ predictions: allPredictions })
     }
     
-    // Return empty if file doesn't exist
+    // If date requested, try historical backfill even when daily file missing
+    if (requestedDate) {
+      const histPath = path.join(process.cwd(), 'nba_historical_predictions.json')
+      if (fs.existsSync(histPath)) {
+        const histData = fs.readFileSync(histPath, 'utf8')
+        const hist = JSON.parse(histData)
+        const histFiltered = hist.filter((p: any) => p.date === requestedDate)
+        return NextResponse.json({ predictions: histFiltered })
+      }
+    }
     return NextResponse.json({
       predictions: [],
       message: 'No predictions available. Run: python3 daily_predictor.py'
