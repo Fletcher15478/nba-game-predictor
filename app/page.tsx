@@ -72,6 +72,7 @@ export default function Home() {
   const [currentWeek, setCurrentWeek] = useState<number | null>(null)
   const [viewMode, setViewMode] = useState<'predictions' | 'results'>('predictions')
   const [results, setResults] = useState<ResultGame[]>([])
+  const [resultsPredictions, setResultsPredictions] = useState<Prediction[]>([])
 
   useEffect(() => {
     if (viewMode === 'predictions') {
@@ -186,13 +187,19 @@ export default function Home() {
     try {
       setLoading(true)
       setError(null)
-      const apiPath = league === 'nba' ? '/api/historical' : '/api/nfl/historical'
-      const res = await axios.get(apiPath, { params: { date } })
-      setResults(res.data.games || [])
+      const historicalPath = league === 'nba' ? '/api/historical' : '/api/nfl/historical'
+      const predictionsPath = league === 'nba' ? '/api/predictions' : '/api/nfl/predictions'
+      const [gamesRes, predsRes] = await Promise.all([
+        axios.get(historicalPath, { params: { date } }),
+        axios.get(predictionsPath, { params: league === 'nfl' ? { date } : { date } })
+      ])
+      setResults(gamesRes.data.games || [])
+      setResultsPredictions(predsRes.data.predictions || [])
       setSelectedDate(date)
     } catch (err: any) {
       setError(err.message || 'Failed to load results')
       setResults([])
+      setResultsPredictions([])
     } finally {
       setLoading(false)
     }
@@ -516,6 +523,15 @@ export default function Home() {
                       : !isCompleted
                         ? 'Scheduled'
                         : 'Final'
+                  const pred = resultsPredictions.find(
+                    (p) =>
+                      p.home_team === game.home_team && p.away_team === game.away_team
+                  )
+                  const predCorrect =
+                    isCompleted &&
+                    game.winner &&
+                    pred &&
+                    pred.winner === game.winner
 
                   return (
                     <div
@@ -559,6 +575,34 @@ export default function Home() {
                       >
                         {winnerLabel}
                       </div>
+                      {pred && (
+                        <div
+                          style={{
+                            marginTop: '0.75rem',
+                            padding: '0.5rem 0.75rem',
+                            borderRadius: '8px',
+                            fontSize: '0.85rem',
+                            background: 'rgba(30, 41, 59, 0.8)',
+                            border: '1px solid #334155',
+                            color: '#cbd5e1'
+                          }}
+                        >
+                          <div style={{ marginBottom: '0.25rem' }}>
+                            Predicted: <strong>{pred.winner}</strong>{' '}
+                            ({(pred.confidence * 100).toFixed(0)}%)
+                          </div>
+                          {isCompleted && game.winner && (
+                            <div
+                              style={{
+                                fontWeight: '600',
+                                color: predCorrect ? '#22c55e' : '#ef4444'
+                              }}
+                            >
+                              {predCorrect ? '✓ Correct' : '✗ Wrong'}
+                            </div>
+                          )}
+                        </div>
+                      )}
                     </div>
                   )
                 })}
