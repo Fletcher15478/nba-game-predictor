@@ -2916,6 +2916,33 @@
     "away_win_prob": 0.6
   },
   {
+    "home_team": "OKC",
+    "away_team": "MIL",
+    "date": "2026-02-12",
+    "winner": "OKC",
+    "confidence": 0.6746031746031746,
+    "home_win_prob": 0.6746031746031746,
+    "away_win_prob": 0.32539682539682535
+  },
+  {
+    "home_team": "UTAH",
+    "away_team": "POR",
+    "date": "2026-02-12",
+    "winner": "POR",
+    "confidence": 0.81055900621118,
+    "home_win_prob": 0.18944099378881996,
+    "away_win_prob": 0.81055900621118
+  },
+  {
+    "home_team": "LAL",
+    "away_team": "DAL",
+    "date": "2026-02-12",
+    "winner": "LAL",
+    "confidence": 0.6770334928229664,
+    "home_win_prob": 0.6770334928229664,
+    "away_win_prob": 0.32296650717703357
+  },
+  {
     "home_team": "CHA",
     "away_team": "HOU",
     "date": "2026-02-19",
