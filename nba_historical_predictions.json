@@ -2941,5 +2941,95 @@
     "confidence": 0.6770334928229664,
     "home_win_prob": 0.6770334928229664,
     "away_win_prob": 0.32296650717703357
+  },
+  {
+    "home_team": "CHA",
+    "away_team": "HOU",
+    "date": "2026-02-19",
+    "winner": "CHA",
+    "confidence": 0.616600790513834,
+    "home_win_prob": 0.616600790513834,
+    "away_win_prob": 0.383399209486166
+  },
+  {
+    "home_team": "CLE",
+    "away_team": "BKN",
+    "date": "2026-02-19",
+    "winner": "CLE",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
+    "home_team": "PHI",
+    "away_team": "ATL",
+    "date": "2026-02-19",
+    "winner": "PHI",
+    "confidence": 0.5890269151138716,
+    "home_win_prob": 0.5890269151138716,
+    "away_win_prob": 0.4109730848861284
+  },
+  {
+    "home_team": "WSH",
+    "away_team": "IND",
+    "date": "2026-02-19",
+    "winner": "IND",
+    "confidence": 0.6428571428571428,
+    "home_win_prob": 0.3571428571428572,
+    "away_win_prob": 0.6428571428571428
+  },
+  {
+    "home_team": "NY",
+    "away_team": "DET",
+    "date": "2026-02-19",
+    "winner": "DET",
+    "confidence": 0.7045454545454546,
+    "home_win_prob": 0.2954545454545454,
+    "away_win_prob": 0.7045454545454546
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "TOR",
+    "date": "2026-02-19",
+    "winner": "TOR",
+    "confidence": 0.7363636363636363,
+    "home_win_prob": 0.26363636363636367,
+    "away_win_prob": 0.7363636363636363
+  },
+  {
+    "home_team": "SA",
+    "away_team": "PHX",
+    "date": "2026-02-19",
+    "winner": "SA",
+    "confidence": 0.5757575757575757,
+    "home_win_prob": 0.5757575757575757,
+    "away_win_prob": 0.4242424242424243
+  },
+  {
+    "home_team": "GS",
+    "away_team": "BOS",
+    "date": "2026-02-19",
+    "winner": "BOS",
+    "confidence": 0.6580086580086579,
+    "home_win_prob": 0.34199134199134207,
+    "away_win_prob": 0.6580086580086579
+  },
+  {
+    "home_team": "SAC",
+    "away_team": "ORL",
+    "date": "2026-02-19",
+    "winner": "ORL",
+    "confidence": 0.799771167048055,
+    "home_win_prob": 0.20022883295194505,
+    "away_win_prob": 0.799771167048055
+  },
+  {
+    "home_team": "LAC",
+    "away_team": "DEN",
+    "date": "2026-02-19",
+    "winner": "LAC",
+    "confidence": 0.6363636363636364,
+    "home_win_prob": 0.6363636363636364,
+    "away_win_prob": 0.36363636363636365
   }
 ]

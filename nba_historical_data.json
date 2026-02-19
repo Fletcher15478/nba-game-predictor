@@ -2973,5 +2973,85 @@
     "home_score": 21,
     "away_score": 47,
     "winner": "STARS"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "CHA",
+    "away_team": "HOU",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "CLE",
+    "away_team": "BKN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "PHI",
+    "away_team": "ATL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "WSH",
+    "away_team": "IND",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "NY",
+    "away_team": "DET",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "CHI",
+    "away_team": "TOR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "SA",
+    "away_team": "PHX",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "GS",
+    "away_team": "BOS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "SAC",
+    "away_team": "ORL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "LAC",
+    "away_team": "DEN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
