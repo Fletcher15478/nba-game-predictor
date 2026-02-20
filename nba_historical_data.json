@@ -3059,9 +3059,10 @@
     "date": "2026-02-19",
     "home_team": "LAC",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 114,
+    "winner": "LAC"
   },
   {
     "date": "2026-02-20",
