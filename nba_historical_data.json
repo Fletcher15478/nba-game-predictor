@@ -3041,17 +3041,19 @@
     "date": "2026-02-19",
     "home_team": "GS",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 121,
+    "winner": "BOS"
   },
   {
     "date": "2026-02-19",
     "home_team": "SAC",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 94,
+    "away_score": 131,
+    "winner": "ORL"
   },
   {
     "date": "2026-02-19",
