@@ -3037,18 +3037,18 @@
     "away_team": "CLE",
     "date": "2026-02-20",
     "winner": "CLE",
-    "confidence": 0.5681818181818182,
-    "home_win_prob": 0.43181818181818177,
-    "away_win_prob": 0.5681818181818182
+    "confidence": 0.6097308488612836,
+    "home_win_prob": 0.3902691511387164,
+    "away_win_prob": 0.6097308488612836
   },
   {
     "home_team": "WSH",
     "away_team": "IND",
     "date": "2026-02-20",
     "winner": "IND",
-    "confidence": 0.6428571428571428,
-    "home_win_prob": 0.3571428571428572,
-    "away_win_prob": 0.6428571428571428
+    "confidence": 0.5909090909090909,
+    "home_win_prob": 0.40909090909090906,
+    "away_win_prob": 0.5909090909090909
   },
   {
     "home_team": "MEM",
@@ -3063,10 +3063,10 @@
     "home_team": "ATL",
     "away_team": "MIA",
     "date": "2026-02-20",
-    "winner": "MIA",
-    "confidence": 0.52,
-    "home_win_prob": 0.48,
-    "away_win_prob": 0.52
+    "winner": "ATL",
+    "confidence": 0.5217391304347826,
+    "home_win_prob": 0.5217391304347826,
+    "away_win_prob": 0.4782608695652174
   },
   {
     "home_team": "MIN",
@@ -3091,9 +3091,9 @@
     "away_team": "BKN",
     "date": "2026-02-20",
     "winner": "OKC",
-    "confidence": 0.8735177865612649,
-    "home_win_prob": 0.8735177865612649,
-    "away_win_prob": 0.1264822134387351
+    "confidence": 0.8825757575757576,
+    "home_win_prob": 0.8825757575757576,
+    "away_win_prob": 0.11742424242424243
   },
   {
     "home_team": "LAL",
