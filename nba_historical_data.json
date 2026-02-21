@@ -3104,25 +3104,28 @@
     "date": "2026-02-20",
     "home_team": "MIN",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 111,
+    "winner": "MIN"
   },
   {
     "date": "2026-02-20",
     "home_team": "NO",
     "away_team": "MIL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 118,
+    "away_score": 139,
+    "winner": "MIL"
   },
   {
     "date": "2026-02-20",
     "home_team": "OKC",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 105,
+    "away_score": 86,
+    "winner": "OKC"
   },
   {
     "date": "2026-02-20",
