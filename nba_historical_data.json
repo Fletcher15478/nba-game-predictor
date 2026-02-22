@@ -3212,9 +3212,10 @@
     "date": "2026-02-22",
     "home_team": "ATL",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 104,
+    "winner": "ATL"
   },
   {
     "date": "2026-02-22",
