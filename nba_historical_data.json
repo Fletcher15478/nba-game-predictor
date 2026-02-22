@@ -3203,9 +3203,10 @@
     "date": "2026-02-22",
     "home_team": "OKC",
     "away_team": "CLE",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 113,
+    "winner": "OKC"
   },
   {
     "date": "2026-02-22",
