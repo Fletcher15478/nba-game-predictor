@@ -3235,9 +3235,9 @@
     "away_team": "PHI",
     "date": "2026-02-22",
     "winner": "MIN",
-    "confidence": 0.5670289855072465,
-    "home_win_prob": 0.5670289855072465,
-    "away_win_prob": 0.43297101449275355
+    "confidence": 0.5886956521739131,
+    "home_win_prob": 0.5886956521739131,
+    "away_win_prob": 0.41130434782608694
   },
   {
     "home_team": "CHI",

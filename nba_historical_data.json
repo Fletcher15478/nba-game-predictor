@@ -3158,9 +3158,10 @@
     "date": "2026-02-21",
     "home_team": "NO",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 111,
+    "winner": "NO"
   },
   {
     "date": "2026-02-21",
