@@ -3167,9 +3167,10 @@
     "date": "2026-02-21",
     "home_team": "MIA",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 136,
+    "away_score": 120,
+    "winner": "MIA"
   },
   {
     "date": "2026-02-21",
@@ -3193,9 +3194,10 @@
     "date": "2026-02-21",
     "home_team": "NY",
     "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 108,
+    "away_score": 106,
+    "winner": "NY"
   },
   {
     "date": "2026-02-22",
