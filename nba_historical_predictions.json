@@ -3252,18 +3252,18 @@
     "home_team": "PHX",
     "away_team": "POR",
     "date": "2026-02-22",
-    "winner": "POR",
-    "confidence": 0.55,
-    "home_win_prob": 0.44999999999999996,
-    "away_win_prob": 0.55
+    "winner": "PHX",
+    "confidence": 0.52,
+    "home_win_prob": 0.52,
+    "away_win_prob": 0.48
   },
   {
     "home_team": "LAC",
     "away_team": "ORL",
     "date": "2026-02-22",
     "winner": "LAC",
-    "confidence": 0.6666666666666666,
-    "home_win_prob": 0.6666666666666666,
-    "away_win_prob": 0.33333333333333337
+    "confidence": 0.6904761904761905,
+    "home_win_prob": 0.6904761904761905,
+    "away_win_prob": 0.30952380952380953
   }
 ]

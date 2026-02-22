@@ -3149,9 +3149,10 @@
     "date": "2026-02-21",
     "home_team": "PHX",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 110,
+    "winner": "PHX"
   },
   {
     "date": "2026-02-21",
