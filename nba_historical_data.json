@@ -3221,17 +3221,19 @@
     "date": "2026-02-22",
     "home_team": "MIL",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 94,
+    "away_score": 122,
+    "winner": "TOR"
   },
   {
     "date": "2026-02-22",
     "home_team": "GS",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 117,
+    "winner": "GS"
   },
   {
     "date": "2026-02-22",
