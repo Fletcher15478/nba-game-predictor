@@ -3175,17 +3175,19 @@
     "date": "2026-02-21",
     "home_team": "CHI",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 126,
+    "winner": "DET"
   },
   {
     "date": "2026-02-21",
     "home_team": "SA",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 139,
+    "away_score": 122,
+    "winner": "SA"
   },
   {
     "date": "2026-02-21",

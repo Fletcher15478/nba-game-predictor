@@ -3244,9 +3244,9 @@
     "away_team": "NY",
     "date": "2026-02-22",
     "winner": "NY",
-    "confidence": 0.6739130434782609,
-    "home_win_prob": 0.32608695652173914,
-    "away_win_prob": 0.6739130434782609
+    "confidence": 0.6884057971014492,
+    "home_win_prob": 0.3115942028985508,
+    "away_win_prob": 0.6884057971014492
   },
   {
     "home_team": "PHX",
