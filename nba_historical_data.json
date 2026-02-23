@@ -3257,9 +3257,10 @@
     "date": "2026-02-22",
     "home_team": "LAL",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 89,
+    "away_score": 111,
+    "winner": "BOS"
   },
   {
     "date": "2026-02-22",
