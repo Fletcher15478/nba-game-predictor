@@ -3248,9 +3248,10 @@
     "date": "2026-02-22",
     "home_team": "WSH",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 129,
+    "winner": "CHA"
   },
   {
     "date": "2026-02-22",
