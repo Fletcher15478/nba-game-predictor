@@ -3239,9 +3239,10 @@
     "date": "2026-02-22",
     "home_team": "IND",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 130,
+    "away_score": 134,
+    "winner": "DAL"
   },
   {
     "date": "2026-02-22",
@@ -3287,6 +3288,30 @@
     "date": "2026-02-22",
     "home_team": "LAC",
     "away_team": "ORL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-23",
+    "home_team": "DET",
+    "away_team": "SA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-23",
+    "home_team": "MEM",
+    "away_team": "SAC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-02-23",
+    "home_team": "HOU",
+    "away_team": "UTAH",
     "status": "scheduled",
     "home_score": null,
     "away_score": null

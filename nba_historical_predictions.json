@@ -3265,5 +3265,32 @@
     "confidence": 0.6904761904761905,
     "home_win_prob": 0.6904761904761905,
     "away_win_prob": 0.30952380952380953
+  },
+  {
+    "home_team": "DET",
+    "away_team": "SA",
+    "date": "2026-02-23",
+    "winner": "DET",
+    "confidence": 0.5770750988142292,
+    "home_win_prob": 0.5770750988142292,
+    "away_win_prob": 0.42292490118577075
+  },
+  {
+    "home_team": "MEM",
+    "away_team": "SAC",
+    "date": "2026-02-23",
+    "winner": "MEM",
+    "confidence": 0.6127272727272727,
+    "home_win_prob": 0.6127272727272727,
+    "away_win_prob": 0.3872727272727273
+  },
+  {
+    "home_team": "HOU",
+    "away_team": "UTAH",
+    "date": "2026-02-23",
+    "winner": "HOU",
+    "confidence": 0.8200000000000001,
+    "home_win_prob": 0.8200000000000001,
+    "away_win_prob": 0.17999999999999994
   }
 ]
