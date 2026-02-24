@@ -3311,9 +3311,10 @@
     "date": "2026-02-23",
     "home_team": "MEM",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 123,
+    "winner": "SAC"
   },
   {
     "date": "2026-02-23",
