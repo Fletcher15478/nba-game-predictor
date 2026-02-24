@@ -3320,9 +3320,10 @@
     "date": "2026-02-23",
     "home_team": "HOU",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 105,
+    "winner": "HOU"
   },
   {
     "date": "2026-02-24",
