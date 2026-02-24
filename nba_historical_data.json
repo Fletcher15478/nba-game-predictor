@@ -3302,9 +3302,10 @@
     "date": "2026-02-23",
     "home_team": "DET",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 114,
+    "winner": "SA"
   },
   {
     "date": "2026-02-23",
