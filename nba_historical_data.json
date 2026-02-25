@@ -3365,33 +3365,37 @@
     "date": "2026-02-24",
     "home_team": "CLE",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 94,
+    "winner": "CLE"
   },
   {
     "date": "2026-02-24",
     "home_team": "CHI",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 99,
+    "away_score": 131,
+    "winner": "CHA"
   },
   {
     "date": "2026-02-24",
     "home_team": "MIL",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 117,
+    "winner": "MIL"
   },
   {
     "date": "2026-02-24",
     "home_team": "NO",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 109,
+    "winner": "NO"
   },
   {
     "date": "2026-02-24",

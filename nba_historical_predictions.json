@@ -3415,9 +3415,9 @@
     "away_team": "GS",
     "date": "2026-02-25",
     "winner": "GS",
-    "confidence": 0.7608695652173914,
-    "home_win_prob": 0.23913043478260865,
-    "away_win_prob": 0.7608695652173914
+    "confidence": 0.7391304347826086,
+    "home_win_prob": 0.26086956521739135,
+    "away_win_prob": 0.7391304347826086
   },
   {
     "home_team": "HOU",
@@ -3433,9 +3433,9 @@
     "away_team": "CLE",
     "date": "2026-02-25",
     "winner": "CLE",
-    "confidence": 0.7629399585921325,
-    "home_win_prob": 0.23706004140786752,
-    "away_win_prob": 0.7629399585921325
+    "confidence": 0.75,
+    "home_win_prob": 0.25,
+    "away_win_prob": 0.75
   },
   {
     "home_team": "DEN",
