@@ -3410,9 +3410,10 @@
     "date": "2026-02-24",
     "home_team": "POR",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 124,
+    "winner": "MIN"
   },
   {
     "date": "2026-02-24",
