@@ -3329,9 +3329,10 @@
     "date": "2026-02-24",
     "home_team": "IND",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 135,
+    "winner": "PHI"
   },
   {
     "date": "2026-02-24",
