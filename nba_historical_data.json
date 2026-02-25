@@ -3401,9 +3401,10 @@
     "date": "2026-02-24",
     "home_team": "PHX",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 81,
+    "away_score": 97,
+    "winner": "BOS"
   },
   {
     "date": "2026-02-24",
