@@ -3419,9 +3419,10 @@
     "date": "2026-02-24",
     "home_team": "LAL",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 110,
+    "winner": "ORL"
   },
   {
     "date": "2026-02-25",
