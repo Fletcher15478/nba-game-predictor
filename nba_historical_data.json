@@ -3338,25 +3338,28 @@
     "date": "2026-02-24",
     "home_team": "ATL",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 98,
+    "winner": "ATL"
   },
   {
     "date": "2026-02-24",
     "home_team": "BKN",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 123,
+    "winner": "DAL"
   },
   {
     "date": "2026-02-24",
     "home_team": "TOR",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 107,
+    "away_score": 116,
+    "winner": "OKC"
   },
   {
     "date": "2026-02-24",

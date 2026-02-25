@@ -3397,18 +3397,18 @@
     "away_team": "OKC",
     "date": "2026-02-25",
     "winner": "DET",
-    "confidence": 0.6141304347826086,
-    "home_win_prob": 0.6141304347826086,
-    "away_win_prob": 0.38586956521739135
+    "confidence": 0.5991304347826086,
+    "home_win_prob": 0.5991304347826086,
+    "away_win_prob": 0.40086956521739137
   },
   {
     "home_team": "TOR",
     "away_team": "SA",
     "date": "2026-02-25",
     "winner": "SA",
-    "confidence": 0.571969696969697,
-    "home_win_prob": 0.428030303030303,
-    "away_win_prob": 0.571969696969697
+    "confidence": 0.5996376811594203,
+    "home_win_prob": 0.4003623188405797,
+    "away_win_prob": 0.5996376811594203
   },
   {
     "home_team": "MEM",
