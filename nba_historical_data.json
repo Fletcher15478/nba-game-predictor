@@ -3444,9 +3444,10 @@
     "date": "2026-02-25",
     "home_team": "MEM",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 133,
+    "winner": "GS"
   },
   {
     "date": "2026-02-25",
