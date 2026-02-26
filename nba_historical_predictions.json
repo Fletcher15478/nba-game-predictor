@@ -3487,9 +3487,9 @@
     "away_team": "HOU",
     "date": "2026-02-26",
     "winner": "HOU",
-    "confidence": 0.5551839464882943,
-    "home_win_prob": 0.4448160535117057,
-    "away_win_prob": 0.5551839464882943
+    "confidence": 0.57085346215781,
+    "home_win_prob": 0.42914653784219003,
+    "away_win_prob": 0.57085346215781
   },
   {
     "home_team": "CHI",
@@ -3505,9 +3505,9 @@
     "away_team": "SAC",
     "date": "2026-02-26",
     "winner": "DAL",
-    "confidence": 0.6989966555183946,
-    "home_win_prob": 0.6989966555183946,
-    "away_win_prob": 0.3010033444816054
+    "confidence": 0.7061191626409018,
+    "home_win_prob": 0.7061191626409018,
+    "away_win_prob": 0.2938808373590982
   },
   {
     "home_team": "PHX",

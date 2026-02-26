@@ -3428,17 +3428,19 @@
     "date": "2026-02-25",
     "home_team": "DET",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 116,
+    "winner": "DET"
   },
   {
     "date": "2026-02-25",
     "home_team": "TOR",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 107,
+    "away_score": 110,
+    "winner": "SA"
   },
   {
     "date": "2026-02-25",
@@ -3453,17 +3455,19 @@
     "date": "2026-02-25",
     "home_team": "HOU",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 97,
+    "winner": "HOU"
   },
   {
     "date": "2026-02-25",
     "home_team": "MIL",
     "away_team": "CLE",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 118,
+    "away_score": 116,
+    "winner": "MIL"
   },
   {
     "date": "2026-02-25",
