@@ -432,10 +432,10 @@ export default function Home() {
               // Get actual winner from stats if past game
               let actualWinner = null
               if (isPast && stats && stats.predictions_history) {
-                const result = stats.predictions_history.find((r: any) => 
-                  r.home_team === pred.home_team && 
+                const result = stats.predictions_history.find((r: any) =>
+                  r.home_team === pred.home_team &&
                   r.away_team === pred.away_team &&
-                  r.week === pred.week
+                  (r.date === pred.date || r.week === pred.week)
                 )
                 if (result) {
                   actualWinner = result.actual
