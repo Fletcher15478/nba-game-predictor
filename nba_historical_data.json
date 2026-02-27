@@ -3527,17 +3527,19 @@
     "date": "2026-02-26",
     "home_team": "CHI",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 121,
+    "winner": "POR"
   },
   {
     "date": "2026-02-26",
     "home_team": "DAL",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 130,
+    "winner": "SAC"
   },
   {
     "date": "2026-02-26",

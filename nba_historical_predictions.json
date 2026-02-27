@@ -3568,9 +3568,9 @@
     "away_team": "MEM",
     "date": "2026-02-27",
     "winner": "DAL",
-    "confidence": 0.6413043478260869,
-    "home_win_prob": 0.6413043478260869,
-    "away_win_prob": 0.3586956521739131
+    "confidence": 0.625,
+    "home_win_prob": 0.625,
+    "away_win_prob": 0.375
   },
   {
     "home_team": "OKC",
