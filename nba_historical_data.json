@@ -3545,17 +3545,19 @@
     "date": "2026-02-26",
     "home_team": "PHX",
     "away_team": "LAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 110,
+    "winner": "PHX"
   },
   {
     "date": "2026-02-26",
     "home_team": "UTAH",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 118,
+    "away_score": 129,
+    "winner": "NO"
   },
   {
     "date": "2026-02-26",
