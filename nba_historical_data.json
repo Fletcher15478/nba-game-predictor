@@ -3500,17 +3500,19 @@
     "date": "2026-02-26",
     "home_team": "ATL",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 96,
+    "winner": "ATL"
   },
   {
     "date": "2026-02-26",
     "home_team": "BKN",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 126,
+    "winner": "SA"
   },
   {
     "date": "2026-02-26",
