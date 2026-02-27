@@ -3482,17 +3482,19 @@
     "date": "2026-02-26",
     "home_team": "IND",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 133,
+    "winner": "CHA"
   },
   {
     "date": "2026-02-26",
     "home_team": "PHI",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 117,
+    "winner": "PHI"
   },
   {
     "date": "2026-02-26",
