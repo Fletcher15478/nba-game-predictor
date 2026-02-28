@@ -3599,9 +3599,10 @@
     "date": "2026-02-27",
     "home_team": "DAL",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 105,
+    "away_score": 124,
+    "winner": "MEM"
   },
   {
     "date": "2026-02-27",
