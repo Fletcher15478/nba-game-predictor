@@ -3572,9 +3572,10 @@
     "date": "2026-02-27",
     "home_team": "DET",
     "away_team": "CLE",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 119,
+    "winner": "DET"
   },
   {
     "date": "2026-02-27",
@@ -3589,9 +3590,10 @@
     "date": "2026-02-27",
     "home_team": "MIL",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 98,
+    "away_score": 127,
+    "winner": "NY"
   },
   {
     "date": "2026-02-27",
