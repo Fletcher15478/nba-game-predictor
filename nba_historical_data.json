@@ -2750,6 +2750,42 @@
     "winner": "POR"
   },
   {
+    "date": "2026-02-10",
+    "home_team": "NY",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 134,
+    "away_score": 137,
+    "winner": "IND"
+  },
+  {
+    "date": "2026-02-10",
+    "home_team": "HOU",
+    "away_team": "LAC",
+    "status": "completed",
+    "home_score": 102,
+    "away_score": 95,
+    "winner": "HOU"
+  },
+  {
+    "date": "2026-02-10",
+    "home_team": "PHX",
+    "away_team": "DAL",
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 111,
+    "winner": "PHX"
+  },
+  {
+    "date": "2026-02-10",
+    "home_team": "LAL",
+    "away_team": "SA",
+    "status": "completed",
+    "home_score": 108,
+    "away_score": 136,
+    "winner": "SA"
+  },
+  {
     "date": "2026-02-11",
     "home_team": "CHA",
     "away_team": "ATL",
