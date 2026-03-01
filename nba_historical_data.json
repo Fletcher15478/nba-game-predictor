@@ -3635,9 +3635,10 @@
     "date": "2026-02-28",
     "home_team": "WSH",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 134,
+    "winner": "TOR"
   },
   {
     "date": "2026-02-28",
