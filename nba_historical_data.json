@@ -3200,105 +3200,6 @@
     "winner": "NY"
   },
   {
-    "date": "2026-02-22",
-    "home_team": "OKC",
-    "away_team": "CLE",
-    "status": "completed",
-    "home_score": 121,
-    "away_score": 113,
-    "winner": "OKC"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "ATL",
-    "away_team": "BKN",
-    "status": "completed",
-    "home_score": 115,
-    "away_score": 104,
-    "winner": "ATL"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "MIL",
-    "away_team": "TOR",
-    "status": "completed",
-    "home_score": 94,
-    "away_score": 122,
-    "winner": "TOR"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "GS",
-    "away_team": "DEN",
-    "status": "completed",
-    "home_score": 128,
-    "away_score": 117,
-    "winner": "GS"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "IND",
-    "away_team": "DAL",
-    "status": "completed",
-    "home_score": 130,
-    "away_score": 134,
-    "winner": "DAL"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "WSH",
-    "away_team": "CHA",
-    "status": "completed",
-    "home_score": 112,
-    "away_score": 129,
-    "winner": "CHA"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "LAL",
-    "away_team": "BOS",
-    "status": "completed",
-    "home_score": 89,
-    "away_score": 111,
-    "winner": "BOS"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "MIN",
-    "away_team": "PHI",
-    "status": "completed",
-    "home_score": 108,
-    "away_score": 135,
-    "winner": "PHI"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "CHI",
-    "away_team": "NY",
-    "status": "completed",
-    "home_score": 99,
-    "away_score": 105,
-    "winner": "NY"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "PHX",
-    "away_team": "POR",
-    "status": "completed",
-    "home_score": 77,
-    "away_score": 92,
-    "winner": "POR"
-  },
-  {
-    "date": "2026-02-22",
-    "home_team": "LAC",
-    "away_team": "ORL",
-    "status": "completed",
-    "home_score": 109,
-    "away_score": 111,
-    "winner": "ORL"
-  },
-  {
     "date": "2026-02-23",
     "home_team": "DET",
     "away_team": "SA",
@@ -3662,9 +3563,10 @@
     "date": "2026-03-01",
     "home_team": "NY",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 89,
+    "winner": "NY"
   },
   {
     "date": "2026-03-01",
