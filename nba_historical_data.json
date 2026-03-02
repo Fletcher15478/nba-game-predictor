@@ -3743,9 +3743,10 @@
     "date": "2026-03-01",
     "home_team": "LAC",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 137,
+    "away_score": 117,
+    "winner": "LAC"
   },
   {
     "date": "2026-03-01",
