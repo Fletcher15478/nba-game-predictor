@@ -3698,9 +3698,10 @@
     "date": "2026-03-01",
     "home_team": "IND",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 106,
+    "away_score": 125,
+    "winner": "MEM"
   },
   {
     "date": "2026-03-01",
@@ -3746,6 +3747,38 @@
     "date": "2026-03-01",
     "home_team": "LAL",
     "away_team": "SAC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-02",
+    "home_team": "WSH",
+    "away_team": "HOU",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-02",
+    "home_team": "MIL",
+    "away_team": "BOS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-02",
+    "home_team": "UTAH",
+    "away_team": "DEN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-02",
+    "home_team": "GS",
+    "away_team": "LAC",
     "status": "scheduled",
     "home_score": null,
     "away_score": null
