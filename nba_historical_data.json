@@ -3733,9 +3733,10 @@
     "date": "2026-03-01",
     "home_team": "DAL",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 87,
+    "away_score": 100,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-01",
