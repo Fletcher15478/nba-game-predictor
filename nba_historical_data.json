@@ -3725,9 +3725,10 @@
     "date": "2026-03-01",
     "home_team": "BOS",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 98,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-01",
