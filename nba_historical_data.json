@@ -3707,9 +3707,10 @@
     "date": "2026-03-01",
     "home_team": "ATL",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 135,
+    "away_score": 101,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-01",
