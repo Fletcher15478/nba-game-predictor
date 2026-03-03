@@ -3761,17 +3761,19 @@
     "date": "2026-03-02",
     "home_team": "WSH",
     "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 118,
+    "away_score": 123,
+    "winner": "HOU"
   },
   {
     "date": "2026-03-02",
     "home_team": "MIL",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 81,
+    "away_score": 108,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-02",

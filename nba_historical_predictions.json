@@ -3784,9 +3784,9 @@
     "away_team": "WSH",
     "date": "2026-03-03",
     "winner": "ORL",
-    "confidence": 0.6837037037037037,
-    "home_win_prob": 0.6837037037037037,
-    "away_win_prob": 0.3162962962962963
+    "confidence": 0.6942857142857143,
+    "home_win_prob": 0.6942857142857143,
+    "away_win_prob": 0.3057142857142857
   },
   {
     "home_team": "MIA",
