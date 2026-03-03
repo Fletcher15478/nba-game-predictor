@@ -3779,9 +3779,10 @@
     "date": "2026-03-02",
     "home_team": "UTAH",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 128,
+    "winner": "DEN"
   },
   {
     "date": "2026-03-02",
