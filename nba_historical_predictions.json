@@ -3856,18 +3856,18 @@
     "away_team": "OKC",
     "date": "2026-03-04",
     "winner": "OKC",
-    "confidence": 0.5714285714285715,
-    "home_win_prob": 0.4285714285714285,
-    "away_win_prob": 0.5714285714285715
+    "confidence": 0.5566502463054188,
+    "home_win_prob": 0.4433497536945812,
+    "away_win_prob": 0.5566502463054188
   },
   {
     "home_team": "BOS",
     "away_team": "CHA",
     "date": "2026-03-04",
     "winner": "BOS",
-    "confidence": 0.5455665024630542,
-    "home_win_prob": 0.5455665024630542,
-    "away_win_prob": 0.45443349753694584
+    "confidence": 0.5344827586206896,
+    "home_win_prob": 0.5344827586206896,
+    "away_win_prob": 0.4655172413793104
   },
   {
     "home_team": "PHI",

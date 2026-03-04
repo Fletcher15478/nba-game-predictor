@@ -3797,25 +3797,28 @@
     "date": "2026-03-03",
     "home_team": "CHA",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 117,
+    "away_score": 90,
+    "winner": "CHA"
   },
   {
     "date": "2026-03-03",
     "home_team": "CLE",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 109,
+    "winner": "CLE"
   },
   {
     "date": "2026-03-03",
     "home_team": "ORL",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 109,
+    "winner": "ORL"
   },
   {
     "date": "2026-03-03",
@@ -3829,9 +3832,10 @@
     "date": "2026-03-03",
     "home_team": "TOR",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 95,
+    "away_score": 111,
+    "winner": "NY"
   },
   {
     "date": "2026-03-03",
