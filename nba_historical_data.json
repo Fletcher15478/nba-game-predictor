@@ -3878,9 +3878,10 @@
     "date": "2026-03-03",
     "home_team": "SAC",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 114,
+    "winner": "PHX"
   },
   {
     "date": "2026-03-04",
