@@ -3824,9 +3824,10 @@
     "date": "2026-03-03",
     "home_team": "MIA",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 98,
+    "winner": "MIA"
   },
   {
     "date": "2026-03-03",
