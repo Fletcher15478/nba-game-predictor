@@ -3869,9 +3869,10 @@
     "date": "2026-03-03",
     "home_team": "LAL",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 101,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-03",
