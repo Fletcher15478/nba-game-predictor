@@ -3923,9 +3923,10 @@
     "date": "2026-03-04",
     "home_team": "MIL",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 131,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-04",
