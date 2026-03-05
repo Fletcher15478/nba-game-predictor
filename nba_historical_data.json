@@ -3914,9 +3914,10 @@
     "date": "2026-03-04",
     "home_team": "MEM",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 122,
+    "winner": "POR"
   },
   {
     "date": "2026-03-04",
