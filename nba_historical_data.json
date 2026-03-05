@@ -3887,25 +3887,28 @@
     "date": "2026-03-04",
     "home_team": "NY",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 100,
+    "away_score": 103,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-04",
     "home_team": "BOS",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 89,
+    "away_score": 118,
+    "winner": "CHA"
   },
   {
     "date": "2026-03-04",
     "home_team": "PHI",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 106,
+    "away_score": 102,
+    "winner": "PHI"
   },
   {
     "date": "2026-03-04",

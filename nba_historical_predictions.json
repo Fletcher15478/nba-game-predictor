@@ -3919,9 +3919,9 @@
     "away_team": "UTAH",
     "date": "2026-03-05",
     "winner": "WSH",
-    "confidence": 0.5689655172413793,
-    "home_win_prob": 0.5689655172413793,
-    "away_win_prob": 0.43103448275862066
+    "confidence": 0.5758620689655172,
+    "home_win_prob": 0.5758620689655172,
+    "away_win_prob": 0.42413793103448283
   },
   {
     "home_team": "MIA",
