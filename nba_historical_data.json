@@ -3941,9 +3941,10 @@
     "date": "2026-03-05",
     "home_team": "ORL",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 114,
+    "winner": "ORL"
   },
   {
     "date": "2026-03-05",
@@ -3958,9 +3959,10 @@
     "date": "2026-03-05",
     "home_team": "MIA",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 110,
+    "winner": "MIA"
   },
   {
     "date": "2026-03-05",

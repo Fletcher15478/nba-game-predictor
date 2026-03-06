@@ -3991,18 +3991,18 @@
     "away_team": "DAL",
     "date": "2026-03-06",
     "winner": "BOS",
-    "confidence": 0.8666666666666667,
-    "home_win_prob": 0.8666666666666667,
-    "away_win_prob": 0.1333333333333333
+    "confidence": 0.8785714285714286,
+    "home_win_prob": 0.8785714285714286,
+    "away_win_prob": 0.12142857142857144
   },
   {
     "home_team": "CHA",
     "away_team": "MIA",
     "date": "2026-03-06",
     "winner": "CHA",
-    "confidence": 0.6827586206896551,
-    "home_win_prob": 0.6827586206896551,
-    "away_win_prob": 0.3172413793103449
+    "confidence": 0.6666666666666666,
+    "home_win_prob": 0.6666666666666666,
+    "away_win_prob": 0.33333333333333337
   },
   {
     "home_team": "HOU",
