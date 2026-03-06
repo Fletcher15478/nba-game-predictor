@@ -3949,9 +3949,10 @@
     "date": "2026-03-05",
     "home_team": "WSH",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 122,
+    "winner": "UTAH"
   },
   {
     "date": "2026-03-05",
