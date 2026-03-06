@@ -4018,9 +4018,9 @@
     "away_team": "NY",
     "date": "2026-03-06",
     "winner": "NY",
-    "confidence": 0.5494252873563218,
-    "home_win_prob": 0.4505747126436782,
-    "away_win_prob": 0.5494252873563218
+    "confidence": 0.5333333333333333,
+    "home_win_prob": 0.4666666666666667,
+    "away_win_prob": 0.5333333333333333
   },
   {
     "home_team": "PHX",
@@ -4045,8 +4045,8 @@
     "away_team": "IND",
     "date": "2026-03-06",
     "winner": "LAL",
-    "confidence": 0.7452380952380953,
-    "home_win_prob": 0.7452380952380953,
-    "away_win_prob": 0.25476190476190474
+    "confidence": 0.7269585253456221,
+    "home_win_prob": 0.7269585253456221,
+    "away_win_prob": 0.2730414746543779
   }
 ]
