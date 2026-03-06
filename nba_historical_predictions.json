@@ -4009,9 +4009,9 @@
     "away_team": "POR",
     "date": "2026-03-06",
     "winner": "HOU",
-    "confidence": 0.5482758620689655,
-    "home_win_prob": 0.5482758620689655,
-    "away_win_prob": 0.4517241379310345
+    "confidence": 0.5289210233592881,
+    "home_win_prob": 0.5289210233592881,
+    "away_win_prob": 0.47107897664071186
   },
   {
     "home_team": "DEN",

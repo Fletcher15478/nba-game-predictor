@@ -3968,9 +3968,10 @@
     "date": "2026-03-05",
     "home_team": "HOU",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 115,
+    "winner": "GS"
   },
   {
     "date": "2026-03-05",
