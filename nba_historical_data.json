@@ -4012,9 +4012,10 @@
     "date": "2026-03-05",
     "home_team": "SAC",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 133,
+    "winner": "NO"
   },
   {
     "date": "2026-03-06",
