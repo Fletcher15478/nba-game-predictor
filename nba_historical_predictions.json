@@ -4027,9 +4027,9 @@
     "away_team": "NO",
     "date": "2026-03-06",
     "winner": "PHX",
-    "confidence": 0.6785714285714286,
-    "home_win_prob": 0.6785714285714286,
-    "away_win_prob": 0.3214285714285714
+    "confidence": 0.6588669950738917,
+    "home_win_prob": 0.6588669950738917,
+    "away_win_prob": 0.3411330049261083
   },
   {
     "home_team": "SA",
