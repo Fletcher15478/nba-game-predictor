@@ -4040,9 +4040,10 @@
     "date": "2026-03-06",
     "home_team": "HOU",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 106,
+    "away_score": 99,
+    "winner": "HOU"
   },
   {
     "date": "2026-03-06",
