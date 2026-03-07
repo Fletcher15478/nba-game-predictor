@@ -4076,9 +4076,10 @@
     "date": "2026-03-06",
     "home_team": "LAL",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 117,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-07",
