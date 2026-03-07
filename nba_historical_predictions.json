@@ -4081,9 +4081,9 @@
     "away_team": "LAC",
     "date": "2026-03-07",
     "winner": "LAC",
-    "confidence": 0.8694581280788177,
-    "home_win_prob": 0.13054187192118227,
-    "away_win_prob": 0.8694581280788177
+    "confidence": 0.8476190476190476,
+    "home_win_prob": 0.1523809523809524,
+    "away_win_prob": 0.8476190476190476
   },
   {
     "home_team": "MIL",
