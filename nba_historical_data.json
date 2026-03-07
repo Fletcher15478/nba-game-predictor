@@ -4049,9 +4049,10 @@
     "date": "2026-03-06",
     "home_team": "DEN",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 142,
+    "winner": "NY"
   },
   {
     "date": "2026-03-06",
