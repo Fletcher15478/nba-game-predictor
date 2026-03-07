@@ -4085,9 +4085,10 @@
     "date": "2026-03-07",
     "home_team": "MIN",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 92,
+    "away_score": 119,
+    "winner": "ORL"
   },
   {
     "date": "2026-03-07",
