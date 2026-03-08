@@ -4126,9 +4126,9 @@
     "away_team": "DET",
     "date": "2026-03-08",
     "winner": "DET",
-    "confidence": 0.6658986175115208,
-    "home_win_prob": 0.3341013824884792,
-    "away_win_prob": 0.6658986175115208
+    "confidence": 0.6412680756395996,
+    "home_win_prob": 0.35873192436040036,
+    "away_win_prob": 0.6412680756395996
   },
   {
     "home_team": "TOR",
