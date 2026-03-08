@@ -4102,9 +4102,10 @@
     "date": "2026-03-07",
     "home_team": "ATL",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 116,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-07",
