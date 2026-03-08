@@ -4139,9 +4139,10 @@
     "date": "2026-03-08",
     "home_team": "CLE",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 98,
+    "away_score": 109,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-08",
