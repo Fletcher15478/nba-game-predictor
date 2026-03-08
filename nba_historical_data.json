@@ -4148,9 +4148,10 @@
     "date": "2026-03-08",
     "home_team": "LAL",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 97,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-08",
