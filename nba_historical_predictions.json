@@ -4153,9 +4153,9 @@
     "away_team": "ORL",
     "date": "2026-03-08",
     "winner": "ORL",
-    "confidence": 0.5912698412698413,
-    "home_win_prob": 0.4087301587301587,
-    "away_win_prob": 0.5912698412698413
+    "confidence": 0.5714285714285714,
+    "home_win_prob": 0.4285714285714286,
+    "away_win_prob": 0.5714285714285714
   },
   {
     "home_team": "SA",

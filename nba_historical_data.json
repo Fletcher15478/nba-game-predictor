@@ -4112,25 +4112,28 @@
     "date": "2026-03-07",
     "home_team": "MEM",
     "away_team": "LAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 123,
+    "winner": "LAC"
   },
   {
     "date": "2026-03-07",
     "home_team": "MIL",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 99,
+    "winner": "MIL"
   },
   {
     "date": "2026-03-07",
     "home_team": "OKC",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 97,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-08",
