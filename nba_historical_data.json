@@ -4202,17 +4202,19 @@
     "date": "2026-03-08",
     "home_team": "POR",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 111,
+    "winner": "POR"
   },
   {
     "date": "2026-03-08",
     "home_team": "SAC",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 110,
+    "winner": "SAC"
   },
   {
     "date": "2026-03-08",
