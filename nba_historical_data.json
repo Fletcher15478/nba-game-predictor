@@ -4157,9 +4157,10 @@
     "date": "2026-03-08",
     "home_team": "MIA",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 110,
+    "winner": "MIA"
   },
   {
     "date": "2026-03-08",
