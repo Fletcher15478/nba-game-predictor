@@ -4184,17 +4184,19 @@
     "date": "2026-03-08",
     "home_team": "MIL",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 91,
+    "away_score": 130,
+    "winner": "ORL"
   },
   {
     "date": "2026-03-08",
     "home_team": "SA",
     "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 145,
+    "away_score": 120,
+    "winner": "SA"
   },
   {
     "date": "2026-03-08",
