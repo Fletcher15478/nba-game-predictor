@@ -4243,9 +4243,9 @@
     "away_team": "MEM",
     "date": "2026-03-10",
     "winner": "PHI",
-    "confidence": 0.7553879310344828,
-    "home_win_prob": 0.7553879310344828,
-    "away_win_prob": 0.24461206896551724
+    "confidence": 0.7392894461859979,
+    "home_win_prob": 0.7392894461859979,
+    "away_win_prob": 0.2607105538140021
   },
   {
     "home_team": "BKN",
