@@ -4306,9 +4306,9 @@
     "away_team": "CHI",
     "date": "2026-03-10",
     "winner": "GS",
-    "confidence": 0.6601779755283649,
-    "home_win_prob": 0.6601779755283649,
-    "away_win_prob": 0.3398220244716351
+    "confidence": 0.6440860215053763,
+    "home_win_prob": 0.6440860215053763,
+    "away_win_prob": 0.3559139784946237
   },
   {
     "home_team": "POR",

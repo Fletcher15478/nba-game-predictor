@@ -4256,9 +4256,10 @@
     "date": "2026-03-09",
     "home_team": "UTAH",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 116,
+    "winner": "UTAH"
   },
   {
     "date": "2026-03-09",
