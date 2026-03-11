@@ -4274,33 +4274,37 @@
     "date": "2026-03-10",
     "home_team": "PHI",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 139,
+    "away_score": 129,
+    "winner": "PHI"
   },
   {
     "date": "2026-03-10",
     "home_team": "BKN",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 100,
+    "away_score": 138,
+    "winner": "DET"
   },
   {
     "date": "2026-03-10",
     "home_team": "MIA",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 150,
+    "away_score": 129,
+    "winner": "MIA"
   },
   {
     "date": "2026-03-10",
     "home_team": "ATL",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 112,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-10",
