@@ -4345,9 +4345,10 @@
     "date": "2026-03-10",
     "home_team": "POR",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 101,
+    "away_score": 103,
+    "winner": "CHA"
   },
   {
     "date": "2026-03-10",
