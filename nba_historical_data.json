@@ -4337,9 +4337,10 @@
     "date": "2026-03-10",
     "home_team": "GS",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 130,
+    "winner": "CHI"
   },
   {
     "date": "2026-03-10",
@@ -4354,9 +4355,10 @@
     "date": "2026-03-10",
     "home_team": "SAC",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 109,
+    "winner": "SAC"
   },
   {
     "date": "2026-03-10",
