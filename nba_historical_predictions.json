@@ -4351,9 +4351,9 @@
     "away_team": "TOR",
     "date": "2026-03-11",
     "winner": "TOR",
-    "confidence": 0.6520737327188939,
-    "home_win_prob": 0.3479262672811061,
-    "away_win_prob": 0.6520737327188939
+    "confidence": 0.632369299221357,
+    "home_win_prob": 0.367630700778643,
+    "away_win_prob": 0.632369299221357
   },
   {
     "home_team": "UTAH",
@@ -4369,9 +4369,9 @@
     "away_team": "HOU",
     "date": "2026-03-11",
     "winner": "HOU",
-    "confidence": 0.5757575757575758,
-    "home_win_prob": 0.4242424242424242,
-    "away_win_prob": 0.5757575757575758
+    "confidence": 0.5882352941176471,
+    "home_win_prob": 0.4117647058823529,
+    "away_win_prob": 0.5882352941176471
   },
   {
     "home_team": "SAC",
