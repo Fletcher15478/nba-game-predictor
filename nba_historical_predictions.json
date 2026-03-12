@@ -4450,9 +4450,9 @@
     "away_team": "DEN",
     "date": "2026-03-12",
     "winner": "SA",
-    "confidence": 0.75,
-    "home_win_prob": 0.75,
-    "away_win_prob": 0.25
+    "confidence": 0.7348484848484849,
+    "home_win_prob": 0.7348484848484849,
+    "away_win_prob": 0.26515151515151514
   },
   {
     "home_team": "OKC",
