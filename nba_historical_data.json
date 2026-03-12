@@ -4373,17 +4373,19 @@
     "date": "2026-03-11",
     "home_team": "ORL",
     "away_team": "CLE",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 122,
+    "winner": "ORL"
   },
   {
     "date": "2026-03-11",
     "home_team": "NO",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 111,
+    "winner": "NO"
   },
   {
     "date": "2026-03-11",

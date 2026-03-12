@@ -4414,9 +4414,9 @@
     "away_team": "WSH",
     "date": "2026-03-12",
     "winner": "ORL",
-    "confidence": 0.8017241379310345,
-    "home_win_prob": 0.8017241379310345,
-    "away_win_prob": 0.19827586206896552
+    "confidence": 0.8166666666666667,
+    "home_win_prob": 0.8166666666666667,
+    "away_win_prob": 0.18333333333333335
   },
   {
     "home_team": "ATL",
