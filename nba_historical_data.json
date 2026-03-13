@@ -4494,5 +4494,69 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "DET",
+    "away_team": "MEM",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "IND",
+    "away_team": "NY",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "TOR",
+    "away_team": "PHX",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "DAL",
+    "away_team": "CLE",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "HOU",
+    "away_team": "NO",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "GS",
+    "away_team": "MIN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "POR",
+    "away_team": "UTAH",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-13",
+    "home_team": "LAC",
+    "away_team": "CHI",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
