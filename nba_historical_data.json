@@ -638,60 +638,6 @@
     "winner": "MIL"
   },
   {
-    "date": "2026-01-10",
-    "home_team": "CLE",
-    "away_team": "MIN",
-    "status": "completed",
-    "home_score": 146,
-    "away_score": 134,
-    "winner": "CLE"
-  },
-  {
-    "date": "2026-01-10",
-    "home_team": "IND",
-    "away_team": "MIA",
-    "status": "completed",
-    "home_score": 123,
-    "away_score": 99,
-    "winner": "IND"
-  },
-  {
-    "date": "2026-01-10",
-    "home_team": "DET",
-    "away_team": "LAC",
-    "status": "completed",
-    "home_score": 92,
-    "away_score": 98,
-    "winner": "LAC"
-  },
-  {
-    "date": "2026-01-10",
-    "home_team": "BOS",
-    "away_team": "SA",
-    "status": "completed",
-    "home_score": 95,
-    "away_score": 100,
-    "winner": "SA"
-  },
-  {
-    "date": "2026-01-10",
-    "home_team": "CHI",
-    "away_team": "DAL",
-    "status": "completed",
-    "home_score": 125,
-    "away_score": 107,
-    "winner": "CHI"
-  },
-  {
-    "date": "2026-01-10",
-    "home_team": "UTAH",
-    "away_team": "CHA",
-    "status": "completed",
-    "home_score": 95,
-    "away_score": 150,
-    "winner": "CHA"
-  },
-  {
     "date": "2026-01-11",
     "home_team": "ORL",
     "away_team": "NO",
