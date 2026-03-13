@@ -4477,27 +4477,27 @@
     "away_team": "MEM",
     "date": "2026-03-13",
     "winner": "DET",
-    "confidence": 0.9193548387096774,
-    "home_win_prob": 0.9193548387096774,
-    "away_win_prob": 0.08064516129032262
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
   },
   {
     "home_team": "IND",
     "away_team": "NY",
     "date": "2026-03-13",
     "winner": "NY",
-    "confidence": 0.7685009487666035,
-    "home_win_prob": 0.23149905123339654,
-    "away_win_prob": 0.7685009487666035
+    "confidence": 0.7775735294117647,
+    "home_win_prob": 0.22242647058823528,
+    "away_win_prob": 0.7775735294117647
   },
   {
     "home_team": "TOR",
     "away_team": "PHX",
     "date": "2026-03-13",
     "winner": "PHX",
-    "confidence": 0.5604166666666667,
-    "home_win_prob": 0.4395833333333333,
-    "away_win_prob": 0.5604166666666667
+    "confidence": 0.5727272727272728,
+    "home_win_prob": 0.42727272727272725,
+    "away_win_prob": 0.5727272727272728
   },
   {
     "home_team": "DAL",

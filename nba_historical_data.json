@@ -4427,17 +4427,19 @@
     "date": "2026-03-12",
     "home_team": "DET",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 109,
+    "winner": "DET"
   },
   {
     "date": "2026-03-12",
     "home_team": "IND",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 108,
+    "away_score": 123,
+    "winner": "PHX"
   },
   {
     "date": "2026-03-12",
