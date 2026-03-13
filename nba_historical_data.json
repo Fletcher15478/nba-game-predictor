@@ -4499,9 +4499,10 @@
     "date": "2026-03-12",
     "home_team": "LAL",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 142,
+    "away_score": 130,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-13",

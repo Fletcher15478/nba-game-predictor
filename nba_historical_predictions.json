@@ -4540,8 +4540,8 @@
     "away_team": "CHI",
     "date": "2026-03-13",
     "winner": "LAC",
-    "confidence": 0.8229166666666666,
-    "home_win_prob": 0.8229166666666666,
-    "away_win_prob": 0.17708333333333337
+    "confidence": 0.8333333333333333,
+    "home_win_prob": 0.8333333333333333,
+    "away_win_prob": 0.16666666666666674
   }
 ]
