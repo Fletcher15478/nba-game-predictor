@@ -4481,17 +4481,19 @@
     "date": "2026-03-12",
     "home_team": "SA",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 136,
+    "winner": "DEN"
   },
   {
     "date": "2026-03-12",
     "home_team": "OKC",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 102,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-12",
