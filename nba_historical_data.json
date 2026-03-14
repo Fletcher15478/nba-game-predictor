@@ -4571,9 +4571,10 @@
     "date": "2026-03-13",
     "home_team": "LAC",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 108,
+    "winner": "LAC"
   },
   {
     "date": "2026-03-14",
