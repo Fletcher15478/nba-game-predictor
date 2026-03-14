@@ -4580,9 +4580,10 @@
     "date": "2026-03-14",
     "home_team": "PHI",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 97,
+    "winner": "PHI"
   },
   {
     "date": "2026-03-14",
