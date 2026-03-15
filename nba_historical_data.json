@@ -2975,6 +2975,96 @@
     "winner": "STARS"
   },
   {
+    "date": "2026-02-19",
+    "home_team": "CHA",
+    "away_team": "HOU",
+    "status": "completed",
+    "home_score": 101,
+    "away_score": 105,
+    "winner": "HOU"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "CLE",
+    "away_team": "BKN",
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 84,
+    "winner": "CLE"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "PHI",
+    "away_team": "ATL",
+    "status": "completed",
+    "home_score": 107,
+    "away_score": 117,
+    "winner": "ATL"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "WSH",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 105,
+    "winner": "WSH"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "NY",
+    "away_team": "DET",
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 126,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "CHI",
+    "away_team": "TOR",
+    "status": "completed",
+    "home_score": 101,
+    "away_score": 110,
+    "winner": "TOR"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "SA",
+    "away_team": "PHX",
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 94,
+    "winner": "SA"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "GS",
+    "away_team": "BOS",
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 121,
+    "winner": "BOS"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "SAC",
+    "away_team": "ORL",
+    "status": "completed",
+    "home_score": 94,
+    "away_score": 131,
+    "winner": "ORL"
+  },
+  {
+    "date": "2026-02-19",
+    "home_team": "LAC",
+    "away_team": "DEN",
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 114,
+    "winner": "LAC"
+  },
+  {
     "date": "2026-02-20",
     "home_team": "CHA",
     "away_team": "CLE",
@@ -4553,9 +4643,10 @@
     "date": "2026-03-15",
     "home_team": "OKC",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 103,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-15",
