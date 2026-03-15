@@ -4666,8 +4666,8 @@
     "away_team": "UTAH",
     "date": "2026-03-15",
     "winner": "SAC",
-    "confidence": 0.52,
-    "home_win_prob": 0.52,
-    "away_win_prob": 0.48
+    "confidence": 0.5285714285714286,
+    "home_win_prob": 0.5285714285714286,
+    "away_win_prob": 0.4714285714285714
   }
 ]
