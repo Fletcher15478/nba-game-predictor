@@ -4616,9 +4616,10 @@
     "date": "2026-03-14",
     "home_team": "MIA",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 117,
+    "away_score": 121,
+    "winner": "ORL"
   },
   {
     "date": "2026-03-14",
