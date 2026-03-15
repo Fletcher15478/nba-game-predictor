@@ -4607,9 +4607,10 @@
     "date": "2026-03-14",
     "home_team": "BOS",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 100,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-14",
@@ -4631,6 +4632,62 @@
     "date": "2026-03-14",
     "home_team": "LAC",
     "away_team": "SAC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-15",
+    "home_team": "OKC",
+    "away_team": "MIN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-15",
+    "home_team": "CLE",
+    "away_team": "DAL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-15",
+    "home_team": "TOR",
+    "away_team": "DET",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-15",
+    "home_team": "MIL",
+    "away_team": "IND",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-15",
+    "home_team": "PHI",
+    "away_team": "POR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-15",
+    "home_team": "NY",
+    "away_team": "GS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-15",
+    "home_team": "SAC",
+    "away_team": "UTAH",
     "status": "scheduled",
     "home_score": null,
     "away_score": null
