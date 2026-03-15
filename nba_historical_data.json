@@ -4668,9 +4668,10 @@
     "date": "2026-03-15",
     "home_team": "MIL",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 134,
+    "away_score": 123,
+    "winner": "MIL"
   },
   {
     "date": "2026-03-15",
