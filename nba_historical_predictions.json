@@ -4684,9 +4684,9 @@
     "away_team": "GS",
     "date": "2026-03-16",
     "winner": "GS",
-    "confidence": 0.7022058823529411,
-    "home_win_prob": 0.2977941176470589,
-    "away_win_prob": 0.7022058823529411
+    "confidence": 0.6889483065953654,
+    "home_win_prob": 0.31105169340463457,
+    "away_win_prob": 0.6889483065953654
   },
   {
     "home_team": "BKN",

@@ -4688,9 +4688,10 @@
     "date": "2026-03-15",
     "home_team": "NY",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 107,
+    "winner": "NY"
   },
   {
     "date": "2026-03-15",
