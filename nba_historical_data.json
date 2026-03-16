@@ -4697,9 +4697,10 @@
     "date": "2026-03-15",
     "home_team": "SAC",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 111,
+    "winner": "SAC"
   },
   {
     "date": "2026-03-16",
