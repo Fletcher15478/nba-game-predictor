@@ -4706,9 +4706,10 @@
     "date": "2026-03-16",
     "home_team": "ATL",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 112,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-16",
@@ -4723,33 +4724,37 @@
     "date": "2026-03-16",
     "home_team": "BKN",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 95,
+    "away_score": 114,
+    "winner": "POR"
   },
   {
     "date": "2026-03-16",
     "home_team": "BOS",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 112,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-16",
     "home_team": "CHI",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 132,
+    "away_score": 107,
+    "winner": "CHI"
   },
   {
     "date": "2026-03-16",
     "home_team": "NO",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 129,
+    "away_score": 111,
+    "winner": "NO"
   },
   {
     "date": "2026-03-16",

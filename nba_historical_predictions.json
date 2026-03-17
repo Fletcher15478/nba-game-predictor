@@ -4756,9 +4756,9 @@
     "away_team": "OKC",
     "date": "2026-03-17",
     "winner": "OKC",
-    "confidence": 0.6121323529411765,
-    "home_win_prob": 0.3878676470588235,
-    "away_win_prob": 0.6121323529411765
+    "confidence": 0.6301247771836007,
+    "home_win_prob": 0.3698752228163993,
+    "away_win_prob": 0.6301247771836007
   },
   {
     "home_team": "WSH",
@@ -4792,9 +4792,9 @@
     "away_team": "PHX",
     "date": "2026-03-17",
     "winner": "MIN",
-    "confidence": 0.55,
-    "home_win_prob": 0.55,
-    "away_win_prob": 0.44999999999999996
+    "confidence": 0.52,
+    "home_win_prob": 0.52,
+    "away_win_prob": 0.48
   },
   {
     "home_team": "DEN",
