@@ -4714,9 +4714,10 @@
     "date": "2026-03-16",
     "home_team": "WSH",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 117,
+    "away_score": 125,
+    "winner": "GS"
   },
   {
     "date": "2026-03-16",
