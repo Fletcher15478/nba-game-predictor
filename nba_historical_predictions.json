@@ -4882,9 +4882,9 @@
     "away_team": "DEN",
     "date": "2026-03-18",
     "winner": "DEN",
-    "confidence": 0.7789915966386554,
-    "home_win_prob": 0.22100840336134464,
-    "away_win_prob": 0.7789915966386554
+    "confidence": 0.792483660130719,
+    "home_win_prob": 0.20751633986928097,
+    "away_win_prob": 0.792483660130719
   },
   {
     "home_team": "HOU",
