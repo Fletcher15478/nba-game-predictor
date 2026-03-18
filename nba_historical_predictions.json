@@ -4813,5 +4813,86 @@
     "confidence": 0.92,
     "home_win_prob": 0.07999999999999996,
     "away_win_prob": 0.92
+  },
+  {
+    "home_team": "BOS",
+    "away_team": "GS",
+    "date": "2026-03-18",
+    "winner": "BOS",
+    "confidence": 0.7532679738562091,
+    "home_win_prob": 0.7532679738562091,
+    "away_win_prob": 0.24673202614379086
+  },
+  {
+    "home_team": "BKN",
+    "away_team": "OKC",
+    "date": "2026-03-18",
+    "winner": "OKC",
+    "confidence": 0.92,
+    "home_win_prob": 0.07999999999999996,
+    "away_win_prob": 0.92
+  },
+  {
+    "home_team": "IND",
+    "away_team": "POR",
+    "date": "2026-03-18",
+    "winner": "POR",
+    "confidence": 0.7781512605042016,
+    "home_win_prob": 0.22184873949579842,
+    "away_win_prob": 0.7781512605042016
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "TOR",
+    "date": "2026-03-18",
+    "winner": "TOR",
+    "confidence": 0.7196428571428571,
+    "home_win_prob": 0.28035714285714286,
+    "away_win_prob": 0.7196428571428571
+  },
+  {
+    "home_team": "MIN",
+    "away_team": "UTAH",
+    "date": "2026-03-18",
+    "winner": "MIN",
+    "confidence": 0.8660130718954249,
+    "home_win_prob": 0.8660130718954249,
+    "away_win_prob": 0.13398692810457513
+  },
+  {
+    "home_team": "NO",
+    "away_team": "LAC",
+    "date": "2026-03-18",
+    "winner": "LAC",
+    "confidence": 0.6977124183006536,
+    "home_win_prob": 0.30228758169934644,
+    "away_win_prob": 0.6977124183006536
+  },
+  {
+    "home_team": "DAL",
+    "away_team": "ATL",
+    "date": "2026-03-18",
+    "winner": "ATL",
+    "confidence": 0.8220779220779221,
+    "home_win_prob": 0.17792207792207793,
+    "away_win_prob": 0.8220779220779221
+  },
+  {
+    "home_team": "MEM",
+    "away_team": "DEN",
+    "date": "2026-03-18",
+    "winner": "DEN",
+    "confidence": 0.7789915966386554,
+    "home_win_prob": 0.22100840336134464,
+    "away_win_prob": 0.7789915966386554
+  },
+  {
+    "home_team": "HOU",
+    "away_team": "LAL",
+    "date": "2026-03-18",
+    "winner": "LAL",
+    "confidence": 0.5540540540540541,
+    "home_win_prob": 0.44594594594594594,
+    "away_win_prob": 0.5540540540540541
   }
 ]
