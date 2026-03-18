@@ -4805,9 +4805,10 @@
     "date": "2026-03-17",
     "home_team": "NY",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 136,
+    "away_score": 110,
+    "winner": "NY"
   },
   {
     "date": "2026-03-17",
@@ -4821,9 +4822,10 @@
     "date": "2026-03-17",
     "home_team": "MIN",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 104,
+    "winner": "MIN"
   },
   {
     "date": "2026-03-17",
