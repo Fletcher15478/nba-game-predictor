@@ -4927,18 +4927,18 @@
     "away_team": "CLE",
     "date": "2026-03-19",
     "winner": "CLE",
-    "confidence": 0.8336134453781513,
-    "home_win_prob": 0.1663865546218487,
-    "away_win_prob": 0.8336134453781513
+    "confidence": 0.8431372549019609,
+    "home_win_prob": 0.1568627450980391,
+    "away_win_prob": 0.8431372549019609
   },
   {
     "home_team": "NO",
     "away_team": "LAC",
     "date": "2026-03-19",
     "winner": "LAC",
-    "confidence": 0.6977124183006536,
-    "home_win_prob": 0.30228758169934644,
-    "away_win_prob": 0.6977124183006536
+    "confidence": 0.6644787644787644,
+    "home_win_prob": 0.3355212355212356,
+    "away_win_prob": 0.6644787644787644
   },
   {
     "home_team": "SA",
@@ -4954,9 +4954,9 @@
     "away_team": "MIL",
     "date": "2026-03-19",
     "winner": "MIL",
-    "confidence": 0.6895424836601307,
-    "home_win_prob": 0.3104575163398693,
-    "away_win_prob": 0.6895424836601307
+    "confidence": 0.6955484896661367,
+    "home_win_prob": 0.3044515103338633,
+    "away_win_prob": 0.6955484896661367
   },
   {
     "home_team": "SAC",

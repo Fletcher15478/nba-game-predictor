@@ -4859,41 +4859,46 @@
     "date": "2026-03-18",
     "home_team": "BKN",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 92,
+    "away_score": 121,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-18",
     "home_team": "IND",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 127,
+    "winner": "POR"
   },
   {
     "date": "2026-03-18",
     "home_team": "CHI",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 139,
+    "winner": "TOR"
   },
   {
     "date": "2026-03-18",
     "home_team": "MIN",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 147,
+    "away_score": 111,
+    "winner": "MIN"
   },
   {
     "date": "2026-03-18",
     "home_team": "NO",
     "away_team": "LAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 109,
+    "winner": "NO"
   },
   {
     "date": "2026-03-18",
