@@ -4850,9 +4850,10 @@
     "date": "2026-03-18",
     "home_team": "BOS",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 99,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-18",
