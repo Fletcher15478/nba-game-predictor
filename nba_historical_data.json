@@ -4922,9 +4922,10 @@
     "date": "2026-03-18",
     "home_team": "HOU",
     "away_team": "LAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 124,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-19",
