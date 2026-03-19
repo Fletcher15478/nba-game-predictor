@@ -4904,17 +4904,19 @@
     "date": "2026-03-18",
     "home_team": "DAL",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 135,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-18",
     "home_team": "MEM",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 118,
+    "winner": "MEM"
   },
   {
     "date": "2026-03-18",
