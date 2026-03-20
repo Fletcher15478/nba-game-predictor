@@ -4990,5 +4990,53 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-03-20",
+    "home_team": "BKN",
+    "away_team": "NY",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-20",
+    "home_team": "DET",
+    "away_team": "GS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-20",
+    "home_team": "HOU",
+    "away_team": "ATL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-20",
+    "home_team": "MEM",
+    "away_team": "BOS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-20",
+    "home_team": "MIN",
+    "away_team": "POR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-03-20",
+    "home_team": "DEN",
+    "away_team": "TOR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
