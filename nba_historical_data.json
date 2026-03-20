@@ -4939,9 +4939,10 @@
     "date": "2026-03-19",
     "home_team": "WSH",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 95,
+    "away_score": 117,
+    "winner": "DET"
   },
   {
     "date": "2026-03-19",
