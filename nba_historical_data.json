@@ -4931,9 +4931,10 @@
     "date": "2026-03-19",
     "home_team": "CHA",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 130,
+    "away_score": 111,
+    "winner": "CHA"
   },
   {
     "date": "2026-03-19",
