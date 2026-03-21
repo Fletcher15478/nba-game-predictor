@@ -5003,17 +5003,19 @@
     "date": "2026-03-20",
     "home_team": "BKN",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 92,
+    "away_score": 93,
+    "winner": "NY"
   },
   {
     "date": "2026-03-20",
     "home_team": "DET",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 101,
+    "winner": "DET"
   },
   {
     "date": "2026-03-20",

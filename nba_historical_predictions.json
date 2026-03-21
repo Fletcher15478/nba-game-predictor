@@ -5062,9 +5062,9 @@
     "away_team": "GS",
     "date": "2026-03-21",
     "winner": "ATL",
-    "confidence": 0.7184873949579833,
-    "home_win_prob": 0.7184873949579833,
-    "away_win_prob": 0.2815126050420167
+    "confidence": 0.7303921568627452,
+    "home_win_prob": 0.7303921568627452,
+    "away_win_prob": 0.26960784313725483
   },
   {
     "home_team": "HOU",
