@@ -5057,9 +5057,10 @@
     "date": "2026-03-21",
     "home_team": "WSH",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 132,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-21",
