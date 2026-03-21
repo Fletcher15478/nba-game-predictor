@@ -2075,60 +2075,6 @@
     "winner": "DET"
   },
   {
-    "date": "2026-01-31",
-    "home_team": "CHA",
-    "away_team": "SA",
-    "status": "completed",
-    "home_score": 111,
-    "away_score": 106,
-    "winner": "CHA"
-  },
-  {
-    "date": "2026-01-31",
-    "home_team": "IND",
-    "away_team": "ATL",
-    "status": "completed",
-    "home_score": 129,
-    "away_score": 124,
-    "winner": "IND"
-  },
-  {
-    "date": "2026-01-31",
-    "home_team": "PHI",
-    "away_team": "NO",
-    "status": "completed",
-    "home_score": 124,
-    "away_score": 114,
-    "winner": "PHI"
-  },
-  {
-    "date": "2026-01-31",
-    "home_team": "MIA",
-    "away_team": "CHI",
-    "status": "completed",
-    "home_score": 118,
-    "away_score": 125,
-    "winner": "CHI"
-  },
-  {
-    "date": "2026-01-31",
-    "home_team": "MEM",
-    "away_team": "MIN",
-    "status": "completed",
-    "home_score": 114,
-    "away_score": 131,
-    "winner": "MIN"
-  },
-  {
-    "date": "2026-01-31",
-    "home_team": "HOU",
-    "away_team": "DAL",
-    "status": "completed",
-    "home_score": 111,
-    "away_score": 107,
-    "winner": "HOU"
-  },
-  {
     "date": "2026-02-01",
     "home_team": "BOS",
     "away_team": "MIL",
@@ -5021,25 +4967,28 @@
     "date": "2026-03-20",
     "home_team": "HOU",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 117,
+    "away_score": 95,
+    "winner": "HOU"
   },
   {
     "date": "2026-03-20",
     "home_team": "MEM",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 117,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-20",
     "home_team": "MIN",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 108,
+    "winner": "POR"
   },
   {
     "date": "2026-03-20",
