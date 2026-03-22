@@ -5129,9 +5129,10 @@
     "date": "2026-03-21",
     "home_team": "UTAH",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 126,
+    "winner": "PHI"
   },
   {
     "date": "2026-03-21",
