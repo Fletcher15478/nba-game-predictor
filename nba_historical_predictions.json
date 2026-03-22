@@ -5152,8 +5152,8 @@
     "away_team": "TOR",
     "date": "2026-03-22",
     "winner": "TOR",
-    "confidence": 0.52,
-    "home_win_prob": 0.48,
-    "away_win_prob": 0.52
+    "confidence": 0.5325077399380805,
+    "home_win_prob": 0.46749226006191946,
+    "away_win_prob": 0.5325077399380805
   }
 ]
