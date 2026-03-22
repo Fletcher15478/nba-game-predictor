@@ -135,78 +135,6 @@
     "winner": "LAL"
   },
   {
-    "date": "2026-01-03",
-    "home_team": "MIA",
-    "away_team": "MIN",
-    "status": "completed",
-    "home_score": 115,
-    "away_score": 125,
-    "winner": "MIN"
-  },
-  {
-    "date": "2026-01-03",
-    "home_team": "NY",
-    "away_team": "PHI",
-    "status": "completed",
-    "home_score": 119,
-    "away_score": 130,
-    "winner": "PHI"
-  },
-  {
-    "date": "2026-01-03",
-    "home_team": "TOR",
-    "away_team": "ATL",
-    "status": "completed",
-    "home_score": 134,
-    "away_score": 117,
-    "winner": "TOR"
-  },
-  {
-    "date": "2026-01-03",
-    "home_team": "CHI",
-    "away_team": "CHA",
-    "status": "completed",
-    "home_score": 99,
-    "away_score": 112,
-    "winner": "CHA"
-  },
-  {
-    "date": "2026-01-03",
-    "home_team": "SA",
-    "away_team": "POR",
-    "status": "completed",
-    "home_score": 110,
-    "away_score": 115,
-    "winner": "POR"
-  },
-  {
-    "date": "2026-01-03",
-    "home_team": "DAL",
-    "away_team": "HOU",
-    "status": "completed",
-    "home_score": 110,
-    "away_score": 104,
-    "winner": "DAL"
-  },
-  {
-    "date": "2026-01-03",
-    "home_team": "GS",
-    "away_team": "UTAH",
-    "status": "completed",
-    "home_score": 123,
-    "away_score": 114,
-    "winner": "GS"
-  },
-  {
-    "date": "2026-01-03",
-    "home_team": "LAC",
-    "away_team": "BOS",
-    "status": "completed",
-    "home_score": 115,
-    "away_score": 146,
-    "winner": "BOS"
-  },
-  {
     "date": "2026-01-04",
     "home_team": "CLE",
     "away_team": "DET",
@@ -5093,17 +5021,19 @@
     "date": "2026-03-21",
     "home_team": "ATL",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 110,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-21",
     "home_team": "HOU",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 122,
+    "winner": "HOU"
   },
   {
     "date": "2026-03-21",
