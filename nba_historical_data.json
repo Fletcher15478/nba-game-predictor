@@ -5075,9 +5075,10 @@
     "date": "2026-03-21",
     "home_team": "ORL",
     "away_team": "LAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 105,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-21",
@@ -5108,9 +5109,10 @@
     "date": "2026-03-21",
     "home_team": "SA",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 134,
+    "away_score": 119,
+    "winner": "SA"
   },
   {
     "date": "2026-03-21",
