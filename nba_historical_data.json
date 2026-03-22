@@ -5066,9 +5066,10 @@
     "date": "2026-03-21",
     "home_team": "CHA",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 101,
+    "winner": "CHA"
   },
   {
     "date": "2026-03-21",
@@ -5082,9 +5083,10 @@
     "date": "2026-03-21",
     "home_team": "NO",
     "away_team": "CLE",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 106,
+    "away_score": 111,
+    "winner": "CLE"
   },
   {
     "date": "2026-03-21",
