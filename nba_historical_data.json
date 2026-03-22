@@ -5147,9 +5147,10 @@
     "date": "2026-03-22",
     "home_team": "DEN",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 112,
+    "winner": "DEN"
   },
   {
     "date": "2026-03-22",
