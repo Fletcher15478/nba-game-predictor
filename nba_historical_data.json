@@ -1778,69 +1778,6 @@
     "winner": "MIN"
   },
   {
-    "date": "2026-01-27",
-    "home_team": "WSH",
-    "away_team": "POR",
-    "status": "completed",
-    "home_score": 115,
-    "away_score": 111,
-    "winner": "WSH"
-  },
-  {
-    "date": "2026-01-27",
-    "home_team": "NY",
-    "away_team": "SAC",
-    "status": "completed",
-    "home_score": 103,
-    "away_score": 87,
-    "winner": "NY"
-  },
-  {
-    "date": "2026-01-27",
-    "home_team": "PHI",
-    "away_team": "MIL",
-    "status": "completed",
-    "home_score": 139,
-    "away_score": 122,
-    "winner": "PHI"
-  },
-  {
-    "date": "2026-01-27",
-    "home_team": "OKC",
-    "away_team": "NO",
-    "status": "completed",
-    "home_score": 104,
-    "away_score": 95,
-    "winner": "OKC"
-  },
-  {
-    "date": "2026-01-27",
-    "home_team": "DEN",
-    "away_team": "DET",
-    "status": "completed",
-    "home_score": 107,
-    "away_score": 109,
-    "winner": "DET"
-  },
-  {
-    "date": "2026-01-27",
-    "home_team": "PHX",
-    "away_team": "BKN",
-    "status": "completed",
-    "home_score": 106,
-    "away_score": 102,
-    "winner": "PHX"
-  },
-  {
-    "date": "2026-01-27",
-    "home_team": "UTAH",
-    "away_team": "LAC",
-    "status": "completed",
-    "home_score": 103,
-    "away_score": 115,
-    "winner": "LAC"
-  },
-  {
     "date": "2026-01-28",
     "home_team": "CLE",
     "away_team": "LAL",
