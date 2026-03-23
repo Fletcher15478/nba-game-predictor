@@ -5165,17 +5165,19 @@
     "date": "2026-03-22",
     "home_team": "NY",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 145,
+    "away_score": 113,
+    "winner": "NY"
   },
   {
     "date": "2026-03-22",
     "home_team": "BOS",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 92,
+    "away_score": 102,
+    "winner": "MIN"
   },
   {
     "date": "2026-03-22",
