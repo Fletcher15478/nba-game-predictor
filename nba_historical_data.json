@@ -5183,9 +5183,10 @@
     "date": "2026-03-22",
     "home_team": "PHX",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 98,
+    "winner": "PHX"
   },
   {
     "date": "2026-03-23",

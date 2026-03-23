@@ -5215,9 +5215,9 @@
     "away_team": "TOR",
     "date": "2026-03-23",
     "winner": "TOR",
-    "confidence": 0.8280542986425339,
-    "home_win_prob": 0.17194570135746612,
-    "away_win_prob": 0.8280542986425339
+    "confidence": 0.8120879120879121,
+    "home_win_prob": 0.1879120879120879,
+    "away_win_prob": 0.8120879120879121
   },
   {
     "home_team": "DAL",
