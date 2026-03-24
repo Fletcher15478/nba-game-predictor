@@ -5208,9 +5208,10 @@
     "date": "2026-03-23",
     "home_team": "PHI",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 123,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-23",
