@@ -5228,9 +5228,10 @@
     "date": "2026-03-23",
     "home_team": "ATL",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 146,
+    "away_score": 107,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-23",
