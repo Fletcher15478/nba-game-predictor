@@ -5246,9 +5246,10 @@
     "date": "2026-03-23",
     "home_team": "UTAH",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 143,
+    "winner": "TOR"
   },
   {
     "date": "2026-03-23",
