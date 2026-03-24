@@ -5237,9 +5237,10 @@
     "date": "2026-03-23",
     "home_team": "CHI",
     "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 132,
+    "away_score": 124,
+    "winner": "CHI"
   },
   {
     "date": "2026-03-23",
