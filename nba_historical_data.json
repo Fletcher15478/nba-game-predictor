@@ -5255,17 +5255,19 @@
     "date": "2026-03-23",
     "home_team": "DAL",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 137,
+    "winner": "GS"
   },
   {
     "date": "2026-03-23",
     "home_team": "POR",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 134,
+    "away_score": 99,
+    "winner": "POR"
   },
   {
     "date": "2026-03-23",
