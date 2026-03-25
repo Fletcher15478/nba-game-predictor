@@ -5323,9 +5323,9 @@
     "away_team": "MIA",
     "date": "2026-03-25",
     "winner": "CLE",
-    "confidence": 0.6816239316239316,
-    "home_win_prob": 0.6816239316239316,
-    "away_win_prob": 0.31837606837606836
+    "confidence": 0.68988218988219,
+    "home_win_prob": 0.68988218988219,
+    "away_win_prob": 0.31011781011781003
   },
   {
     "home_team": "MEM",
