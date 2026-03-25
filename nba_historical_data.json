@@ -5291,9 +5291,10 @@
     "date": "2026-03-24",
     "home_team": "NY",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 116,
+    "winner": "NY"
   },
   {
     "date": "2026-03-24",
