@@ -5359,9 +5359,9 @@
     "away_team": "DAL",
     "date": "2026-03-25",
     "winner": "DEN",
-    "confidence": 0.7489878542510121,
-    "home_win_prob": 0.7489878542510121,
-    "away_win_prob": 0.2510121457489879
+    "confidence": 0.7605263157894737,
+    "home_win_prob": 0.7605263157894737,
+    "away_win_prob": 0.23947368421052628
   },
   {
     "home_team": "GS",
