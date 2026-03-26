@@ -5399,9 +5399,10 @@
     "date": "2026-03-25",
     "home_team": "GS",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 106,
+    "winner": "GS"
   },
   {
     "date": "2026-03-25",
