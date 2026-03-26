@@ -5404,9 +5404,9 @@
     "away_team": "NO",
     "date": "2026-03-26",
     "winner": "DET",
-    "confidence": 0.763157894736842,
-    "home_win_prob": 0.763157894736842,
-    "away_win_prob": 0.23684210526315796
+    "confidence": 0.7449392712550607,
+    "home_win_prob": 0.7449392712550607,
+    "away_win_prob": 0.25506072874493935
   },
   {
     "home_team": "ORL",
