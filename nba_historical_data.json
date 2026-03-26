@@ -5363,9 +5363,10 @@
     "date": "2026-03-25",
     "home_team": "MEM",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 98,
+    "away_score": 123,
+    "winner": "SA"
   },
   {
     "date": "2026-03-25",
