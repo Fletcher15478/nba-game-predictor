@@ -5389,5 +5389,32 @@
     "confidence": 0.5694444444444444,
     "home_win_prob": 0.5694444444444444,
     "away_win_prob": 0.4305555555555556
+  },
+  {
+    "home_team": "CHA",
+    "away_team": "NY",
+    "date": "2026-03-26",
+    "winner": "CHA",
+    "confidence": 0.5673076923076923,
+    "home_win_prob": 0.5673076923076923,
+    "away_win_prob": 0.4326923076923077
+  },
+  {
+    "home_team": "DET",
+    "away_team": "NO",
+    "date": "2026-03-26",
+    "winner": "DET",
+    "confidence": 0.763157894736842,
+    "home_win_prob": 0.763157894736842,
+    "away_win_prob": 0.23684210526315796
+  },
+  {
+    "home_team": "ORL",
+    "away_team": "SAC",
+    "date": "2026-03-26",
+    "winner": "ORL",
+    "confidence": 0.725,
+    "home_win_prob": 0.725,
+    "away_win_prob": 0.275
   }
 ]
