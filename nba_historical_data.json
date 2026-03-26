@@ -5326,17 +5326,19 @@
     "date": "2026-03-25",
     "home_team": "IND",
     "away_team": "LAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 130,
+    "away_score": 137,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-25",
     "home_team": "PHI",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 157,
+    "away_score": 137,
+    "winner": "PHI"
   },
   {
     "date": "2026-03-25",
