@@ -5363,10 +5363,9 @@
     "date": "2026-03-25",
     "home_team": "MEM",
     "away_team": "SA",
-    "status": "completed",
-    "home_score": 98,
-    "away_score": 123,
-    "winner": "SA"
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   },
   {
     "date": "2026-03-25",
@@ -5417,9 +5416,10 @@
     "date": "2026-03-25",
     "home_team": "LAC",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 94,
+    "winner": "LAC"
   },
   {
     "date": "2026-03-26",
