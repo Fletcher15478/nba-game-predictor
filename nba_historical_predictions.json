@@ -5467,9 +5467,9 @@
     "away_team": "NO",
     "date": "2026-03-27",
     "winner": "TOR",
-    "confidence": 0.5931721194879089,
-    "home_win_prob": 0.5931721194879089,
-    "away_win_prob": 0.40682788051209107
+    "confidence": 0.6046431046431047,
+    "home_win_prob": 0.6046431046431047,
+    "away_win_prob": 0.39535689535689533
   },
   {
     "home_team": "DEN",
