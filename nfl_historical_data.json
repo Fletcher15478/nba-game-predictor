@@ -180,6 +180,36 @@
     "winner": "CHI"
   },
   {
+    "date": "2026-01-11",
+    "home_team": "JAX",
+    "away_team": "BUF",
+    "status": "completed",
+    "home_score": 24,
+    "away_score": 27,
+    "week": null,
+    "winner": "BUF"
+  },
+  {
+    "date": "2026-01-11",
+    "home_team": "PHI",
+    "away_team": "SF",
+    "status": "completed",
+    "home_score": 19,
+    "away_score": 23,
+    "week": null,
+    "winner": "SF"
+  },
+  {
+    "date": "2026-01-11",
+    "home_team": "NE",
+    "away_team": "LAC",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 3,
+    "week": null,
+    "winner": "NE"
+  },
+  {
     "date": "2026-01-12",
     "home_team": "PIT",
     "away_team": "HOU",

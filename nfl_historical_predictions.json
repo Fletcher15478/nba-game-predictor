@@ -170,6 +170,36 @@
     "away_win_prob": 0.44999999999999996
   },
   {
+    "home_team": "JAX",
+    "away_team": "BUF",
+    "date": "2026-01-11",
+    "week": null,
+    "winner": "JAX",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "PHI",
+    "away_team": "SF",
+    "date": "2026-01-11",
+    "week": null,
+    "winner": "PHI",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "NE",
+    "away_team": "LAC",
+    "date": "2026-01-11",
+    "week": null,
+    "winner": "NE",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
     "home_team": "PIT",
     "away_team": "HOU",
     "date": "2026-01-12",
@@ -204,10 +234,10 @@
     "away_team": "HOU",
     "date": "2026-01-18",
     "week": null,
-    "winner": "NE",
+    "winner": "HOU",
     "confidence": 0.55,
-    "home_win_prob": 0.55,
-    "away_win_prob": 0.44999999999999996
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
   },
   {
     "home_team": "CHI",
