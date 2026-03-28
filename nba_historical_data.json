@@ -5543,9 +5543,10 @@
     "date": "2026-03-28",
     "home_team": "MIL",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 95,
+    "away_score": 127,
+    "winner": "SA"
   },
   {
     "date": "2026-03-28",
