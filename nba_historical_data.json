@@ -5552,9 +5552,10 @@
     "date": "2026-03-28",
     "home_team": "MIN",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 87,
+    "away_score": 109,
+    "winner": "DET"
   },
   {
     "date": "2026-03-28",
