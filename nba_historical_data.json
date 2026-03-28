@@ -5453,33 +5453,37 @@
     "date": "2026-03-27",
     "home_team": "IND",
     "away_team": "LAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 114,
+    "winner": "LAC"
   },
   {
     "date": "2026-03-27",
     "home_team": "BOS",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 102,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-27",
     "home_team": "CLE",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 149,
+    "away_score": 128,
+    "winner": "CLE"
   },
   {
     "date": "2026-03-27",
     "home_team": "MEM",
     "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 119,
+    "winner": "HOU"
   },
   {
     "date": "2026-03-27",

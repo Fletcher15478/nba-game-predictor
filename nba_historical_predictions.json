@@ -5539,18 +5539,18 @@
     "away_team": "SAC",
     "date": "2026-03-28",
     "winner": "ATL",
-    "confidence": 0.889602053915276,
-    "home_win_prob": 0.889602053915276,
-    "away_win_prob": 0.11039794608472397
+    "confidence": 0.8727329580988118,
+    "home_win_prob": 0.8727329580988118,
+    "away_win_prob": 0.1272670419011882
   },
   {
     "home_team": "MEM",
     "away_team": "CHI",
     "date": "2026-03-28",
     "winner": "CHI",
-    "confidence": 0.6025641025641025,
-    "home_win_prob": 0.39743589743589747,
-    "away_win_prob": 0.6025641025641025
+    "confidence": 0.6083333333333333,
+    "home_win_prob": 0.3916666666666667,
+    "away_win_prob": 0.6083333333333333
   },
   {
     "home_team": "PHX",
