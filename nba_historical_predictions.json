@@ -5548,9 +5548,9 @@
     "away_team": "CHI",
     "date": "2026-03-28",
     "winner": "CHI",
-    "confidence": 0.6083333333333333,
-    "home_win_prob": 0.3916666666666667,
-    "away_win_prob": 0.6083333333333333
+    "confidence": 0.6,
+    "home_win_prob": 0.4,
+    "away_win_prob": 0.6
   },
   {
     "home_team": "PHX",

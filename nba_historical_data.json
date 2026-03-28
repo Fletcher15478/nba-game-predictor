@@ -5489,17 +5489,19 @@
     "date": "2026-03-27",
     "home_team": "OKC",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 113,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-27",
     "home_team": "TOR",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 106,
+    "winner": "TOR"
   },
   {
     "date": "2026-03-27",
