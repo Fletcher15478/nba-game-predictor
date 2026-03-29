@@ -5606,9 +5606,10 @@
     "date": "2026-03-29",
     "home_team": "IND",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 135,
+    "away_score": 118,
+    "winner": "IND"
   },
   {
     "date": "2026-03-29",
