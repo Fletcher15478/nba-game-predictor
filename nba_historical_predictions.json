@@ -5560,5 +5560,86 @@
     "confidence": 0.8107142857142857,
     "home_win_prob": 0.8107142857142857,
     "away_win_prob": 0.18928571428571428
+  },
+  {
+    "home_team": "MIL",
+    "away_team": "LAC",
+    "date": "2026-03-29",
+    "winner": "LAC",
+    "confidence": 0.7582417582417582,
+    "home_win_prob": 0.2417582417582418,
+    "away_win_prob": 0.7582417582417582
+  },
+  {
+    "home_team": "IND",
+    "away_team": "MIA",
+    "date": "2026-03-29",
+    "winner": "MIA",
+    "confidence": 0.7621951219512195,
+    "home_win_prob": 0.23780487804878048,
+    "away_win_prob": 0.7621951219512195
+  },
+  {
+    "home_team": "BKN",
+    "away_team": "SAC",
+    "date": "2026-03-29",
+    "winner": "SAC",
+    "confidence": 0.6092017738359202,
+    "home_win_prob": 0.3907982261640798,
+    "away_win_prob": 0.6092017738359202
+  },
+  {
+    "home_team": "CHA",
+    "away_team": "BOS",
+    "date": "2026-03-29",
+    "winner": "BOS",
+    "confidence": 0.5243902439024389,
+    "home_win_prob": 0.47560975609756106,
+    "away_win_prob": 0.5243902439024389
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "ORL",
+    "date": "2026-03-29",
+    "winner": "TOR",
+    "confidence": 0.5398110661268557,
+    "home_win_prob": 0.5398110661268557,
+    "away_win_prob": 0.4601889338731443
+  },
+  {
+    "home_team": "POR",
+    "away_team": "WSH",
+    "date": "2026-03-29",
+    "winner": "POR",
+    "confidence": 0.8414634146341464,
+    "home_win_prob": 0.8414634146341464,
+    "away_win_prob": 0.15853658536585358
+  },
+  {
+    "home_team": "NO",
+    "away_team": "HOU",
+    "date": "2026-03-29",
+    "winner": "HOU",
+    "confidence": 0.633139534883721,
+    "home_win_prob": 0.366860465116279,
+    "away_win_prob": 0.633139534883721
+  },
+  {
+    "home_team": "OKC",
+    "away_team": "NY",
+    "date": "2026-03-29",
+    "winner": "OKC",
+    "confidence": 0.6152439024390244,
+    "home_win_prob": 0.6152439024390244,
+    "away_win_prob": 0.3847560975609756
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "GS",
+    "date": "2026-03-29",
+    "winner": "DEN",
+    "confidence": 0.6214285714285714,
+    "home_win_prob": 0.6214285714285714,
+    "away_win_prob": 0.37857142857142856
   }
 ]
