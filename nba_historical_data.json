@@ -5570,17 +5570,19 @@
     "date": "2026-03-28",
     "home_team": "ATL",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 113,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-28",
     "home_team": "MEM",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 124,
+    "winner": "MEM"
   },
   {
     "date": "2026-03-28",
