@@ -4226,6 +4226,51 @@
     "winner": "PHX"
   },
   {
+    "date": "2026-03-09",
+    "home_team": "CLE",
+    "away_team": "PHI",
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 101,
+    "winner": "CLE"
+  },
+  {
+    "date": "2026-03-09",
+    "home_team": "BKN",
+    "away_team": "MEM",
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 115,
+    "winner": "BKN"
+  },
+  {
+    "date": "2026-03-09",
+    "home_team": "OKC",
+    "away_team": "DEN",
+    "status": "completed",
+    "home_score": 129,
+    "away_score": 126,
+    "winner": "OKC"
+  },
+  {
+    "date": "2026-03-09",
+    "home_team": "UTAH",
+    "away_team": "GS",
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 116,
+    "winner": "UTAH"
+  },
+  {
+    "date": "2026-03-09",
+    "home_team": "LAC",
+    "away_team": "NY",
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 118,
+    "winner": "LAC"
+  },
+  {
     "date": "2026-03-10",
     "home_team": "PHI",
     "away_team": "MEM",
