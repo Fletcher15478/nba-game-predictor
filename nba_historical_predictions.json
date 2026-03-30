@@ -5656,9 +5656,9 @@
     "away_team": "BOS",
     "date": "2026-03-30",
     "winner": "BOS",
-    "confidence": 0.5573170731707316,
-    "home_win_prob": 0.44268292682926835,
-    "away_win_prob": 0.5573170731707316
+    "confidence": 0.5642857142857143,
+    "home_win_prob": 0.4357142857142857,
+    "away_win_prob": 0.5642857142857143
   },
   {
     "home_team": "MEM",

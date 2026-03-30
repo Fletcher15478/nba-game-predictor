@@ -5615,33 +5615,37 @@
     "date": "2026-03-29",
     "home_team": "BKN",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 99,
+    "winner": "BKN"
   },
   {
     "date": "2026-03-29",
     "home_team": "CHA",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 99,
+    "away_score": 114,
+    "winner": "BOS"
   },
   {
     "date": "2026-03-29",
     "home_team": "TOR",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 139,
+    "away_score": 87,
+    "winner": "TOR"
   },
   {
     "date": "2026-03-29",
     "home_team": "POR",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 88,
+    "winner": "POR"
   },
   {
     "date": "2026-03-29",
