@@ -5660,9 +5660,10 @@
     "date": "2026-03-29",
     "home_team": "OKC",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 100,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-29",
