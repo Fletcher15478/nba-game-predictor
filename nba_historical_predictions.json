@@ -5755,9 +5755,9 @@
     "away_team": "DAL",
     "date": "2026-03-31",
     "winner": "MIL",
-    "confidence": 0.575,
-    "home_win_prob": 0.575,
-    "away_win_prob": 0.42500000000000004
+    "confidence": 0.5823170731707317,
+    "home_win_prob": 0.5823170731707317,
+    "away_win_prob": 0.41768292682926833
   },
   {
     "home_team": "LAL",
