@@ -5687,25 +5687,28 @@
     "date": "2026-03-30",
     "home_team": "ATL",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 102,
+    "winner": "ATL"
   },
   {
     "date": "2026-03-30",
     "home_team": "MEM",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 105,
+    "away_score": 131,
+    "winner": "PHX"
   },
   {
     "date": "2026-03-30",
     "home_team": "SA",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 129,
+    "away_score": 114,
+    "winner": "SA"
   },
   {
     "date": "2026-03-30",

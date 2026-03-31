@@ -5719,9 +5719,9 @@
     "away_team": "PHX",
     "date": "2026-03-31",
     "winner": "PHX",
-    "confidence": 0.5365853658536586,
-    "home_win_prob": 0.46341463414634143,
-    "away_win_prob": 0.5365853658536586
+    "confidence": 0.5476190476190477,
+    "home_win_prob": 0.45238095238095233,
+    "away_win_prob": 0.5476190476190477
   },
   {
     "home_team": "BKN",
