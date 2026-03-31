@@ -5732,17 +5732,19 @@
     "date": "2026-03-30",
     "home_team": "OKC",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 110,
+    "winner": "OKC"
   },
   {
     "date": "2026-03-30",
     "home_team": "LAL",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 101,
+    "winner": "LAL"
   },
   {
     "date": "2026-03-31",
