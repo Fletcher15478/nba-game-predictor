@@ -5764,9 +5764,9 @@
     "away_team": "CLE",
     "date": "2026-03-31",
     "winner": "CLE",
-    "confidence": 0.5411449016100178,
-    "home_win_prob": 0.4588550983899822,
-    "away_win_prob": 0.5411449016100178
+    "confidence": 0.5488372093023255,
+    "home_win_prob": 0.4511627906976745,
+    "away_win_prob": 0.5488372093023255
   },
   {
     "home_team": "LAC",
