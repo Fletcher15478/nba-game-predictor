@@ -5678,9 +5678,10 @@
     "date": "2026-03-30",
     "home_team": "MIA",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 109,
+    "winner": "MIA"
   },
   {
     "date": "2026-03-30",
