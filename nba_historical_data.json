@@ -5768,25 +5768,28 @@
     "date": "2026-03-31",
     "home_team": "DET",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 116,
+    "winner": "DET"
   },
   {
     "date": "2026-03-31",
     "home_team": "HOU",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 94,
+    "winner": "HOU"
   },
   {
     "date": "2026-03-31",
     "home_team": "MIL",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 99,
+    "winner": "MIL"
   },
   {
     "date": "2026-03-31",
