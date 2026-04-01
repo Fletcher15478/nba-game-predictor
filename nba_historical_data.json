@@ -5750,17 +5750,19 @@
     "date": "2026-03-31",
     "home_team": "ORL",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 111,
+    "winner": "ORL"
   },
   {
     "date": "2026-03-31",
     "home_team": "BKN",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 86,
+    "away_score": 117,
+    "winner": "CHA"
   },
   {
     "date": "2026-03-31",

@@ -5791,9 +5791,9 @@
     "away_team": "ATL",
     "date": "2026-04-01",
     "winner": "ATL",
-    "confidence": 0.6585365853658537,
-    "home_win_prob": 0.3414634146341463,
-    "away_win_prob": 0.6585365853658537
+    "confidence": 0.6463414634146342,
+    "home_win_prob": 0.35365853658536583,
+    "away_win_prob": 0.6463414634146342
   },
   {
     "home_team": "MIA",
