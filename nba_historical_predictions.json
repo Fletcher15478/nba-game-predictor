@@ -5776,5 +5776,86 @@
     "confidence": 0.5797342192691031,
     "home_win_prob": 0.5797342192691031,
     "away_win_prob": 0.42026578073089693
+  },
+  {
+    "home_team": "WSH",
+    "away_team": "PHI",
+    "date": "2026-04-01",
+    "winner": "PHI",
+    "confidence": 0.83615221987315,
+    "home_win_prob": 0.16384778012684997,
+    "away_win_prob": 0.83615221987315
+  },
+  {
+    "home_team": "ORL",
+    "away_team": "ATL",
+    "date": "2026-04-01",
+    "winner": "ATL",
+    "confidence": 0.6585365853658537,
+    "home_win_prob": 0.3414634146341463,
+    "away_win_prob": 0.6585365853658537
+  },
+  {
+    "home_team": "MIA",
+    "away_team": "BOS",
+    "date": "2026-04-01",
+    "winner": "BOS",
+    "confidence": 0.686046511627907,
+    "home_win_prob": 0.313953488372093,
+    "away_win_prob": 0.686046511627907
+  },
+  {
+    "home_team": "MEM",
+    "away_team": "NY",
+    "date": "2026-04-01",
+    "winner": "NY",
+    "confidence": 0.8571428571428572,
+    "home_win_prob": 0.1428571428571428,
+    "away_win_prob": 0.8571428571428572
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "SAC",
+    "date": "2026-04-01",
+    "winner": "TOR",
+    "confidence": 0.808288610614192,
+    "home_win_prob": 0.808288610614192,
+    "away_win_prob": 0.191711389385808
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "IND",
+    "date": "2026-04-01",
+    "winner": "CHI",
+    "confidence": 0.5412311265969802,
+    "home_win_prob": 0.5412311265969802,
+    "away_win_prob": 0.45876887340301975
+  },
+  {
+    "home_team": "HOU",
+    "away_team": "MIL",
+    "date": "2026-04-01",
+    "winner": "HOU",
+    "confidence": 0.6931818181818182,
+    "home_win_prob": 0.6931818181818182,
+    "away_win_prob": 0.30681818181818177
+  },
+  {
+    "home_team": "UTAH",
+    "away_team": "DEN",
+    "date": "2026-04-01",
+    "winner": "DEN",
+    "confidence": 0.8768498942917548,
+    "home_win_prob": 0.12315010570824525,
+    "away_win_prob": 0.8768498942917548
+  },
+  {
+    "home_team": "GS",
+    "away_team": "SA",
+    "date": "2026-04-01",
+    "winner": "SA",
+    "confidence": 0.8466898954703832,
+    "home_win_prob": 0.1533101045296168,
+    "away_win_prob": 0.8466898954703832
   }
 ]
