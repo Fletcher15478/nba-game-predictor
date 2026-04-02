@@ -5840,17 +5840,19 @@
     "date": "2026-04-01",
     "home_team": "MEM",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 130,
+    "winner": "NY"
   },
   {
     "date": "2026-04-01",
     "home_team": "TOR",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 123,
+    "winner": "SAC"
   },
   {
     "date": "2026-04-01",
