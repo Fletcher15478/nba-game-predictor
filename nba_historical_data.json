@@ -5813,9 +5813,10 @@
     "date": "2026-04-01",
     "home_team": "WSH",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 153,
+    "winner": "PHI"
   },
   {
     "date": "2026-04-01",
