@@ -5831,9 +5831,10 @@
     "date": "2026-04-01",
     "home_team": "MIA",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 129,
+    "away_score": 147,
+    "winner": "BOS"
   },
   {
     "date": "2026-04-01",
@@ -5855,17 +5856,19 @@
     "date": "2026-04-01",
     "home_team": "CHI",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 145,
+    "winner": "IND"
   },
   {
     "date": "2026-04-01",
     "home_team": "HOU",
     "away_team": "MIL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 113,
+    "winner": "HOU"
   },
   {
     "date": "2026-04-01",
