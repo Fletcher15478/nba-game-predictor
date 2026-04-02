@@ -5890,9 +5890,9 @@
     "away_team": "CLE",
     "date": "2026-04-02",
     "winner": "CLE",
-    "confidence": 0.7439024390243902,
-    "home_win_prob": 0.25609756097560976,
-    "away_win_prob": 0.7439024390243902
+    "confidence": 0.7543554006968642,
+    "home_win_prob": 0.24564459930313576,
+    "away_win_prob": 0.7543554006968642
   },
   {
     "home_team": "POR",
@@ -5908,8 +5908,8 @@
     "away_team": "SA",
     "date": "2026-04-02",
     "winner": "SA",
-    "confidence": 0.6493506493506493,
-    "home_win_prob": 0.35064935064935066,
-    "away_win_prob": 0.6493506493506493
+    "confidence": 0.6543340380549683,
+    "home_win_prob": 0.34566596194503174,
+    "away_win_prob": 0.6543340380549683
   }
 ]

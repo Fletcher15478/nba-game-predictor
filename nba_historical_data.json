@@ -5885,9 +5885,10 @@
     "date": "2026-04-01",
     "home_team": "GS",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 127,
+    "winner": "SA"
   },
   {
     "date": "2026-04-02",
