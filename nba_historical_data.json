@@ -5822,9 +5822,10 @@
     "date": "2026-04-01",
     "home_team": "ORL",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 101,
+    "away_score": 130,
+    "winner": "ATL"
   },
   {
     "date": "2026-04-01",
