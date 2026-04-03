@@ -5894,9 +5894,10 @@
     "date": "2026-04-02",
     "home_team": "CHA",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 107,
+    "winner": "CHA"
   },
   {
     "date": "2026-04-02",

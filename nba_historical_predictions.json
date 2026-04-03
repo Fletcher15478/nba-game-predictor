@@ -5917,9 +5917,9 @@
     "away_team": "IND",
     "date": "2026-04-03",
     "winner": "CHA",
-    "confidence": 0.8887043189368771,
-    "home_win_prob": 0.8887043189368771,
-    "away_win_prob": 0.11129568106312293
+    "confidence": 0.8961038961038961,
+    "home_win_prob": 0.8961038961038961,
+    "away_win_prob": 0.10389610389610393
   },
   {
     "home_team": "PHI",
