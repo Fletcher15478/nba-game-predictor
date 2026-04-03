@@ -5903,9 +5903,10 @@
     "date": "2026-04-02",
     "home_team": "DET",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 108,
+    "winner": "DET"
   },
   {
     "date": "2026-04-02",
