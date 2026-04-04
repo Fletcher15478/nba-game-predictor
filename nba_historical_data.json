@@ -5948,17 +5948,19 @@
     "date": "2026-04-03",
     "home_team": "CHA",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 129,
+    "away_score": 108,
+    "winner": "CHA"
   },
   {
     "date": "2026-04-03",
     "home_team": "PHI",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 103,
+    "winner": "PHI"
   },
   {
     "date": "2026-04-03",
