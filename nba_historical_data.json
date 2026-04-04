@@ -6020,9 +6020,10 @@
     "date": "2026-04-03",
     "home_team": "SAC",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 117,
+    "away_score": 113,
+    "winner": "SAC"
   },
   {
     "date": "2026-04-04",
