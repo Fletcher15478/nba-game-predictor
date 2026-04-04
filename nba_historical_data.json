@@ -6029,9 +6029,10 @@
     "date": "2026-04-04",
     "home_team": "MIA",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 152,
+    "away_score": 136,
+    "winner": "MIA"
   },
   {
     "date": "2026-04-04",
