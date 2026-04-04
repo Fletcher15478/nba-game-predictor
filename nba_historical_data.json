@@ -5189,6 +5189,96 @@
     "winner": "PHX"
   },
   {
+    "date": "2026-03-23",
+    "home_team": "DET",
+    "away_team": "LAL",
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 110,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "ORL",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 128,
+    "winner": "IND"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "PHI",
+    "away_team": "OKC",
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 123,
+    "winner": "OKC"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "MIA",
+    "away_team": "SA",
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 136,
+    "winner": "SA"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "ATL",
+    "away_team": "MEM",
+    "status": "completed",
+    "home_score": 146,
+    "away_score": 107,
+    "winner": "ATL"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "CHI",
+    "away_team": "HOU",
+    "status": "completed",
+    "home_score": 132,
+    "away_score": 124,
+    "winner": "CHI"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "UTAH",
+    "away_team": "TOR",
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 143,
+    "winner": "TOR"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "DAL",
+    "away_team": "GS",
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 137,
+    "winner": "GS"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "POR",
+    "away_team": "BKN",
+    "status": "completed",
+    "home_score": 134,
+    "away_score": 99,
+    "winner": "POR"
+  },
+  {
+    "date": "2026-03-23",
+    "home_team": "LAC",
+    "away_team": "MIL",
+    "status": "completed",
+    "home_score": 129,
+    "away_score": 96,
+    "winner": "LAC"
+  },
+  {
     "date": "2026-03-24",
     "home_team": "CHA",
     "away_team": "SAC",
