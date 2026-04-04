@@ -6011,9 +6011,10 @@
     "date": "2026-04-03",
     "home_team": "DAL",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 138,
+    "winner": "ORL"
   },
   {
     "date": "2026-04-03",
