@@ -5992,5 +5992,32 @@
     "confidence": 0.6320346320346321,
     "home_win_prob": 0.36796536796536794,
     "away_win_prob": 0.6320346320346321
+  },
+  {
+    "home_team": "MIA",
+    "away_team": "WSH",
+    "date": "2026-04-04",
+    "winner": "MIA",
+    "confidence": 0.7954545454545454,
+    "home_win_prob": 0.7954545454545454,
+    "away_win_prob": 0.20454545454545459
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "SA",
+    "date": "2026-04-04",
+    "winner": "SA",
+    "confidence": 0.7045454545454545,
+    "home_win_prob": 0.2954545454545455,
+    "away_win_prob": 0.7045454545454545
+  },
+  {
+    "home_team": "PHI",
+    "away_team": "DET",
+    "date": "2026-04-04",
+    "winner": "DET",
+    "confidence": 0.648989898989899,
+    "home_win_prob": 0.351010101010101,
+    "away_win_prob": 0.648989898989899
   }
 ]
