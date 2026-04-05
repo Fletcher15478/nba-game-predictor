@@ -6065,9 +6065,10 @@
     "date": "2026-04-05",
     "home_team": "BKN",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 115,
+    "winner": "BKN"
   },
   {
     "date": "2026-04-05",
