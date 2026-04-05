@@ -6056,9 +6056,10 @@
     "date": "2026-04-05",
     "home_team": "BOS",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 101,
+    "winner": "BOS"
   },
   {
     "date": "2026-04-05",
@@ -6072,17 +6073,19 @@
     "date": "2026-04-05",
     "home_team": "CHI",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 120,
+    "winner": "PHX"
   },
   {
     "date": "2026-04-05",
     "home_team": "MIL",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 115,
+    "winner": "MIL"
   },
   {
     "date": "2026-04-05",
