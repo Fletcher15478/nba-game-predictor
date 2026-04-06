@@ -6128,9 +6128,10 @@
     "date": "2026-04-05",
     "home_team": "DAL",
     "away_team": "LAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 134,
+    "away_score": 128,
+    "winner": "DAL"
   },
   {
     "date": "2026-04-05",
