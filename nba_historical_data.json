@@ -6137,9 +6137,10 @@
     "date": "2026-04-05",
     "home_team": "SAC",
     "away_team": "LAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 138,
+    "winner": "LAC"
   },
   {
     "date": "2026-04-05",
