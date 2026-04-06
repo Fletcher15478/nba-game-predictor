@@ -6092,9 +6092,10 @@
     "date": "2026-04-05",
     "home_team": "CLE",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 117,
+    "away_score": 108,
+    "winner": "CLE"
   },
   {
     "date": "2026-04-05",
