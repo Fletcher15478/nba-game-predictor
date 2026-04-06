@@ -6101,25 +6101,28 @@
     "date": "2026-04-05",
     "home_team": "MIN",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 108,
+    "away_score": 122,
+    "winner": "CHA"
   },
   {
     "date": "2026-04-05",
     "home_team": "NO",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 108,
+    "away_score": 112,
+    "winner": "ORL"
   },
   {
     "date": "2026-04-05",
     "home_team": "OKC",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 146,
+    "away_score": 111,
+    "winner": "OKC"
   },
   {
     "date": "2026-04-05",
