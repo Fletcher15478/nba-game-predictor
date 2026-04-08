@@ -6263,17 +6263,19 @@
     "date": "2026-04-07",
     "home_team": "LAL",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 87,
+    "away_score": 123,
+    "winner": "OKC"
   },
   {
     "date": "2026-04-07",
     "home_team": "LAC",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 103,
+    "winner": "LAC"
   },
   {
     "date": "2026-04-07",
