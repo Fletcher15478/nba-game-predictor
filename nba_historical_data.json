@@ -6200,17 +6200,19 @@
     "date": "2026-04-07",
     "home_team": "WSH",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 98,
+    "away_score": 129,
+    "winner": "CHI"
   },
   {
     "date": "2026-04-07",
     "home_team": "IND",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 124,
+    "winner": "MIN"
   },
   {
     "date": "2026-04-07",

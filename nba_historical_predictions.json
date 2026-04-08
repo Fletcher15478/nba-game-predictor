@@ -6268,9 +6268,9 @@
     "away_team": "MIN",
     "date": "2026-04-08",
     "winner": "MIN",
-    "confidence": 0.5348484848484849,
-    "home_win_prob": 0.4651515151515151,
-    "away_win_prob": 0.5348484848484849
+    "confidence": 0.5444444444444444,
+    "home_win_prob": 0.4555555555555556,
+    "away_win_prob": 0.5444444444444444
   },
   {
     "home_team": "DET",
