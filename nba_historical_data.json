@@ -6281,9 +6281,10 @@
     "date": "2026-04-07",
     "home_team": "PHX",
     "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 105,
+    "away_score": 119,
+    "winner": "HOU"
   },
   {
     "date": "2026-04-08",
