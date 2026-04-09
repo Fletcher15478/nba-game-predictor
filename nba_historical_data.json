@@ -6326,25 +6326,28 @@
     "date": "2026-04-08",
     "home_team": "SA",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 101,
+    "winner": "SA"
   },
   {
     "date": "2026-04-08",
     "home_team": "LAC",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 128,
+    "winner": "OKC"
   },
   {
     "date": "2026-04-08",
     "home_team": "PHX",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 107,
+    "winner": "PHX"
   },
   {
     "date": "2026-04-09",
