@@ -6290,9 +6290,10 @@
     "date": "2026-04-08",
     "home_team": "CLE",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 116,
+    "winner": "CLE"
   },
   {
     "date": "2026-04-08",
@@ -6307,9 +6308,10 @@
     "date": "2026-04-08",
     "home_team": "DET",
     "away_team": "MIL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 137,
+    "away_score": 111,
+    "winner": "DET"
   },
   {
     "date": "2026-04-08",
