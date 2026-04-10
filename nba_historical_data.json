@@ -6353,17 +6353,19 @@
     "date": "2026-04-09",
     "home_team": "TOR",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 114,
+    "winner": "TOR"
   },
   {
     "date": "2026-04-09",
     "home_team": "WSH",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 108,
+    "away_score": 119,
+    "winner": "CHI"
   },
   {
     "date": "2026-04-09",

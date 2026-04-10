@@ -6385,9 +6385,9 @@
     "away_team": "MIA",
     "date": "2026-04-10",
     "winner": "MIA",
-    "confidence": 0.8085106382978724,
-    "home_win_prob": 0.1914893617021276,
-    "away_win_prob": 0.8085106382978724
+    "confidence": 0.8018617021276595,
+    "home_win_prob": 0.1981382978723405,
+    "away_win_prob": 0.8018617021276595
   },
   {
     "home_team": "ATL",
@@ -6421,18 +6421,18 @@
     "away_team": "TOR",
     "date": "2026-04-10",
     "winner": "NY",
-    "confidence": 0.5632411067193677,
-    "home_win_prob": 0.5632411067193677,
-    "away_win_prob": 0.43675889328063233
+    "confidence": 0.5531400966183575,
+    "home_win_prob": 0.5531400966183575,
+    "away_win_prob": 0.4468599033816425
   },
   {
     "home_team": "CHI",
     "away_team": "ORL",
     "date": "2026-04-10",
     "winner": "ORL",
-    "confidence": 0.7391304347826086,
-    "home_win_prob": 0.26086956521739135,
-    "away_win_prob": 0.7391304347826086
+    "confidence": 0.7243293246993524,
+    "home_win_prob": 0.2756706753006476,
+    "away_win_prob": 0.7243293246993524
   },
   {
     "home_team": "MIL",
