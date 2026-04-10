@@ -6493,17 +6493,17 @@
     "away_team": "GS",
     "date": "2026-04-10",
     "winner": "GS",
-    "confidence": 0.6456264775413711,
-    "home_win_prob": 0.35437352245862885,
-    "away_win_prob": 0.6456264775413711
+    "confidence": 0.6364477335800185,
+    "home_win_prob": 0.3635522664199815,
+    "away_win_prob": 0.6364477335800185
   },
   {
     "home_team": "LAL",
     "away_team": "PHX",
     "date": "2026-04-10",
     "winner": "LAL",
-    "confidence": 0.5930851063829787,
-    "home_win_prob": 0.5930851063829787,
-    "away_win_prob": 0.40691489361702127
+    "confidence": 0.6007381676074686,
+    "home_win_prob": 0.6007381676074686,
+    "away_win_prob": 0.39926183239253143
   }
 ]
