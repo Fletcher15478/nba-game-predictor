@@ -6371,9 +6371,10 @@
     "date": "2026-04-09",
     "home_team": "BKN",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 94,
+    "away_score": 123,
+    "winner": "IND"
   },
   {
     "date": "2026-04-09",

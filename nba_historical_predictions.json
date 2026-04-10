@@ -6412,9 +6412,9 @@
     "away_team": "PHI",
     "date": "2026-04-10",
     "winner": "PHI",
-    "confidence": 0.7749999999999999,
-    "home_win_prob": 0.2250000000000001,
-    "away_win_prob": 0.7749999999999999
+    "confidence": 0.7590579710144927,
+    "home_win_prob": 0.24094202898550732,
+    "away_win_prob": 0.7590579710144927
   },
   {
     "home_team": "NY",
@@ -6439,9 +6439,9 @@
     "away_team": "BKN",
     "date": "2026-04-10",
     "winner": "MIL",
-    "confidence": 0.6654835847382431,
-    "home_win_prob": 0.6654835847382431,
-    "away_win_prob": 0.3345164152617569
+    "confidence": 0.6695652173913043,
+    "home_win_prob": 0.6695652173913043,
+    "away_win_prob": 0.33043478260869574
   },
   {
     "home_team": "SA",
