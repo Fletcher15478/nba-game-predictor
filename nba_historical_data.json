@@ -6533,8 +6533,9 @@
     "date": "2026-04-10",
     "home_team": "LAL",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 101,
+    "away_score": 73,
+    "winner": "LAL"
   }
 ]
