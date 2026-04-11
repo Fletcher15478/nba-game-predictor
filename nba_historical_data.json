@@ -6497,17 +6497,19 @@
     "date": "2026-04-10",
     "home_team": "HOU",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 132,
+    "away_score": 136,
+    "winner": "MIN"
   },
   {
     "date": "2026-04-10",
     "home_team": "UTAH",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 147,
+    "away_score": 101,
+    "winner": "UTAH"
   },
   {
     "date": "2026-04-10",
