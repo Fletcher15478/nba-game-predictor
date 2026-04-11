@@ -6488,9 +6488,10 @@
     "date": "2026-04-10",
     "home_team": "DEN",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 107,
+    "winner": "DEN"
   },
   {
     "date": "2026-04-10",
