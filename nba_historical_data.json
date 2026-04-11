@@ -6515,17 +6515,19 @@
     "date": "2026-04-10",
     "home_team": "POR",
     "away_team": "LAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 97,
+    "winner": "POR"
   },
   {
     "date": "2026-04-10",
     "home_team": "SAC",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 118,
+    "winner": "SAC"
   },
   {
     "date": "2026-04-10",
