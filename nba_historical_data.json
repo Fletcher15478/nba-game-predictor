@@ -6550,49 +6550,55 @@
     "date": "2026-04-12",
     "home_team": "CLE",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 130,
+    "away_score": 117,
+    "winner": "CLE"
   },
   {
     "date": "2026-04-12",
     "home_team": "IND",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 133,
+    "winner": "DET"
   },
   {
     "date": "2026-04-12",
     "home_team": "MIA",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 143,
+    "away_score": 117,
+    "winner": "MIA"
   },
   {
     "date": "2026-04-12",
     "home_team": "NY",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 96,
+    "away_score": 110,
+    "winner": "CHA"
   },
   {
     "date": "2026-04-12",
     "home_team": "PHI",
     "away_team": "MIL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 106,
+    "winner": "PHI"
   },
   {
     "date": "2026-04-12",
     "home_team": "TOR",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 136,
+    "away_score": 101,
+    "winner": "TOR"
   },
   {
     "date": "2026-04-12",
