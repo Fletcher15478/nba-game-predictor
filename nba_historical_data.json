@@ -6542,9 +6542,10 @@
     "date": "2026-04-12",
     "home_team": "BOS",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 108,
+    "winner": "BOS"
   },
   {
     "date": "2026-04-12",
