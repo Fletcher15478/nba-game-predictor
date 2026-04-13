@@ -6605,64 +6605,72 @@
     "date": "2026-04-12",
     "home_team": "DAL",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 149,
+    "away_score": 128,
+    "winner": "DAL"
   },
   {
     "date": "2026-04-12",
     "home_team": "HOU",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 132,
+    "away_score": 101,
+    "winner": "HOU"
   },
   {
     "date": "2026-04-12",
     "home_team": "MIN",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 132,
+    "away_score": 126,
+    "winner": "MIN"
   },
   {
     "date": "2026-04-12",
     "home_team": "OKC",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 135,
+    "winner": "PHX"
   },
   {
     "date": "2026-04-12",
     "home_team": "SA",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 118,
+    "away_score": 128,
+    "winner": "DEN"
   },
   {
     "date": "2026-04-12",
     "home_team": "LAL",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 107,
+    "winner": "LAL"
   },
   {
     "date": "2026-04-12",
     "home_team": "LAC",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 110,
+    "winner": "LAC"
   },
   {
     "date": "2026-04-12",
     "home_team": "POR",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 110,
+    "winner": "POR"
   }
 ]
