@@ -6672,5 +6672,21 @@
     "home_score": 122,
     "away_score": 110,
     "winner": "POR"
+  },
+  {
+    "date": "2026-04-14",
+    "home_team": "CHA",
+    "away_team": "MIA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-04-14",
+    "home_team": "PHX",
+    "away_team": "POR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
