@@ -6677,9 +6677,10 @@
     "date": "2026-04-14",
     "home_team": "CHA",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 126,
+    "winner": "CHA"
   },
   {
     "date": "2026-04-14",
