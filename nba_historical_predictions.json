@@ -6658,5 +6658,23 @@
     "confidence": 0.5527210884353742,
     "home_win_prob": 0.44727891156462585,
     "away_win_prob": 0.5527210884353742
+  },
+  {
+    "home_team": "PHI",
+    "away_team": "ORL",
+    "date": "2026-04-15",
+    "winner": "PHI",
+    "confidence": 0.52,
+    "home_win_prob": 0.52,
+    "away_win_prob": 0.48
+  },
+  {
+    "home_team": "LAC",
+    "away_team": "GS",
+    "date": "2026-04-15",
+    "winner": "LAC",
+    "confidence": 0.7241666666666666,
+    "home_win_prob": 0.7241666666666666,
+    "away_win_prob": 0.2758333333333334
   }
 ]
