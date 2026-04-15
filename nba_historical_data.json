@@ -2219,42 +2219,6 @@
     "winner": "OKC"
   },
   {
-    "date": "2026-02-02",
-    "home_team": "CHA",
-    "away_team": "NO",
-    "status": "completed",
-    "home_score": 102,
-    "away_score": 95,
-    "winner": "CHA"
-  },
-  {
-    "date": "2026-02-02",
-    "home_team": "IND",
-    "away_team": "HOU",
-    "status": "completed",
-    "home_score": 114,
-    "away_score": 118,
-    "winner": "HOU"
-  },
-  {
-    "date": "2026-02-02",
-    "home_team": "MEM",
-    "away_team": "MIN",
-    "status": "completed",
-    "home_score": 137,
-    "away_score": 128,
-    "winner": "MEM"
-  },
-  {
-    "date": "2026-02-02",
-    "home_team": "LAC",
-    "away_team": "PHI",
-    "status": "completed",
-    "home_score": 113,
-    "away_score": 128,
-    "winner": "PHI"
-  },
-  {
     "date": "2026-02-03",
     "home_team": "DET",
     "away_team": "DEN",
