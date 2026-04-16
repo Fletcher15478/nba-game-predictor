@@ -6695,9 +6695,10 @@
     "date": "2026-04-15",
     "home_team": "PHI",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 97,
+    "winner": "PHI"
   },
   {
     "date": "2026-04-15",
