@@ -6704,8 +6704,9 @@
     "date": "2026-04-15",
     "home_team": "LAC",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 126,
+    "winner": "GS"
   }
 ]
