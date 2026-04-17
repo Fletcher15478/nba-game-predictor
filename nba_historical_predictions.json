@@ -6676,5 +6676,23 @@
     "confidence": 0.7241666666666666,
     "home_win_prob": 0.7241666666666666,
     "away_win_prob": 0.2758333333333334
+  },
+  {
+    "home_team": "ORL",
+    "away_team": "CHA",
+    "date": "2026-04-17",
+    "winner": "CHA",
+    "confidence": 0.6493877551020408,
+    "home_win_prob": 0.35061224489795917,
+    "away_win_prob": 0.6493877551020408
+  },
+  {
+    "home_team": "PHX",
+    "away_team": "GS",
+    "date": "2026-04-17",
+    "winner": "PHX",
+    "confidence": 0.6118367346938776,
+    "home_win_prob": 0.6118367346938776,
+    "away_win_prob": 0.38816326530612244
   }
 ]

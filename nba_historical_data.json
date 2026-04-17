@@ -6708,5 +6708,21 @@
     "home_score": 121,
     "away_score": 126,
     "winner": "GS"
+  },
+  {
+    "date": "2026-04-17",
+    "home_team": "ORL",
+    "away_team": "CHA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-04-17",
+    "home_team": "PHX",
+    "away_team": "GS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
