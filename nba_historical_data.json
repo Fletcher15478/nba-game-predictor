@@ -6713,9 +6713,10 @@
     "date": "2026-04-17",
     "home_team": "ORL",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 90,
+    "winner": "ORL"
   },
   {
     "date": "2026-04-17",
