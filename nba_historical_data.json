@@ -6776,9 +6776,10 @@
     "date": "2026-04-19",
     "home_team": "OKC",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 84,
+    "winner": "OKC"
   },
   {
     "date": "2026-04-19",
