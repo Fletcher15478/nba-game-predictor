@@ -6794,9 +6794,10 @@
     "date": "2026-04-19",
     "home_team": "SA",
     "away_team": "POR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 98,
+    "winner": "SA"
   },
   {
     "date": "2026-04-20",
