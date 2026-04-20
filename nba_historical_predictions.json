@@ -6766,5 +6766,32 @@
     "confidence": 0.6836734693877551,
     "home_win_prob": 0.6836734693877551,
     "away_win_prob": 0.3163265306122449
+  },
+  {
+    "home_team": "CLE",
+    "away_team": "TOR",
+    "date": "2026-04-20",
+    "winner": "CLE",
+    "confidence": 0.6666666666666667,
+    "home_win_prob": 0.6666666666666667,
+    "away_win_prob": 0.33333333333333326
+  },
+  {
+    "home_team": "NY",
+    "away_team": "ATL",
+    "date": "2026-04-20",
+    "winner": "ATL",
+    "confidence": 0.52,
+    "home_win_prob": 0.48,
+    "away_win_prob": 0.52
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "MIN",
+    "date": "2026-04-20",
+    "winner": "DEN",
+    "confidence": 0.5685714285714286,
+    "home_win_prob": 0.5685714285714286,
+    "away_win_prob": 0.4314285714285714
   }
 ]
