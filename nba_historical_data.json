@@ -6812,9 +6812,10 @@
     "date": "2026-04-20",
     "home_team": "NY",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 106,
+    "away_score": 107,
+    "winner": "ATL"
   },
   {
     "date": "2026-04-20",
