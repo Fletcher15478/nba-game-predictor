@@ -6820,5 +6820,23 @@
     "confidence": 0.5500725689404935,
     "home_win_prob": 0.5500725689404935,
     "away_win_prob": 0.4499274310595065
+  },
+  {
+    "home_team": "DET",
+    "away_team": "ORL",
+    "date": "2026-04-22",
+    "winner": "DET",
+    "confidence": 0.6509803921568627,
+    "home_win_prob": 0.6509803921568627,
+    "away_win_prob": 0.34901960784313735
+  },
+  {
+    "home_team": "OKC",
+    "away_team": "PHX",
+    "date": "2026-04-22",
+    "winner": "OKC",
+    "confidence": 0.7154631083202512,
+    "home_win_prob": 0.7154631083202512,
+    "away_win_prob": 0.2845368916797488
   }
 ]
