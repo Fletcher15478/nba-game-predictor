@@ -6857,9 +6857,10 @@
     "date": "2026-04-22",
     "home_team": "DET",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 98,
+    "away_score": 83,
+    "winner": "DET"
   },
   {
     "date": "2026-04-22",
