@@ -6958,5 +6958,37 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-04-26",
+    "home_team": "TOR",
+    "away_team": "CLE",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-04-26",
+    "home_team": "POR",
+    "away_team": "SA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-04-26",
+    "home_team": "PHI",
+    "away_team": "BOS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-04-26",
+    "home_team": "HOU",
+    "away_team": "LAL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
