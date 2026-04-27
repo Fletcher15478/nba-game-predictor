@@ -240,26 +240,6 @@
     "winner": "SEA"
   },
   {
-    "date": "2026-01-18",
-    "home_team": "NE",
-    "away_team": "HOU",
-    "status": "completed",
-    "home_score": 28,
-    "away_score": 16,
-    "week": null,
-    "winner": "NE"
-  },
-  {
-    "date": "2026-01-18",
-    "home_team": "CHI",
-    "away_team": "LAR",
-    "status": "completed",
-    "home_score": 17,
-    "away_score": 20,
-    "week": null,
-    "winner": "LAR"
-  },
-  {
     "date": "2026-01-25",
     "home_team": "DEN",
     "away_team": "NE",
