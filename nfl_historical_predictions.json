@@ -230,6 +230,26 @@
     "away_win_prob": 0.07999999999999996
   },
   {
+    "home_team": "NE",
+    "away_team": "HOU",
+    "date": "2026-01-18",
+    "week": null,
+    "winner": "HOU",
+    "confidence": 0.55,
+    "home_win_prob": 0.44999999999999996,
+    "away_win_prob": 0.55
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "LAR",
+    "date": "2026-01-18",
+    "week": null,
+    "winner": "LAR",
+    "confidence": 0.92,
+    "home_win_prob": 0.07999999999999996,
+    "away_win_prob": 0.92
+  },
+  {
     "home_team": "DEN",
     "away_team": "NE",
     "date": "2026-01-25",
