@@ -7020,5 +7020,29 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-04-28",
+    "home_team": "BOS",
+    "away_team": "PHI",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-04-28",
+    "home_team": "NY",
+    "away_team": "ATL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-04-28",
+    "home_team": "SA",
+    "away_team": "POR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]

@@ -6991,5 +6991,32 @@
     "confidence": 0.52,
     "home_win_prob": 0.52,
     "away_win_prob": 0.48
+  },
+  {
+    "home_team": "BOS",
+    "away_team": "PHI",
+    "date": "2026-04-28",
+    "winner": "BOS",
+    "confidence": 0.6865079365079365,
+    "home_win_prob": 0.6865079365079365,
+    "away_win_prob": 0.3134920634920635
+  },
+  {
+    "home_team": "NY",
+    "away_team": "ATL",
+    "date": "2026-04-28",
+    "winner": "ATL",
+    "confidence": 0.5236773954864965,
+    "home_win_prob": 0.4763226045135035,
+    "away_win_prob": 0.5236773954864965
+  },
+  {
+    "home_team": "SA",
+    "away_team": "POR",
+    "date": "2026-04-28",
+    "winner": "SA",
+    "confidence": 0.7075471698113208,
+    "home_win_prob": 0.7075471698113208,
+    "away_win_prob": 0.2924528301886792
   }
 ]
