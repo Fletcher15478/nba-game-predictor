@@ -7019,9 +7019,10 @@
     "date": "2026-04-27",
     "home_team": "DEN",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 113,
+    "winner": "DEN"
   },
   {
     "date": "2026-04-28",
