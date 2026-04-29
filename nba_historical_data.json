@@ -7037,9 +7037,10 @@
     "date": "2026-04-28",
     "home_team": "NY",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 97,
+    "winner": "NY"
   },
   {
     "date": "2026-04-28",
