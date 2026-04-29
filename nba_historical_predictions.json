@@ -7018,5 +7018,32 @@
     "confidence": 0.7075471698113208,
     "home_win_prob": 0.7075471698113208,
     "away_win_prob": 0.2924528301886792
+  },
+  {
+    "home_team": "DET",
+    "away_team": "ORL",
+    "date": "2026-04-29",
+    "winner": "DET",
+    "confidence": 0.6236897274633123,
+    "home_win_prob": 0.6236897274633123,
+    "away_win_prob": 0.3763102725366877
+  },
+  {
+    "home_team": "CLE",
+    "away_team": "TOR",
+    "date": "2026-04-29",
+    "winner": "CLE",
+    "confidence": 0.6372549019607843,
+    "home_win_prob": 0.6372549019607843,
+    "away_win_prob": 0.36274509803921573
+  },
+  {
+    "home_team": "LAL",
+    "away_team": "HOU",
+    "date": "2026-04-29",
+    "winner": "LAL",
+    "confidence": 0.5652597402597402,
+    "home_win_prob": 0.5652597402597402,
+    "away_win_prob": 0.43474025974025976
   }
 ]
