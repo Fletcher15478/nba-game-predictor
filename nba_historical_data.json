@@ -5144,51 +5144,6 @@
     "winner": "MIL"
   },
   {
-    "date": "2026-03-22",
-    "home_team": "DEN",
-    "away_team": "POR",
-    "status": "completed",
-    "home_score": 128,
-    "away_score": 112,
-    "winner": "DEN"
-  },
-  {
-    "date": "2026-03-22",
-    "home_team": "SAC",
-    "away_team": "BKN",
-    "status": "completed",
-    "home_score": 126,
-    "away_score": 122,
-    "winner": "SAC"
-  },
-  {
-    "date": "2026-03-22",
-    "home_team": "NY",
-    "away_team": "WSH",
-    "status": "completed",
-    "home_score": 145,
-    "away_score": 113,
-    "winner": "NY"
-  },
-  {
-    "date": "2026-03-22",
-    "home_team": "BOS",
-    "away_team": "MIN",
-    "status": "completed",
-    "home_score": 92,
-    "away_score": 102,
-    "winner": "MIN"
-  },
-  {
-    "date": "2026-03-22",
-    "home_team": "PHX",
-    "away_team": "TOR",
-    "status": "completed",
-    "home_score": 120,
-    "away_score": 98,
-    "winner": "PHX"
-  },
-  {
     "date": "2026-03-23",
     "home_team": "DET",
     "away_team": "LAL",
