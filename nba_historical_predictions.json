@@ -7099,5 +7099,14 @@
     "confidence": 0.5463659147869675,
     "home_win_prob": 0.4536340852130325,
     "away_win_prob": 0.5463659147869675
+  },
+  {
+    "home_team": "BOS",
+    "away_team": "PHI",
+    "date": "2026-05-02",
+    "winner": "BOS",
+    "confidence": 0.6447044334975369,
+    "home_win_prob": 0.6447044334975369,
+    "away_win_prob": 0.3552955665024631
   }
 ]
