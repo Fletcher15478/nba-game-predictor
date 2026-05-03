@@ -7136,9 +7136,10 @@
     "date": "2026-05-02",
     "home_team": "BOS",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 100,
+    "away_score": 109,
+    "winner": "PHI"
   },
   {
     "date": "2026-05-03",
