@@ -7139,5 +7139,21 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-05-03",
+    "home_team": "DET",
+    "away_team": "ORL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-05-03",
+    "home_team": "CLE",
+    "away_team": "TOR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
