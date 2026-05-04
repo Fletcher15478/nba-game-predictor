@@ -7154,9 +7154,10 @@
     "date": "2026-05-03",
     "home_team": "CLE",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 102,
+    "winner": "CLE"
   },
   {
     "date": "2026-05-04",
