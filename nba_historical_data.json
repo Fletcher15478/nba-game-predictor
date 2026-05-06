@@ -6674,6 +6674,24 @@
     "winner": "POR"
   },
   {
+    "date": "2026-04-14",
+    "home_team": "CHA",
+    "away_team": "MIA",
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 126,
+    "winner": "CHA"
+  },
+  {
+    "date": "2026-04-14",
+    "home_team": "PHX",
+    "away_team": "POR",
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 114,
+    "winner": "POR"
+  },
+  {
     "date": "2026-04-15",
     "home_team": "PHI",
     "away_team": "ORL",
