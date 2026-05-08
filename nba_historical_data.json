@@ -7226,9 +7226,10 @@
     "date": "2026-05-07",
     "home_team": "OKC",
     "away_team": "LAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 107,
+    "winner": "OKC"
   },
   {
     "date": "2026-05-08",
