@@ -7271,9 +7271,10 @@
     "date": "2026-05-10",
     "home_team": "PHI",
     "away_team": "NY",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 144,
+    "winner": "NY"
   },
   {
     "date": "2026-05-10",
