@@ -7289,9 +7289,10 @@
     "date": "2026-05-11",
     "home_team": "CLE",
     "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 103,
+    "winner": "CLE"
   },
   {
     "date": "2026-05-11",
