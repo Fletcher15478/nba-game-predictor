@@ -7279,5 +7279,14 @@
     "confidence": 0.6724137931034483,
     "home_win_prob": 0.6724137931034483,
     "away_win_prob": 0.3275862068965517
+  },
+  {
+    "home_team": "DET",
+    "away_team": "CLE",
+    "date": "2026-05-13",
+    "winner": "DET",
+    "confidence": 0.52,
+    "home_win_prob": 0.52,
+    "away_win_prob": 0.48
   }
 ]
