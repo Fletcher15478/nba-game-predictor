@@ -7307,9 +7307,10 @@
     "date": "2026-05-12",
     "home_team": "SA",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 97,
+    "winner": "SA"
   },
   {
     "date": "2026-05-13",
