@@ -186,7 +186,7 @@
     "status": "completed",
     "home_score": 24,
     "away_score": 27,
-    "week": null,
+    "week": 1,
     "winner": "BUF"
   },
   {
@@ -196,7 +196,7 @@
     "status": "completed",
     "home_score": 19,
     "away_score": 23,
-    "week": null,
+    "week": 1,
     "winner": "SF"
   },
   {
@@ -206,7 +206,7 @@
     "status": "completed",
     "home_score": 16,
     "away_score": 3,
-    "week": null,
+    "week": 1,
     "winner": "NE"
   },
   {
@@ -246,7 +246,7 @@
     "status": "completed",
     "home_score": 28,
     "away_score": 16,
-    "week": null,
+    "week": 2,
     "winner": "NE"
   },
   {
@@ -256,7 +256,7 @@
     "status": "completed",
     "home_score": 17,
     "away_score": 20,
-    "week": null,
+    "week": 2,
     "winner": "LAR"
   },
   {
