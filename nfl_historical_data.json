@@ -6,7 +6,7 @@
     "status": "completed",
     "home_score": 16,
     "away_score": 14,
-    "week": null,
+    "week": 18,
     "winner": "TB"
   },
   {
@@ -16,7 +16,7 @@
     "status": "completed",
     "home_score": 3,
     "away_score": 13,
-    "week": null,
+    "week": 18,
     "winner": "SEA"
   },
   {
@@ -26,7 +26,7 @@
     "status": "completed",
     "home_score": 19,
     "away_score": 17,
-    "week": null,
+    "week": 18,
     "winner": "ATL"
   },
   {
@@ -36,7 +36,7 @@
     "status": "completed",
     "home_score": 18,
     "away_score": 20,
-    "week": null,
+    "week": 18,
     "winner": "CLE"
   },
   {
@@ -46,7 +46,7 @@
     "status": "completed",
     "home_score": 16,
     "away_score": 3,
-    "week": null,
+    "week": 18,
     "winner": "MIN"
   },
   {
@@ -56,7 +56,7 @@
     "status": "completed",
     "home_score": 34,
     "away_score": 17,
-    "week": null,
+    "week": 18,
     "winner": "NYG"
   },
   {
@@ -66,7 +66,7 @@
     "status": "completed",
     "home_score": 41,
     "away_score": 7,
-    "week": null,
+    "week": 18,
     "winner": "JAX"
   },
   {
@@ -76,7 +76,7 @@
     "status": "completed",
     "home_score": 38,
     "away_score": 30,
-    "week": null,
+    "week": 18,
     "winner": "HOU"
   },
   {
@@ -86,7 +86,7 @@
     "status": "completed",
     "home_score": 35,
     "away_score": 8,
-    "week": null,
+    "week": 18,
     "winner": "BUF"
   },
   {
@@ -96,7 +96,7 @@
     "status": "completed",
     "home_score": 16,
     "away_score": 19,
-    "week": null,
+    "week": 18,
     "winner": "DET"
   },
   {
@@ -106,7 +106,7 @@
     "status": "completed",
     "home_score": 19,
     "away_score": 3,
-    "week": null,
+    "week": 18,
     "winner": "DEN"
   },
   {
@@ -116,7 +116,7 @@
     "status": "completed",
     "home_score": 14,
     "away_score": 12,
-    "week": null,
+    "week": 18,
     "winner": "LV"
   },
   {
@@ -126,7 +126,7 @@
     "status": "completed",
     "home_score": 37,
     "away_score": 20,
-    "week": null,
+    "week": 18,
     "winner": "LAR"
   },
   {
@@ -136,7 +136,7 @@
     "status": "completed",
     "home_score": 38,
     "away_score": 10,
-    "week": null,
+    "week": 18,
     "winner": "NE"
   },
   {
@@ -146,7 +146,7 @@
     "status": "completed",
     "home_score": 17,
     "away_score": 24,
-    "week": null,
+    "week": 18,
     "winner": "WSH"
   },
   {
@@ -156,7 +156,7 @@
     "status": "completed",
     "home_score": 26,
     "away_score": 24,
-    "week": null,
+    "week": 18,
     "winner": "PIT"
   },
   {
@@ -166,7 +166,7 @@
     "status": "completed",
     "home_score": 31,
     "away_score": 34,
-    "week": null,
+    "week": 1,
     "winner": "LAR"
   },
   {
@@ -176,7 +176,7 @@
     "status": "completed",
     "home_score": 31,
     "away_score": 27,
-    "week": null,
+    "week": 1,
     "winner": "CHI"
   },
   {
@@ -216,7 +216,7 @@
     "status": "completed",
     "home_score": 6,
     "away_score": 30,
-    "week": null,
+    "week": 1,
     "winner": "HOU"
   },
   {
@@ -226,7 +226,7 @@
     "status": "completed",
     "home_score": 33,
     "away_score": 30,
-    "week": null,
+    "week": 2,
     "winner": "DEN"
   },
   {
@@ -236,7 +236,7 @@
     "status": "completed",
     "home_score": 41,
     "away_score": 6,
-    "week": null,
+    "week": 2,
     "winner": "SEA"
   },
   {
@@ -266,7 +266,7 @@
     "status": "completed",
     "home_score": 7,
     "away_score": 10,
-    "week": null,
+    "week": 3,
     "winner": "NE"
   },
   {
@@ -276,7 +276,7 @@
     "status": "completed",
     "home_score": 31,
     "away_score": 27,
-    "week": null,
+    "week": 3,
     "winner": "SEA"
   },
   {
@@ -286,7 +286,7 @@
     "status": "completed",
     "home_score": 52,
     "away_score": 66,
-    "week": null,
+    "week": 4,
     "winner": "NFC"
   },
   {
@@ -296,7 +296,7 @@
     "status": "completed",
     "home_score": 13,
     "away_score": 29,
-    "week": null,
+    "week": 5,
     "winner": "SEA"
   }
 ]
