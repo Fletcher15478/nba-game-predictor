@@ -513,6 +513,41 @@
     "winner": "POR"
   },
   {
+    "date": "2026-01-08",
+    "home_team": "CHA",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 114,
+    "winner": "IND"
+  },
+  {
+    "date": "2026-01-08",
+    "home_team": "CHI",
+    "away_team": "MIA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-01-08",
+    "home_team": "MIN",
+    "away_team": "CLE",
+    "status": "completed",
+    "home_score": 131,
+    "away_score": 122,
+    "winner": "MIN"
+  },
+  {
+    "date": "2026-01-08",
+    "home_team": "UTAH",
+    "away_team": "DAL",
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 114,
+    "winner": "UTAH"
+  },
+  {
     "date": "2026-01-09",
     "home_team": "BOS",
     "away_team": "TOR",
