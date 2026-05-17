@@ -7338,5 +7338,13 @@
     "home_score": 109,
     "away_score": 139,
     "winner": "SA"
+  },
+  {
+    "date": "2026-05-17",
+    "home_team": "DET",
+    "away_team": "CLE",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
