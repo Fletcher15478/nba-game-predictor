@@ -7355,5 +7355,13 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-05-19",
+    "home_team": "NY",
+    "away_team": "CLE",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
