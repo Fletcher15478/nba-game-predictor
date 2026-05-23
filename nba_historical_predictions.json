@@ -7360,5 +7360,14 @@
     "confidence": 0.52,
     "home_win_prob": 0.48,
     "away_win_prob": 0.52
+  },
+  {
+    "home_team": "CLE",
+    "away_team": "NY",
+    "date": "2026-05-23",
+    "winner": "NY",
+    "confidence": 0.52,
+    "home_win_prob": 0.48,
+    "away_win_prob": 0.52
   }
 ]
