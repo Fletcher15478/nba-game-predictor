@@ -7437,5 +7437,13 @@
     "home_score": 118,
     "away_score": 91,
     "winner": "SA"
+  },
+  {
+    "date": "2026-05-30",
+    "home_team": "OKC",
+    "away_team": "SA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]

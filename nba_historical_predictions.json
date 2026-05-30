@@ -7405,5 +7405,14 @@
     "confidence": 0.52,
     "home_win_prob": 0.48,
     "away_win_prob": 0.52
+  },
+  {
+    "home_team": "OKC",
+    "away_team": "SA",
+    "date": "2026-05-30",
+    "winner": "SA",
+    "confidence": 0.52,
+    "home_win_prob": 0.48,
+    "away_win_prob": 0.52
   }
 ]
