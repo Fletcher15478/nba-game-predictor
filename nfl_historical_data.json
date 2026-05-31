@@ -280,6 +280,16 @@
     "winner": "SEA"
   },
   {
+    "date": "2026-02-03",
+    "home_team": "AFC",
+    "away_team": "NFC",
+    "status": "completed",
+    "home_score": 52,
+    "away_score": 66,
+    "week": 4,
+    "winner": "NFC"
+  },
+  {
     "date": "2026-02-08",
     "home_team": "NE",
     "away_team": "SEA",
