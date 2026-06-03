@@ -7446,5 +7446,13 @@
     "home_score": 103,
     "away_score": 111,
     "winner": "SA"
+  },
+  {
+    "date": "2026-06-03",
+    "home_team": "SA",
+    "away_team": "NY",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
