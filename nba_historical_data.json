@@ -5891,6 +5891,60 @@
     "winner": "SA"
   },
   {
+    "date": "2026-04-02",
+    "home_team": "CHA",
+    "away_team": "PHX",
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 107,
+    "winner": "CHA"
+  },
+  {
+    "date": "2026-04-02",
+    "home_team": "DET",
+    "away_team": "MIN",
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 108,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-04-02",
+    "home_team": "OKC",
+    "away_team": "LAL",
+    "status": "completed",
+    "home_score": 139,
+    "away_score": 96,
+    "winner": "OKC"
+  },
+  {
+    "date": "2026-04-02",
+    "home_team": "GS",
+    "away_team": "CLE",
+    "status": "completed",
+    "home_score": 111,
+    "away_score": 118,
+    "winner": "CLE"
+  },
+  {
+    "date": "2026-04-02",
+    "home_team": "POR",
+    "away_team": "NO",
+    "status": "completed",
+    "home_score": 118,
+    "away_score": 106,
+    "winner": "POR"
+  },
+  {
+    "date": "2026-04-02",
+    "home_team": "LAC",
+    "away_team": "SA",
+    "status": "completed",
+    "home_score": 99,
+    "away_score": 118,
+    "winner": "SA"
+  },
+  {
     "date": "2026-04-03",
     "home_team": "CHA",
     "away_team": "IND",
