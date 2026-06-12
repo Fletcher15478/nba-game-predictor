@@ -6026,6 +6026,33 @@
     "winner": "SAC"
   },
   {
+    "date": "2026-04-04",
+    "home_team": "MIA",
+    "away_team": "WSH",
+    "status": "completed",
+    "home_score": 152,
+    "away_score": 136,
+    "winner": "MIA"
+  },
+  {
+    "date": "2026-04-04",
+    "home_team": "DEN",
+    "away_team": "SA",
+    "status": "completed",
+    "home_score": 136,
+    "away_score": 134,
+    "winner": "DEN"
+  },
+  {
+    "date": "2026-04-04",
+    "home_team": "PHI",
+    "away_team": "DET",
+    "status": "completed",
+    "home_score": 93,
+    "away_score": 116,
+    "winner": "DET"
+  },
+  {
     "date": "2026-04-05",
     "home_team": "BOS",
     "away_team": "TOR",
