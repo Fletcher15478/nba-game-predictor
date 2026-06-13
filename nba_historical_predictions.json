@@ -7450,5 +7450,14 @@
     "confidence": 0.5619047619047619,
     "home_win_prob": 0.4380952380952381,
     "away_win_prob": 0.5619047619047619
+  },
+  {
+    "home_team": "SA",
+    "away_team": "NY",
+    "date": "2026-06-13",
+    "winner": "SA",
+    "confidence": 0.5466680681101534,
+    "home_win_prob": 0.5466680681101534,
+    "away_win_prob": 0.45333193188984655
   }
 ]
