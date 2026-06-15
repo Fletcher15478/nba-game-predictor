@@ -7214,6 +7214,24 @@
     "winner": "SA"
   },
   {
+    "date": "2026-05-07",
+    "home_team": "DET",
+    "away_team": "CLE",
+    "status": "completed",
+    "home_score": 107,
+    "away_score": 97,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-05-07",
+    "home_team": "OKC",
+    "away_team": "LAL",
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 107,
+    "winner": "OKC"
+  },
+  {
     "date": "2026-05-08",
     "home_team": "PHI",
     "away_team": "NY",
