@@ -7385,6 +7385,15 @@
     "winner": "NY"
   },
   {
+    "date": "2026-05-22",
+    "home_team": "SA",
+    "away_team": "OKC",
+    "status": "completed",
+    "home_score": 108,
+    "away_score": 123,
+    "winner": "OKC"
+  },
+  {
     "date": "2026-05-23",
     "home_team": "CLE",
     "away_team": "NY",
