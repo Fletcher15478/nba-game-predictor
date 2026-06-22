@@ -2939,6 +2939,42 @@
     "winner": "LAL"
   },
   {
+    "date": "2026-02-15",
+    "home_team": "STARS",
+    "away_team": "WORLD",
+    "status": "completed",
+    "home_score": 37,
+    "away_score": 35,
+    "winner": "STARS"
+  },
+  {
+    "date": "2026-02-15",
+    "home_team": "STRIPES",
+    "away_team": "STARS",
+    "status": "completed",
+    "home_score": 42,
+    "away_score": 40,
+    "winner": "STRIPES"
+  },
+  {
+    "date": "2026-02-15",
+    "home_team": "STRIPES",
+    "away_team": "WORLD",
+    "status": "completed",
+    "home_score": 48,
+    "away_score": 45,
+    "winner": "STRIPES"
+  },
+  {
+    "date": "2026-02-15",
+    "home_team": "STRIPES",
+    "away_team": "STARS",
+    "status": "completed",
+    "home_score": 21,
+    "away_score": 47,
+    "winner": "STARS"
+  },
+  {
     "date": "2026-02-19",
     "home_team": "CHA",
     "away_team": "HOU",
@@ -7095,6 +7131,15 @@
     "home_score": 78,
     "away_score": 98,
     "winner": "LAL"
+  },
+  {
+    "date": "2026-05-02",
+    "home_team": "BOS",
+    "away_team": "PHI",
+    "status": "completed",
+    "home_score": 100,
+    "away_score": 109,
+    "winner": "PHI"
   },
   {
     "date": "2026-05-03",
