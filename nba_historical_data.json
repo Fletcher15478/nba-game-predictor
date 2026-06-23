@@ -1080,6 +1080,15 @@
   },
   {
     "date": "2026-01-16",
+    "home_team": "HOU",
+    "away_team": "MIN",
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 105,
+    "winner": "HOU"
+  },
+  {
+    "date": "2026-01-16",
     "home_team": "SAC",
     "away_team": "WSH",
     "status": "completed",
