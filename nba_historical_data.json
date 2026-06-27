@@ -2624,6 +2624,42 @@
     "winner": "CLE"
   },
   {
+    "date": "2026-02-08",
+    "home_team": "BOS",
+    "away_team": "NY",
+    "status": "completed",
+    "home_score": 89,
+    "away_score": 111,
+    "winner": "NY"
+  },
+  {
+    "date": "2026-02-08",
+    "home_team": "WSH",
+    "away_team": "MIA",
+    "status": "completed",
+    "home_score": 101,
+    "away_score": 132,
+    "winner": "MIA"
+  },
+  {
+    "date": "2026-02-08",
+    "home_team": "TOR",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 104,
+    "winner": "TOR"
+  },
+  {
+    "date": "2026-02-08",
+    "home_team": "MIN",
+    "away_team": "LAC",
+    "status": "completed",
+    "home_score": 96,
+    "away_score": 115,
+    "winner": "LAC"
+  },
+  {
     "date": "2026-02-09",
     "home_team": "CHA",
     "away_team": "DET",
