@@ -5315,6 +5315,114 @@
     "winner": "DEN"
   },
   {
+    "date": "2026-03-25",
+    "home_team": "DET",
+    "away_team": "ATL",
+    "status": "completed",
+    "home_score": 129,
+    "away_score": 130,
+    "winner": "ATL"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "IND",
+    "away_team": "LAL",
+    "status": "completed",
+    "home_score": 130,
+    "away_score": 137,
+    "winner": "LAL"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "PHI",
+    "away_team": "CHI",
+    "status": "completed",
+    "home_score": 157,
+    "away_score": 137,
+    "winner": "PHI"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "BOS",
+    "away_team": "OKC",
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 109,
+    "winner": "BOS"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "CLE",
+    "away_team": "MIA",
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 120,
+    "winner": "MIA"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "MEM",
+    "away_team": "SA",
+    "status": "completed",
+    "home_score": 98,
+    "away_score": 123,
+    "winner": "SA"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "UTAH",
+    "away_team": "WSH",
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 133,
+    "winner": "WSH"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "MIN",
+    "away_team": "HOU",
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 108,
+    "winner": "MIN"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "DEN",
+    "away_team": "DAL",
+    "status": "completed",
+    "home_score": 142,
+    "away_score": 135,
+    "winner": "DEN"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "GS",
+    "away_team": "BKN",
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 106,
+    "winner": "GS"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "POR",
+    "away_team": "MIL",
+    "status": "completed",
+    "home_score": 130,
+    "away_score": 99,
+    "winner": "POR"
+  },
+  {
+    "date": "2026-03-25",
+    "home_team": "LAC",
+    "away_team": "TOR",
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 94,
+    "winner": "LAC"
+  },
+  {
     "date": "2026-03-26",
     "home_team": "CHA",
     "away_team": "NY",
