@@ -7254,6 +7254,15 @@
     "away_win_prob": 0.6929824561403508
   },
   {
+    "home_team": "CLE",
+    "away_team": "DET",
+    "date": "2026-05-11",
+    "winner": "DET",
+    "confidence": 0.5282485875706215,
+    "home_win_prob": 0.47175141242937846,
+    "away_win_prob": 0.5282485875706215
+  },
+  {
     "home_team": "LAL",
     "away_team": "OKC",
     "date": "2026-05-11",
@@ -7276,18 +7285,18 @@
     "away_team": "CLE",
     "date": "2026-05-13",
     "winner": "DET",
-    "confidence": 0.5282485875706215,
-    "home_win_prob": 0.5282485875706215,
-    "away_win_prob": 0.47175141242937846
+    "confidence": 0.52,
+    "home_win_prob": 0.52,
+    "away_win_prob": 0.48
   },
   {
     "home_team": "CLE",
     "away_team": "DET",
     "date": "2026-05-15",
-    "winner": "DET",
+    "winner": "CLE",
     "confidence": 0.52,
-    "home_win_prob": 0.48,
-    "away_win_prob": 0.52
+    "home_win_prob": 0.52,
+    "away_win_prob": 0.48
   },
   {
     "home_team": "MIN",
@@ -7303,9 +7312,9 @@
     "away_team": "CLE",
     "date": "2026-05-17",
     "winner": "DET",
-    "confidence": 0.527507641011392,
-    "home_win_prob": 0.527507641011392,
-    "away_win_prob": 0.472492358988608
+    "confidence": 0.52,
+    "home_win_prob": 0.52,
+    "away_win_prob": 0.48
   },
   {
     "home_team": "OKC",
@@ -7321,9 +7330,9 @@
     "away_team": "CLE",
     "date": "2026-05-19",
     "winner": "CLE",
-    "confidence": 0.5225988700564972,
-    "home_win_prob": 0.4774011299435028,
-    "away_win_prob": 0.5225988700564972
+    "confidence": 0.5280633509308141,
+    "home_win_prob": 0.47193664906918587,
+    "away_win_prob": 0.5280633509308141
   },
   {
     "home_team": "OKC",
@@ -7375,9 +7384,9 @@
     "away_team": "NY",
     "date": "2026-05-25",
     "winner": "NY",
-    "confidence": 0.5263696876600102,
-    "home_win_prob": 0.47363031233998976,
-    "away_win_prob": 0.5263696876600102
+    "confidence": 0.5206653225806451,
+    "home_win_prob": 0.47933467741935487,
+    "away_win_prob": 0.5206653225806451
   },
   {
     "home_team": "OKC",
