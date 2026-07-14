@@ -7418,37 +7418,46 @@
   {
     "home_team": "SA",
     "away_team": "NY",
-    "date": "2026-06-05",
+    "date": "2026-06-03",
     "winner": "SA",
     "confidence": 0.5796019900497513,
     "home_win_prob": 0.5796019900497513,
     "away_win_prob": 0.4203980099502487
   },
   {
+    "home_team": "SA",
+    "away_team": "NY",
+    "date": "2026-06-05",
+    "winner": "SA",
+    "confidence": 0.5634191176470589,
+    "home_win_prob": 0.5634191176470589,
+    "away_win_prob": 0.4365808823529411
+  },
+  {
     "home_team": "NY",
     "away_team": "SA",
     "date": "2026-06-08",
     "winner": "SA",
-    "confidence": 0.5634191176470589,
-    "home_win_prob": 0.4365808823529411,
-    "away_win_prob": 0.5634191176470589
+    "confidence": 0.5477146042363433,
+    "home_win_prob": 0.4522853957636567,
+    "away_win_prob": 0.5477146042363433
   },
   {
     "home_team": "NY",
     "away_team": "SA",
     "date": "2026-06-10",
     "winner": "SA",
-    "confidence": 0.5775919732441471,
-    "home_win_prob": 0.4224080267558529,
-    "away_win_prob": 0.5775919732441471
+    "confidence": 0.5619047619047619,
+    "home_win_prob": 0.4380952380952381,
+    "away_win_prob": 0.5619047619047619
   },
   {
     "home_team": "SA",
     "away_team": "NY",
     "date": "2026-06-13",
     "winner": "SA",
-    "confidence": 0.5619047619047619,
-    "home_win_prob": 0.5619047619047619,
-    "away_win_prob": 0.4380952380952381
+    "confidence": 0.5466680681101534,
+    "home_win_prob": 0.5466680681101534,
+    "away_win_prob": 0.45333193188984655
   }
 ]

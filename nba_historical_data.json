@@ -7448,6 +7448,15 @@
     "winner": "SA"
   },
   {
+    "date": "2026-06-03",
+    "home_team": "SA",
+    "away_team": "NY",
+    "status": "completed",
+    "home_score": 95,
+    "away_score": 105,
+    "winner": "NY"
+  },
+  {
     "date": "2026-06-05",
     "home_team": "SA",
     "away_team": "NY",
