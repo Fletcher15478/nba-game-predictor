@@ -782,60 +782,6 @@
     "winner": "SAC"
   },
   {
-    "date": "2026-01-12",
-    "home_team": "CLE",
-    "away_team": "UTAH",
-    "status": "completed",
-    "home_score": 112,
-    "away_score": 123,
-    "winner": "UTAH"
-  },
-  {
-    "date": "2026-01-12",
-    "home_team": "IND",
-    "away_team": "BOS",
-    "status": "completed",
-    "home_score": 98,
-    "away_score": 96,
-    "winner": "IND"
-  },
-  {
-    "date": "2026-01-12",
-    "home_team": "TOR",
-    "away_team": "PHI",
-    "status": "completed",
-    "home_score": 102,
-    "away_score": 115,
-    "winner": "PHI"
-  },
-  {
-    "date": "2026-01-12",
-    "home_team": "DAL",
-    "away_team": "BKN",
-    "status": "completed",
-    "home_score": 113,
-    "away_score": 105,
-    "winner": "DAL"
-  },
-  {
-    "date": "2026-01-12",
-    "home_team": "SAC",
-    "away_team": "LAL",
-    "status": "completed",
-    "home_score": 124,
-    "away_score": 112,
-    "winner": "SAC"
-  },
-  {
-    "date": "2026-01-12",
-    "home_team": "LAC",
-    "away_team": "CHA",
-    "status": "completed",
-    "home_score": 117,
-    "away_score": 109,
-    "winner": "LAC"
-  },
-  {
     "date": "2026-01-13",
     "home_team": "MIA",
     "away_team": "PHX",
