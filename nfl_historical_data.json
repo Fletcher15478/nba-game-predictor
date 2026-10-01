@@ -298,5 +298,984 @@
     "away_score": 29,
     "week": 5,
     "winner": "SEA"
+  },
+  {
+    "date": "2026-08-06",
+    "home_team": "ARI",
+    "away_team": "CAR",
+    "status": "completed",
+    "home_score": 30,
+    "away_score": 33,
+    "week": 1,
+    "winner": "CAR"
+  },
+  {
+    "date": "2026-08-13",
+    "home_team": "CIN",
+    "away_team": "DET",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 14,
+    "week": 2,
+    "winner": "CIN"
+  },
+  {
+    "date": "2026-08-13",
+    "home_team": "PIT",
+    "away_team": "GB",
+    "status": "completed",
+    "home_score": 28,
+    "away_score": 9,
+    "week": 2,
+    "winner": "PIT"
+  },
+  {
+    "date": "2026-08-13",
+    "home_team": "NE",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 13,
+    "week": 2,
+    "winner": "IND"
+  },
+  {
+    "date": "2026-08-13",
+    "home_team": "LV",
+    "away_team": "ARI",
+    "status": "completed",
+    "home_score": 14,
+    "away_score": 27,
+    "week": 2,
+    "winner": "ARI"
+  },
+  {
+    "date": "2026-08-13",
+    "home_team": "HOU",
+    "away_team": "LAC",
+    "status": "completed",
+    "home_score": 7,
+    "away_score": 27,
+    "week": 2,
+    "winner": "LAC"
+  },
+  {
+    "date": "2026-08-13",
+    "home_team": "SF",
+    "away_team": "TEN",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 19,
+    "week": 2,
+    "winner": "TEN"
+  },
+  {
+    "date": "2026-08-14",
+    "home_team": "ATL",
+    "away_team": "DEN",
+    "status": "completed",
+    "home_score": 7,
+    "away_score": 27,
+    "week": 2,
+    "winner": "DEN"
+  },
+  {
+    "date": "2026-08-14",
+    "home_team": "NYJ",
+    "away_team": "TB",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 24,
+    "week": 2,
+    "winner": "TB"
+  },
+  {
+    "date": "2026-08-14",
+    "home_team": "WSH",
+    "away_team": "MIA",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 7,
+    "week": 2,
+    "winner": "WSH"
+  },
+  {
+    "date": "2026-08-15",
+    "home_team": "BUF",
+    "away_team": "CAR",
+    "status": "completed",
+    "home_score": 29,
+    "away_score": 14,
+    "week": 2,
+    "winner": "BUF"
+  },
+  {
+    "date": "2026-08-15",
+    "home_team": "CHI",
+    "away_team": "CLE",
+    "status": "completed",
+    "home_score": 34,
+    "away_score": 10,
+    "week": 2,
+    "winner": "CHI"
+  },
+  {
+    "date": "2026-08-15",
+    "home_team": "NYG",
+    "away_team": "MIN",
+    "status": "completed",
+    "home_score": 10,
+    "away_score": 13,
+    "week": 2,
+    "winner": "MIN"
+  },
+  {
+    "date": "2026-08-15",
+    "home_team": "KC",
+    "away_team": "LAR",
+    "status": "completed",
+    "home_score": 12,
+    "away_score": 20,
+    "week": 2,
+    "winner": "LAR"
+  },
+  {
+    "date": "2026-08-15",
+    "home_team": "NO",
+    "away_team": "JAX",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 24,
+    "week": 2,
+    "winner": "JAX"
+  },
+  {
+    "date": "2026-08-15",
+    "home_team": "BAL",
+    "away_team": "PHI",
+    "status": "completed",
+    "home_score": 24,
+    "away_score": 7,
+    "week": 2,
+    "winner": "BAL"
+  },
+  {
+    "date": "2026-08-15",
+    "home_team": "SEA",
+    "away_team": "DAL",
+    "status": "completed",
+    "home_score": 7,
+    "away_score": 17,
+    "week": 2,
+    "winner": "DAL"
+  },
+  {
+    "date": "2026-08-20",
+    "home_team": "HOU",
+    "away_team": "LV",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 22,
+    "week": 3,
+    "winner": "LV"
+  },
+  {
+    "date": "2026-08-20",
+    "home_team": "LAC",
+    "away_team": "SF",
+    "status": "completed",
+    "home_score": 17,
+    "away_score": 41,
+    "week": 3,
+    "winner": "SF"
+  },
+  {
+    "date": "2026-08-21",
+    "home_team": "PIT",
+    "away_team": "NYJ",
+    "status": "completed",
+    "home_score": 0,
+    "away_score": 17,
+    "week": 3,
+    "winner": "NYJ"
+  },
+  {
+    "date": "2026-08-21",
+    "home_team": "JAX",
+    "away_team": "CAR",
+    "status": "completed",
+    "home_score": 17,
+    "away_score": 34,
+    "week": 3,
+    "winner": "CAR"
+  },
+  {
+    "date": "2026-08-21",
+    "home_team": "DEN",
+    "away_team": "GB",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 33,
+    "week": 3,
+    "winner": "GB"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "DET",
+    "away_team": "WSH",
+    "status": "completed",
+    "home_score": 17,
+    "away_score": 13,
+    "week": 3,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "CLE",
+    "away_team": "BUF",
+    "status": "completed",
+    "home_score": 7,
+    "away_score": 31,
+    "week": 3,
+    "winner": "BUF"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "IND",
+    "away_team": "ATL",
+    "status": "completed",
+    "home_score": 6,
+    "away_score": 34,
+    "week": 3,
+    "winner": "ATL"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "MIN",
+    "away_team": "BAL",
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 13,
+    "week": 3,
+    "winner": "BAL"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "LAR",
+    "away_team": "NO",
+    "status": "completed",
+    "home_score": 34,
+    "away_score": 0,
+    "week": 3,
+    "winner": "LAR"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "MIA",
+    "away_team": "NYG",
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 26,
+    "week": 3,
+    "winner": "NYG"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "CIN",
+    "away_team": "CHI",
+    "status": "completed",
+    "home_score": 27,
+    "away_score": 9,
+    "week": 3,
+    "winner": "CIN"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "NE",
+    "away_team": "PHI",
+    "status": "completed",
+    "home_score": 24,
+    "away_score": 21,
+    "week": 3,
+    "winner": "NE"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "TB",
+    "away_team": "KC",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 15,
+    "week": 3,
+    "winner": "TB"
+  },
+  {
+    "date": "2026-08-22",
+    "home_team": "ARI",
+    "away_team": "DAL",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 34,
+    "week": 3,
+    "winner": "DAL"
+  },
+  {
+    "date": "2026-08-23",
+    "home_team": "TEN",
+    "away_team": "SEA",
+    "status": "completed",
+    "home_score": 19,
+    "away_score": 16,
+    "week": 3,
+    "winner": "TEN"
+  },
+  {
+    "date": "2026-08-27",
+    "home_team": "BUF",
+    "away_team": "PIT",
+    "status": "completed",
+    "home_score": 28,
+    "away_score": 27,
+    "week": 4,
+    "winner": "BUF"
+  },
+  {
+    "date": "2026-08-27",
+    "home_team": "CLE",
+    "away_team": "NE",
+    "status": "completed",
+    "home_score": 37,
+    "away_score": 13,
+    "week": 4,
+    "winner": "CLE"
+  },
+  {
+    "date": "2026-08-27",
+    "home_team": "LV",
+    "away_team": "SF",
+    "status": "completed",
+    "home_score": 12,
+    "away_score": 18,
+    "week": 4,
+    "winner": "SF"
+  },
+  {
+    "date": "2026-08-27",
+    "home_team": "LAC",
+    "away_team": "LAR",
+    "status": "completed",
+    "home_score": 18,
+    "away_score": 20,
+    "week": 4,
+    "winner": "LAR"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "BAL",
+    "away_team": "WSH",
+    "status": "completed",
+    "home_score": 41,
+    "away_score": 3,
+    "week": 4,
+    "winner": "BAL"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "MIA",
+    "away_team": "ATL",
+    "status": "completed",
+    "home_score": 12,
+    "away_score": 17,
+    "week": 4,
+    "winner": "ATL"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "CAR",
+    "away_team": "HOU",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 13,
+    "week": 4,
+    "winner": "CAR"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "NYJ",
+    "away_team": "NYG",
+    "status": "completed",
+    "home_score": 6,
+    "away_score": 23,
+    "week": 4,
+    "winner": "NYG"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "JAX",
+    "away_team": "TB",
+    "status": "completed",
+    "home_score": 19,
+    "away_score": 0,
+    "week": 4,
+    "winner": "JAX"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "DAL",
+    "away_team": "NO",
+    "status": "completed",
+    "home_score": 24,
+    "away_score": 27,
+    "week": 4,
+    "winner": "NO"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "GB",
+    "away_team": "ARI",
+    "status": "completed",
+    "home_score": 42,
+    "away_score": 38,
+    "week": 4,
+    "winner": "GB"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "KC",
+    "away_team": "SEA",
+    "status": "completed",
+    "home_score": 9,
+    "away_score": 9,
+    "week": 4,
+    "winner": "SEA"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "PHI",
+    "away_team": "CIN",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 30,
+    "week": 4,
+    "winner": "CIN"
+  },
+  {
+    "date": "2026-08-28",
+    "home_team": "DEN",
+    "away_team": "MIN",
+    "status": "completed",
+    "home_score": 34,
+    "away_score": 6,
+    "week": 4,
+    "winner": "DEN"
+  },
+  {
+    "date": "2026-08-29",
+    "home_team": "IND",
+    "away_team": "DET",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 25,
+    "week": 4,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-08-29",
+    "home_team": "TEN",
+    "away_team": "CHI",
+    "status": "completed",
+    "home_score": 15,
+    "away_score": 24,
+    "week": 4,
+    "winner": "CHI"
+  },
+  {
+    "date": "2026-09-09",
+    "home_team": "SEA",
+    "away_team": "NE",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 10,
+    "week": 1,
+    "winner": "SEA"
+  },
+  {
+    "date": "2026-09-10",
+    "home_team": "LAR",
+    "away_team": "SF",
+    "status": "completed",
+    "home_score": 7,
+    "away_score": 27,
+    "week": 1,
+    "winner": "SF"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "CIN",
+    "away_team": "TB",
+    "status": "completed",
+    "home_score": 33,
+    "away_score": 27,
+    "week": 1,
+    "winner": "CIN"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "DET",
+    "away_team": "NO",
+    "status": "completed",
+    "home_score": 31,
+    "away_score": 30,
+    "week": 1,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "TEN",
+    "away_team": "NYJ",
+    "status": "completed",
+    "home_score": 10,
+    "away_score": 23,
+    "week": 1,
+    "winner": "NYJ"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "IND",
+    "away_team": "BAL",
+    "status": "completed",
+    "home_score": 23,
+    "away_score": 41,
+    "week": 1,
+    "winner": "BAL"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "PIT",
+    "away_team": "ATL",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 13,
+    "week": 1,
+    "winner": "PIT"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "CAR",
+    "away_team": "CHI",
+    "status": "completed",
+    "home_score": 37,
+    "away_score": 59,
+    "week": 1,
+    "winner": "CHI"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "JAX",
+    "away_team": "CLE",
+    "status": "completed",
+    "home_score": 34,
+    "away_score": 10,
+    "week": 1,
+    "winner": "JAX"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "HOU",
+    "away_team": "BUF",
+    "status": "completed",
+    "home_score": 31,
+    "away_score": 36,
+    "week": 1,
+    "winner": "BUF"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "LV",
+    "away_team": "MIA",
+    "status": "completed",
+    "home_score": 27,
+    "away_score": 13,
+    "week": 1,
+    "winner": "LV"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "MIN",
+    "away_team": "GB",
+    "status": "completed",
+    "home_score": 39,
+    "away_score": 22,
+    "week": 1,
+    "winner": "MIN"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "PHI",
+    "away_team": "WSH",
+    "status": "completed",
+    "home_score": 24,
+    "away_score": 22,
+    "week": 1,
+    "winner": "PHI"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "LAC",
+    "away_team": "ARI",
+    "status": "completed",
+    "home_score": 14,
+    "away_score": 26,
+    "week": 1,
+    "winner": "ARI"
+  },
+  {
+    "date": "2026-09-13",
+    "home_team": "NYG",
+    "away_team": "DAL",
+    "status": "completed",
+    "home_score": 28,
+    "away_score": 20,
+    "week": 1,
+    "winner": "NYG"
+  },
+  {
+    "date": "2026-09-14",
+    "home_team": "KC",
+    "away_team": "DEN",
+    "status": "completed",
+    "home_score": 31,
+    "away_score": 10,
+    "week": 1,
+    "winner": "KC"
+  },
+  {
+    "date": "2026-09-17",
+    "home_team": "BUF",
+    "away_team": "DET",
+    "status": "completed",
+    "home_score": 41,
+    "away_score": 31,
+    "week": 2,
+    "winner": "BUF"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "ATL",
+    "away_team": "CAR",
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 34,
+    "week": 2,
+    "winner": "CAR"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "CHI",
+    "away_team": "MIN",
+    "status": "completed",
+    "home_score": 3,
+    "away_score": 9,
+    "week": 2,
+    "winner": "MIN"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "TEN",
+    "away_team": "PHI",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 24,
+    "week": 2,
+    "winner": "PHI"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "NE",
+    "away_team": "PIT",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 3,
+    "week": 2,
+    "winner": "NE"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "NYJ",
+    "away_team": "GB",
+    "status": "completed",
+    "home_score": 17,
+    "away_score": 20,
+    "week": 2,
+    "winner": "GB"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "TB",
+    "away_team": "CLE",
+    "status": "completed",
+    "home_score": 19,
+    "away_score": 23,
+    "week": 2,
+    "winner": "CLE"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "BAL",
+    "away_team": "NO",
+    "status": "completed",
+    "home_score": 17,
+    "away_score": 24,
+    "week": 2,
+    "winner": "NO"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "HOU",
+    "away_team": "CIN",
+    "status": "completed",
+    "home_score": 6,
+    "away_score": 20,
+    "week": 2,
+    "winner": "CIN"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "DEN",
+    "away_team": "JAX",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 13,
+    "week": 2,
+    "winner": "DEN"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "LAC",
+    "away_team": "LV",
+    "status": "completed",
+    "home_score": 14,
+    "away_score": 26,
+    "week": 2,
+    "winner": "LV"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "DAL",
+    "away_team": "WSH",
+    "status": "completed",
+    "home_score": 37,
+    "away_score": 20,
+    "week": 2,
+    "winner": "DAL"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "ARI",
+    "away_team": "SEA",
+    "status": "completed",
+    "home_score": 7,
+    "away_score": 31,
+    "week": 2,
+    "winner": "SEA"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "SF",
+    "away_team": "MIA",
+    "status": "completed",
+    "home_score": 35,
+    "away_score": 13,
+    "week": 2,
+    "winner": "SF"
+  },
+  {
+    "date": "2026-09-20",
+    "home_team": "KC",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 33,
+    "away_score": 30,
+    "week": 2,
+    "winner": "KC"
+  },
+  {
+    "date": "2026-09-21",
+    "home_team": "LAR",
+    "away_team": "NYG",
+    "status": "completed",
+    "home_score": 28,
+    "away_score": 6,
+    "week": 2,
+    "winner": "LAR"
+  },
+  {
+    "date": "2026-09-24",
+    "home_team": "GB",
+    "away_team": "ATL",
+    "status": "completed",
+    "home_score": 14,
+    "away_score": 35,
+    "week": 3,
+    "winner": "ATL"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "BUF",
+    "away_team": "LAC",
+    "status": "completed",
+    "home_score": 24,
+    "away_score": 16,
+    "week": 3,
+    "winner": "BUF"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "CLE",
+    "away_team": "CAR",
+    "status": "completed",
+    "home_score": 21,
+    "away_score": 18,
+    "week": 3,
+    "winner": "CLE"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "DET",
+    "away_team": "NYJ",
+    "status": "completed",
+    "home_score": 31,
+    "away_score": 24,
+    "week": 3,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "IND",
+    "away_team": "HOU",
+    "status": "completed",
+    "home_score": 19,
+    "away_score": 17,
+    "week": 3,
+    "winner": "IND"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "MIA",
+    "away_team": "KC",
+    "status": "completed",
+    "home_score": 10,
+    "away_score": 24,
+    "week": 3,
+    "winner": "KC"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "NYG",
+    "away_team": "TEN",
+    "status": "completed",
+    "home_score": 12,
+    "away_score": 7,
+    "week": 3,
+    "winner": "NYG"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "PIT",
+    "away_team": "CIN",
+    "status": "completed",
+    "home_score": 30,
+    "away_score": 27,
+    "week": 3,
+    "winner": "PIT"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "WSH",
+    "away_team": "SEA",
+    "status": "completed",
+    "home_score": 33,
+    "away_score": 31,
+    "week": 3,
+    "winner": "WSH"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "JAX",
+    "away_team": "NE",
+    "status": "completed",
+    "home_score": 35,
+    "away_score": 6,
+    "week": 3,
+    "winner": "JAX"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "SF",
+    "away_team": "ARI",
+    "status": "completed",
+    "home_score": 36,
+    "away_score": 30,
+    "week": 3,
+    "winner": "SF"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "TB",
+    "away_team": "MIN",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 23,
+    "week": 3,
+    "winner": "MIN"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "DAL",
+    "away_team": "BAL",
+    "status": "completed",
+    "home_score": 31,
+    "away_score": 34,
+    "week": 3,
+    "winner": "BAL"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "NO",
+    "away_team": "LV",
+    "status": "completed",
+    "home_score": 27,
+    "away_score": 35,
+    "week": 3,
+    "winner": "LV"
+  },
+  {
+    "date": "2026-09-27",
+    "home_team": "DEN",
+    "away_team": "LAR",
+    "status": "completed",
+    "home_score": 30,
+    "away_score": 26,
+    "week": 3,
+    "winner": "DEN"
+  },
+  {
+    "date": "2026-09-28",
+    "home_team": "CHI",
+    "away_team": "PHI",
+    "status": "completed",
+    "home_score": 27,
+    "away_score": 7,
+    "week": 3,
+    "winner": "CHI"
+  },
+  {
+    "date": "2026-10-01",
+    "home_team": "CLE",
+    "away_team": "PIT",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
   }
 ]
