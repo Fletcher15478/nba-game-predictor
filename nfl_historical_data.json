@@ -1273,9 +1273,10 @@
     "date": "2026-10-01",
     "home_team": "CLE",
     "away_team": "PIT",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
+    "status": "completed",
+    "home_score": 27,
+    "away_score": 24,
+    "week": 4,
+    "winner": "CLE"
   }
 ]
