@@ -7491,5 +7491,13 @@
     "home_score": 90,
     "away_score": 94,
     "winner": "NY"
+  },
+  {
+    "date": "2026-10-03",
+    "home_team": "TOR",
+    "away_team": "MIA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]

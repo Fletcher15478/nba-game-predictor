@@ -7459,5 +7459,14 @@
     "confidence": 0.5466680681101534,
     "home_win_prob": 0.5466680681101534,
     "away_win_prob": 0.45333193188984655
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "MIA",
+    "date": "2026-10-03",
+    "winner": "TOR",
+    "confidence": 0.5370370370370371,
+    "home_win_prob": 0.5370370370370371,
+    "away_win_prob": 0.4629629629629629
   }
 ]
