@@ -1278,5 +1278,131 @@
     "away_score": 24,
     "week": 4,
     "winner": "CLE"
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "WSH",
+    "away_team": "IND",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "BUF",
+    "away_team": "NE",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "CHI",
+    "away_team": "NYJ",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "CIN",
+    "away_team": "JAX",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "NYG",
+    "away_team": "ARI",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "PHI",
+    "away_team": "LAR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "TB",
+    "away_team": "GB",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "BAL",
+    "away_team": "TEN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "HOU",
+    "away_team": "DAL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "MIN",
+    "away_team": "MIA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "LV",
+    "away_team": "KC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "SF",
+    "away_team": "DEN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "SEA",
+    "away_team": "LAC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "CAR",
+    "away_team": "DET",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
   }
 ]

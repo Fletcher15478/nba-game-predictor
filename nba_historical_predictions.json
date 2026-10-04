@@ -7468,5 +7468,23 @@
     "confidence": 0.5370370370370371,
     "home_win_prob": 0.5370370370370371,
     "away_win_prob": 0.4629629629629629
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "UTAH",
+    "date": "2026-10-04",
+    "winner": "DEN",
+    "confidence": 0.8999999999999999,
+    "home_win_prob": 0.8999999999999999,
+    "away_win_prob": 0.10000000000000009
+  },
+  {
+    "home_team": "LAC",
+    "away_team": "GS",
+    "date": "2026-10-04",
+    "winner": "LAC",
+    "confidence": 0.7078431372549019,
+    "home_win_prob": 0.7078431372549019,
+    "away_win_prob": 0.2921568627450981
   }
 ]
