@@ -1200,6 +1200,46 @@
     "away_win_prob": 0.4285714285714286
   },
   {
+    "home_team": "MIN",
+    "away_team": "MIA",
+    "date": "2026-10-04",
+    "week": 4,
+    "winner": "MIN",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
+    "home_team": "LV",
+    "away_team": "KC",
+    "date": "2026-10-04",
+    "week": 4,
+    "winner": "LV",
+    "confidence": 0.7857142857142858,
+    "home_win_prob": 0.7857142857142858,
+    "away_win_prob": 0.2142857142857142
+  },
+  {
+    "home_team": "SF",
+    "away_team": "DEN",
+    "date": "2026-10-04",
+    "week": 4,
+    "winner": "SF",
+    "confidence": 0.55,
+    "home_win_prob": 0.55,
+    "away_win_prob": 0.44999999999999996
+  },
+  {
+    "home_team": "SEA",
+    "away_team": "LAC",
+    "date": "2026-10-04",
+    "week": 4,
+    "winner": "SEA",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
     "home_team": "BUF",
     "away_team": "NE",
     "date": "2026-10-04",
@@ -1208,6 +1248,16 @@
     "confidence": 0.8434343434343434,
     "home_win_prob": 0.8434343434343434,
     "away_win_prob": 0.15656565656565657
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "NYJ",
+    "date": "2026-10-04",
+    "week": 4,
+    "winner": "CHI",
+    "confidence": 0.7698412698412699,
+    "home_win_prob": 0.7698412698412699,
+    "away_win_prob": 0.23015873015873012
   },
   {
     "home_team": "CIN",
@@ -1240,6 +1290,16 @@
     "away_win_prob": 0.92
   },
   {
+    "home_team": "TB",
+    "away_team": "GB",
+    "date": "2026-10-04",
+    "week": 4,
+    "winner": "TB",
+    "confidence": 0.5535714285714286,
+    "home_win_prob": 0.5535714285714286,
+    "away_win_prob": 0.4464285714285714
+  },
+  {
     "home_team": "BAL",
     "away_team": "TEN",
     "date": "2026-10-04",
@@ -1258,66 +1318,6 @@
     "confidence": 0.7063492063492063,
     "home_win_prob": 0.2936507936507937,
     "away_win_prob": 0.7063492063492063
-  },
-  {
-    "home_team": "MIN",
-    "away_team": "MIA",
-    "date": "2026-10-04",
-    "week": 4,
-    "winner": "MIN",
-    "confidence": 0.92,
-    "home_win_prob": 0.92,
-    "away_win_prob": 0.07999999999999996
-  },
-  {
-    "home_team": "CHI",
-    "away_team": "NYJ",
-    "date": "2026-10-04",
-    "week": 4,
-    "winner": "CHI",
-    "confidence": 0.7698412698412699,
-    "home_win_prob": 0.7698412698412699,
-    "away_win_prob": 0.23015873015873012
-  },
-  {
-    "home_team": "TB",
-    "away_team": "GB",
-    "date": "2026-10-04",
-    "week": 4,
-    "winner": "TB",
-    "confidence": 0.5535714285714286,
-    "home_win_prob": 0.5535714285714286,
-    "away_win_prob": 0.4464285714285714
-  },
-  {
-    "home_team": "LV",
-    "away_team": "KC",
-    "date": "2026-10-04",
-    "week": 4,
-    "winner": "LV",
-    "confidence": 0.7857142857142858,
-    "home_win_prob": 0.7857142857142858,
-    "away_win_prob": 0.2142857142857142
-  },
-  {
-    "home_team": "SF",
-    "away_team": "DEN",
-    "date": "2026-10-04",
-    "week": 4,
-    "winner": "SF",
-    "confidence": 0.55,
-    "home_win_prob": 0.55,
-    "away_win_prob": 0.44999999999999996
-  },
-  {
-    "home_team": "SEA",
-    "away_team": "LAC",
-    "date": "2026-10-04",
-    "week": 4,
-    "winner": "SEA",
-    "confidence": 0.92,
-    "home_win_prob": 0.92,
-    "away_win_prob": 0.07999999999999996
   },
   {
     "home_team": "CAR",

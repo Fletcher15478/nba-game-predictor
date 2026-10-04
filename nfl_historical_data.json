@@ -1281,6 +1281,52 @@
   },
   {
     "date": "2026-10-04",
+    "home_team": "MIN",
+    "away_team": "MIA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "LV",
+    "away_team": "KC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "SF",
+    "away_team": "DEN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "SEA",
+    "away_team": "LAC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "WSH",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 30,
+    "week": 4,
+    "winner": "IND"
+  },
+  {
+    "date": "2026-10-04",
     "home_team": "BUF",
     "away_team": "NE",
     "status": "completed",
@@ -1288,6 +1334,16 @@
     "away_score": 29,
     "week": 4,
     "winner": "NE"
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "CHI",
+    "away_team": "NYJ",
+    "status": "completed",
+    "home_score": 23,
+    "away_score": 12,
+    "week": 4,
+    "winner": "CHI"
   },
   {
     "date": "2026-10-04",
@@ -1321,6 +1377,16 @@
   },
   {
     "date": "2026-10-04",
+    "home_team": "TB",
+    "away_team": "GB",
+    "status": "completed",
+    "home_score": 14,
+    "away_score": 17,
+    "week": 4,
+    "winner": "GB"
+  },
+  {
+    "date": "2026-10-04",
     "home_team": "BAL",
     "away_team": "TEN",
     "status": "completed",
@@ -1338,72 +1404,6 @@
     "away_score": 34,
     "week": 4,
     "winner": "DAL"
-  },
-  {
-    "date": "2026-10-04",
-    "home_team": "MIN",
-    "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
-  },
-  {
-    "date": "2026-10-04",
-    "home_team": "WSH",
-    "away_team": "IND",
-    "status": "completed",
-    "home_score": 13,
-    "away_score": 30,
-    "week": 4,
-    "winner": "IND"
-  },
-  {
-    "date": "2026-10-04",
-    "home_team": "CHI",
-    "away_team": "NYJ",
-    "status": "completed",
-    "home_score": 23,
-    "away_score": 12,
-    "week": 4,
-    "winner": "CHI"
-  },
-  {
-    "date": "2026-10-04",
-    "home_team": "TB",
-    "away_team": "GB",
-    "status": "completed",
-    "home_score": 14,
-    "away_score": 17,
-    "week": 4,
-    "winner": "GB"
-  },
-  {
-    "date": "2026-10-04",
-    "home_team": "LV",
-    "away_team": "KC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
-  },
-  {
-    "date": "2026-10-04",
-    "home_team": "SF",
-    "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
-  },
-  {
-    "date": "2026-10-04",
-    "home_team": "SEA",
-    "away_team": "LAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
   },
   {
     "date": "2026-10-04",
