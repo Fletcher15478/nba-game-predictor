@@ -2394,20 +2394,6 @@
     "season": 2025
   },
   {
-    "winner": "PIT",
-    "confidence": 0.5428299457572651,
-    "home_win_prob": 0.47858502712136747,
-    "away_win_prob": 0.5214149728786326,
-    "predicted_home_score": 21,
-    "predicted_away_score": 23,
-    "point_differential": -1.2848983727179535,
-    "home_team": "CLE",
-    "away_team": "PIT",
-    "date": "2026-10-02",
-    "week": 4,
-    "season": 2025
-  },
-  {
     "winner": "NE",
     "confidence": 0.5325862547047929,
     "home_win_prob": 0.48370687264760354,
@@ -2586,6 +2572,20 @@
     "home_team": "CAR",
     "away_team": "DET",
     "date": "2026-10-05",
+    "week": 4,
+    "season": 2025
+  },
+  {
+    "winner": "PIT",
+    "confidence": 0.5428299457572651,
+    "home_win_prob": 0.47858502712136747,
+    "away_win_prob": 0.5214149728786326,
+    "predicted_home_score": 21,
+    "predicted_away_score": 23,
+    "point_differential": -1.2848983727179535,
+    "home_team": "CLE",
+    "away_team": "PIT",
+    "date": "2026-10-02",
     "week": 4,
     "season": 2025
   },
