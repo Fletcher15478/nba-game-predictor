@@ -1281,15 +1281,6 @@
   },
   {
     "date": "2026-10-04",
-    "home_team": "MIN",
-    "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
-  },
-  {
-    "date": "2026-10-04",
     "home_team": "LV",
     "away_team": "KC",
     "status": "scheduled",
@@ -1404,6 +1395,16 @@
     "away_score": 34,
     "week": 4,
     "winner": "DAL"
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "MIN",
+    "away_team": "MIA",
+    "status": "completed",
+    "home_score": 15,
+    "away_score": 10,
+    "week": 4,
+    "winner": "MIN"
   },
   {
     "date": "2026-10-04",
