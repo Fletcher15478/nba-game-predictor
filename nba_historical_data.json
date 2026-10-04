@@ -7106,6 +7106,33 @@
     "winner": "MIN"
   },
   {
+    "date": "2026-05-01",
+    "home_team": "ORL",
+    "away_team": "DET",
+    "status": "completed",
+    "home_score": 79,
+    "away_score": 93,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-05-01",
+    "home_team": "TOR",
+    "away_team": "CLE",
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 110,
+    "winner": "TOR"
+  },
+  {
+    "date": "2026-05-01",
+    "home_team": "HOU",
+    "away_team": "LAL",
+    "status": "completed",
+    "home_score": 78,
+    "away_score": 98,
+    "winner": "LAL"
+  },
+  {
     "date": "2026-05-02",
     "home_team": "BOS",
     "away_team": "PHI",
