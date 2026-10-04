@@ -1281,15 +1281,6 @@
   },
   {
     "date": "2026-10-04",
-    "home_team": "WSH",
-    "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
-  },
-  {
-    "date": "2026-10-04",
     "home_team": "BUF",
     "away_team": "NE",
     "status": "scheduled",
@@ -1359,6 +1350,16 @@
     "home_score": null,
     "away_score": null,
     "week": 4
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "WSH",
+    "away_team": "IND",
+    "status": "completed",
+    "home_score": 13,
+    "away_score": 30,
+    "week": 4,
+    "winner": "IND"
   },
   {
     "date": "2026-10-04",
