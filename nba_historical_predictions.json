@@ -7486,5 +7486,50 @@
     "confidence": 0.7078431372549019,
     "home_win_prob": 0.7078431372549019,
     "away_win_prob": 0.2921568627450981
+  },
+  {
+    "home_team": "ATL",
+    "away_team": "MEM",
+    "date": "2026-10-05",
+    "winner": "ATL",
+    "confidence": 0.8996919522525991,
+    "home_win_prob": 0.8996919522525991,
+    "away_win_prob": 0.10030804774740087
+  },
+  {
+    "home_team": "DET",
+    "away_team": "PHX",
+    "date": "2026-10-05",
+    "winner": "DET",
+    "confidence": 0.6757575757575758,
+    "home_win_prob": 0.6757575757575758,
+    "away_win_prob": 0.3242424242424242
+  },
+  {
+    "home_team": "PHI",
+    "away_team": "NY",
+    "date": "2026-10-05",
+    "winner": "NY",
+    "confidence": 0.6526610644257703,
+    "home_win_prob": 0.3473389355742297,
+    "away_win_prob": 0.6526610644257703
+  },
+  {
+    "home_team": "MIL",
+    "away_team": "MIN",
+    "date": "2026-10-05",
+    "winner": "MIN",
+    "confidence": 0.6916666666666667,
+    "home_win_prob": 0.30833333333333335,
+    "away_win_prob": 0.6916666666666667
+  },
+  {
+    "home_team": "SAC",
+    "away_team": "LAL",
+    "date": "2026-10-05",
+    "winner": "LAL",
+    "confidence": 0.8208430913348946,
+    "home_win_prob": 0.17915690866510536,
+    "away_win_prob": 0.8208430913348946
   }
 ]
