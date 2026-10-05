@@ -1281,15 +1281,6 @@
   },
   {
     "date": "2026-10-04",
-    "home_team": "CAR",
-    "away_team": "DET",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
-  },
-  {
-    "date": "2026-10-04",
     "home_team": "WSH",
     "away_team": "IND",
     "status": "completed",
@@ -1417,6 +1408,16 @@
     "away_score": 23,
     "week": 4,
     "winner": "SEA"
+  },
+  {
+    "date": "2026-10-04",
+    "home_team": "CAR",
+    "away_team": "DET",
+    "status": "completed",
+    "home_score": 32,
+    "away_score": 26,
+    "week": 4,
+    "winner": "CAR"
   },
   {
     "date": "2026-10-05",
