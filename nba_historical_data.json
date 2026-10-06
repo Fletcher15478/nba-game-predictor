@@ -7558,5 +7558,37 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-10-06",
+    "home_team": "CHA",
+    "away_team": "BKN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-06",
+    "home_team": "OKC",
+    "away_team": "NO",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-06",
+    "home_team": "UTAH",
+    "away_team": "DEN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-06",
+    "home_team": "GS",
+    "away_team": "LAL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
