@@ -1423,9 +1423,10 @@
     "date": "2026-10-05",
     "home_team": "NO",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 4
+    "status": "completed",
+    "home_score": 24,
+    "away_score": 45,
+    "week": 4,
+    "winner": "ATL"
   }
 ]
