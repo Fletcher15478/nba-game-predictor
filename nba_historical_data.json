@@ -7577,25 +7577,28 @@
     "date": "2026-10-06",
     "home_team": "OKC",
     "away_team": "NO",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 110,
+    "away_score": 116,
+    "winner": "NO"
   },
   {
     "date": "2026-10-06",
     "home_team": "UTAH",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 106,
+    "away_score": 117,
+    "winner": "DEN"
   },
   {
     "date": "2026-10-06",
     "home_team": "GS",
     "away_team": "LAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 98,
+    "winner": "GS"
   },
   {
     "date": "2026-10-07",
