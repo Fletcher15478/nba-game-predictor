@@ -7567,5 +7567,50 @@
     "confidence": 0.7207463630613535,
     "home_win_prob": 0.27925363693864647,
     "away_win_prob": 0.7207463630613535
+  },
+  {
+    "home_team": "IND",
+    "away_team": "MIN",
+    "date": "2026-10-07",
+    "winner": "MIN",
+    "confidence": 0.8029371584699454,
+    "home_win_prob": 0.1970628415300546,
+    "away_win_prob": 0.8029371584699454
+  },
+  {
+    "home_team": "MEM",
+    "away_team": "ORL",
+    "date": "2026-10-07",
+    "winner": "ORL",
+    "confidence": 0.8063157894736842,
+    "home_win_prob": 0.1936842105263158,
+    "away_win_prob": 0.8063157894736842
+  },
+  {
+    "home_team": "OKC",
+    "away_team": "MIL",
+    "date": "2026-10-07",
+    "winner": "OKC",
+    "confidence": 0.8628117913832198,
+    "home_win_prob": 0.8628117913832198,
+    "away_win_prob": 0.13718820861678016
+  },
+  {
+    "home_team": "CHI",
+    "away_team": "PHX",
+    "date": "2026-10-07",
+    "winner": "PHX",
+    "confidence": 0.6760204081632653,
+    "home_win_prob": 0.32397959183673475,
+    "away_win_prob": 0.6760204081632653
+  },
+  {
+    "home_team": "POR",
+    "away_team": "GS",
+    "date": "2026-10-07",
+    "winner": "POR",
+    "confidence": 0.6633986928104576,
+    "home_win_prob": 0.6633986928104576,
+    "away_win_prob": 0.3366013071895424
   }
 ]
