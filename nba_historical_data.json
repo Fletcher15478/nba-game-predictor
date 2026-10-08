@@ -6692,6 +6692,24 @@
     "winner": "POR"
   },
   {
+    "date": "2026-04-15",
+    "home_team": "PHI",
+    "away_team": "ORL",
+    "status": "completed",
+    "home_score": 109,
+    "away_score": 97,
+    "winner": "PHI"
+  },
+  {
+    "date": "2026-04-15",
+    "home_team": "LAC",
+    "away_team": "GS",
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 126,
+    "winner": "GS"
+  },
+  {
     "date": "2026-04-17",
     "home_team": "ORL",
     "away_team": "CHA",
@@ -7586,17 +7604,19 @@
     "date": "2026-10-07",
     "home_team": "IND",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 112,
+    "winner": "IND"
   },
   {
     "date": "2026-10-07",
     "home_team": "MEM",
     "away_team": "ORL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 118,
+    "away_score": 122,
+    "winner": "ORL"
   },
   {
     "date": "2026-10-07",
