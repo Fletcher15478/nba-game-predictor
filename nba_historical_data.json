@@ -7622,25 +7622,28 @@
     "date": "2026-10-07",
     "home_team": "OKC",
     "away_team": "MIL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 126,
+    "away_score": 128,
+    "winner": "MIL"
   },
   {
     "date": "2026-10-07",
     "home_team": "CHI",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 117,
+    "winner": "CHI"
   },
   {
     "date": "2026-10-07",
     "home_team": "POR",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 118,
+    "winner": "POR"
   },
   {
     "date": "2026-10-08",
