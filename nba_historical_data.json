@@ -7703,9 +7703,10 @@
     "date": "2026-10-09",
     "home_team": "DAL",
     "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 117,
+    "away_score": 135,
+    "winner": "HOU"
   },
   {
     "date": "2026-10-09",
