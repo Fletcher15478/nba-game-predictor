@@ -7694,9 +7694,10 @@
     "date": "2026-10-08",
     "home_team": "LAL",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 110,
+    "winner": "LAL"
   },
   {
     "date": "2026-10-09",

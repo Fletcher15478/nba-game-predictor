@@ -1433,9 +1433,10 @@
     "date": "2026-10-08",
     "home_team": "DAL",
     "away_team": "TB",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 5
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 24,
+    "week": 5,
+    "winner": "TB"
   }
 ]
