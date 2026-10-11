@@ -7721,9 +7721,10 @@
     "date": "2026-10-10",
     "home_team": "TOR",
     "away_team": "LAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 106,
+    "winner": "TOR"
   },
   {
     "date": "2026-10-10",
@@ -7769,6 +7770,38 @@
     "date": "2026-10-10",
     "home_team": "PHX",
     "away_team": "SA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-11",
+    "home_team": "HOU",
+    "away_team": "DAL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-11",
+    "home_team": "CLE",
+    "away_team": "ORL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-11",
+    "home_team": "CHA",
+    "away_team": "MIL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-11",
+    "home_team": "DEN",
+    "away_team": "CHI",
     "status": "scheduled",
     "home_score": null,
     "away_score": null
