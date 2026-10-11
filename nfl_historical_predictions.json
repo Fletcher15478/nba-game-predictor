@@ -1350,16 +1350,6 @@
     "away_win_prob": 0.375
   },
   {
-    "home_team": "JAX",
-    "away_team": "PHI",
-    "date": "2026-10-11",
-    "week": 5,
-    "winner": "JAX",
-    "confidence": 0.92,
-    "home_win_prob": 0.92,
-    "away_win_prob": 0.07999999999999996
-  },
-  {
     "home_team": "GB",
     "away_team": "CHI",
     "date": "2026-10-11",
@@ -1428,6 +1418,16 @@
     "confidence": 0.5694444444444444,
     "home_win_prob": 0.5694444444444444,
     "away_win_prob": 0.4305555555555556
+  },
+  {
+    "home_team": "JAX",
+    "away_team": "PHI",
+    "date": "2026-10-11",
+    "week": 5,
+    "winner": "JAX",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
   },
   {
     "home_team": "LAC",
