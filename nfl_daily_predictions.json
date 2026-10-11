@@ -2212,20 +2212,6 @@
     "day": "Monday"
   },
   {
-    "winner": "TB",
-    "confidence": 0.5017512877039041,
-    "home_win_prob": 0.49912435614804795,
-    "away_win_prob": 0.500875643851952,
-    "predicted_home_score": 22,
-    "predicted_away_score": 22,
-    "point_differential": -0.05253863111712409,
-    "home_team": "DAL",
-    "away_team": "TB",
-    "date": "2026-10-09",
-    "week": 5,
-    "season": 2025
-  },
-  {
     "winner": "PHI",
     "confidence": 0.520912668946853,
     "home_win_prob": 0.4895436655265735,
@@ -2390,6 +2376,20 @@
     "home_team": "ATL",
     "away_team": "BAL",
     "date": "2026-10-12",
+    "week": 5,
+    "season": 2025
+  },
+  {
+    "winner": "TB",
+    "confidence": 0.5017512877039041,
+    "home_win_prob": 0.49912435614804795,
+    "away_win_prob": 0.500875643851952,
+    "predicted_home_score": 22,
+    "predicted_away_score": 22,
+    "point_differential": -0.05253863111712409,
+    "home_team": "DAL",
+    "away_team": "TB",
+    "date": "2026-10-09",
     "week": 5,
     "season": 2025
   },
