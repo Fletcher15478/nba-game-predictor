@@ -7802,9 +7802,10 @@
     "date": "2026-10-11",
     "home_team": "CHA",
     "away_team": "MIL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 105,
+    "away_score": 90,
+    "winner": "CHA"
   },
   {
     "date": "2026-10-11",
