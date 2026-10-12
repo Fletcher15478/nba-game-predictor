@@ -7811,9 +7811,10 @@
     "date": "2026-10-11",
     "home_team": "DEN",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 133,
+    "away_score": 128,
+    "winner": "DEN"
   },
   {
     "date": "2026-10-12",

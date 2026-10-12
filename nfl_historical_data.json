@@ -1441,15 +1441,6 @@
   },
   {
     "date": "2026-10-11",
-    "home_team": "ATL",
-    "away_team": "BAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 5
-  },
-  {
-    "date": "2026-10-11",
     "home_team": "JAX",
     "away_team": "PHI",
     "status": "completed",
@@ -1567,6 +1558,16 @@
     "away_score": 32,
     "week": 5,
     "winner": "SF"
+  },
+  {
+    "date": "2026-10-11",
+    "home_team": "ATL",
+    "away_team": "BAL",
+    "status": "completed",
+    "home_score": 23,
+    "away_score": 30,
+    "week": 5,
+    "winner": "BAL"
   },
   {
     "date": "2026-10-12",
