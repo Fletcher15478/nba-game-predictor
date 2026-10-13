@@ -7834,18 +7834,18 @@
     "away_team": "NY",
     "date": "2026-10-13",
     "winner": "NY",
-    "confidence": 0.6214285714285714,
-    "home_win_prob": 0.37857142857142856,
-    "away_win_prob": 0.6214285714285714
+    "confidence": 0.6121730382293763,
+    "home_win_prob": 0.3878269617706237,
+    "away_win_prob": 0.6121730382293763
   },
   {
     "home_team": "OKC",
     "away_team": "IND",
     "date": "2026-10-13",
     "winner": "OKC",
-    "confidence": 0.92,
-    "home_win_prob": 0.92,
-    "away_win_prob": 0.07999999999999996
+    "confidence": 0.916969696969697,
+    "home_win_prob": 0.916969696969697,
+    "away_win_prob": 0.08303030303030301
   },
   {
     "home_team": "LAL",

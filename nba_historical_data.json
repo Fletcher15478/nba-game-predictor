@@ -7829,33 +7829,37 @@
     "date": "2026-10-12",
     "home_team": "ATL",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 113,
+    "away_score": 110,
+    "winner": "ATL"
   },
   {
     "date": "2026-10-12",
     "home_team": "WSH",
     "away_team": "BKN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 131,
+    "winner": "BKN"
   },
   {
     "date": "2026-10-12",
     "home_team": "NY",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 122,
+    "winner": "MIN"
   },
   {
     "date": "2026-10-12",
     "home_team": "UTAH",
     "away_team": "SA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 119,
+    "away_score": 109,
+    "winner": "UTAH"
   },
   {
     "date": "2026-10-13",

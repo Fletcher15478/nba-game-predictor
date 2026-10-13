@@ -1573,9 +1573,10 @@
     "date": "2026-10-12",
     "home_team": "LAR",
     "away_team": "BUF",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 5
+    "status": "completed",
+    "home_score": 34,
+    "away_score": 37,
+    "week": 5,
+    "winner": "BUF"
   }
 ]
