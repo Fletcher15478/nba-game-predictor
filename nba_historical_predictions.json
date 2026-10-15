@@ -7927,5 +7927,23 @@
     "confidence": 0.52,
     "home_win_prob": 0.52,
     "away_win_prob": 0.48
+  },
+  {
+    "home_team": "NY",
+    "away_team": "TOR",
+    "date": "2026-10-15",
+    "winner": "NY",
+    "confidence": 0.5950292397660818,
+    "home_win_prob": 0.5950292397660818,
+    "away_win_prob": 0.4049707602339182
+  },
+  {
+    "home_team": "HOU",
+    "away_team": "OKC",
+    "date": "2026-10-15",
+    "winner": "OKC",
+    "confidence": 0.6181592039800995,
+    "home_win_prob": 0.3818407960199005,
+    "away_win_prob": 0.6181592039800995
   }
 ]

@@ -1478,5 +1478,15 @@
     "confidence": 0.5727272727272728,
     "home_win_prob": 0.42727272727272725,
     "away_win_prob": 0.5727272727272728
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "SEA",
+    "date": "2026-10-15",
+    "week": 6,
+    "winner": "SEA",
+    "confidence": 0.5303030303030303,
+    "home_win_prob": 0.4696969696969697,
+    "away_win_prob": 0.5303030303030303
   }
 ]

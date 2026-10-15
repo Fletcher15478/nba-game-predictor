@@ -1578,5 +1578,14 @@
     "away_score": 37,
     "week": 5,
     "winner": "BUF"
+  },
+  {
+    "date": "2026-10-15",
+    "home_team": "DEN",
+    "away_team": "SEA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 6
   }
 ]
