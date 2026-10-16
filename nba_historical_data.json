@@ -7973,17 +7973,19 @@
     "date": "2026-10-15",
     "home_team": "NY",
     "away_team": "TOR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 122,
+    "away_score": 120,
+    "winner": "NY"
   },
   {
     "date": "2026-10-15",
     "home_team": "HOU",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 116,
+    "away_score": 89,
+    "winner": "HOU"
   },
   {
     "date": "2026-10-16",
