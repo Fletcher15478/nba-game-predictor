@@ -1591,15 +1591,6 @@
   },
   {
     "date": "2026-10-18",
-    "home_team": "JAX",
-    "away_team": "HOU",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 6
-  },
-  {
-    "date": "2026-10-18",
     "home_team": "ATL",
     "away_team": "CHI",
     "status": "scheduled",
@@ -1660,6 +1651,16 @@
     "home_score": null,
     "away_score": null,
     "week": 6
+  },
+  {
+    "date": "2026-10-18",
+    "home_team": "JAX",
+    "away_team": "HOU",
+    "status": "completed",
+    "home_score": 31,
+    "away_score": 34,
+    "week": 6,
+    "winner": "HOU"
   },
   {
     "date": "2026-10-18",
