@@ -1490,36 +1490,6 @@
     "away_win_prob": 0.5303030303030303
   },
   {
-    "home_team": "LAR",
-    "away_team": "ARI",
-    "date": "2026-10-18",
-    "week": 6,
-    "winner": "LAR",
-    "confidence": 0.92,
-    "home_win_prob": 0.92,
-    "away_win_prob": 0.07999999999999996
-  },
-  {
-    "home_team": "KC",
-    "away_team": "LAC",
-    "date": "2026-10-18",
-    "week": 6,
-    "winner": "KC",
-    "confidence": 0.9,
-    "home_win_prob": 0.9,
-    "away_win_prob": 0.09999999999999998
-  },
-  {
-    "home_team": "LV",
-    "away_team": "BUF",
-    "date": "2026-10-18",
-    "week": 6,
-    "winner": "BUF",
-    "confidence": 0.7626262626262627,
-    "home_win_prob": 0.23737373737373735,
-    "away_win_prob": 0.7626262626262627
-  },
-  {
     "home_team": "JAX",
     "away_team": "HOU",
     "date": "2026-10-18",
@@ -1598,6 +1568,36 @@
     "confidence": 0.5555555555555556,
     "home_win_prob": 0.4444444444444444,
     "away_win_prob": 0.5555555555555556
+  },
+  {
+    "home_team": "LAR",
+    "away_team": "ARI",
+    "date": "2026-10-18",
+    "week": 6,
+    "winner": "LAR",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
+    "home_team": "KC",
+    "away_team": "LAC",
+    "date": "2026-10-18",
+    "week": 6,
+    "winner": "KC",
+    "confidence": 0.9,
+    "home_win_prob": 0.9,
+    "away_win_prob": 0.09999999999999998
+  },
+  {
+    "home_team": "LV",
+    "away_team": "BUF",
+    "date": "2026-10-18",
+    "week": 6,
+    "winner": "BUF",
+    "confidence": 0.7626262626262627,
+    "home_win_prob": 0.23737373737373735,
+    "away_win_prob": 0.7626262626262627
   },
   {
     "home_team": "GB",
