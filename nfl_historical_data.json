@@ -1591,6 +1591,15 @@
   },
   {
     "date": "2026-10-18",
+    "home_team": "GB",
+    "away_team": "DAL",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 6
+  },
+  {
+    "date": "2026-10-18",
     "home_team": "JAX",
     "away_team": "HOU",
     "status": "completed",
@@ -1698,15 +1707,6 @@
     "away_score": 33,
     "week": 6,
     "winner": "BUF"
-  },
-  {
-    "date": "2026-10-18",
-    "home_team": "GB",
-    "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 6
   },
   {
     "date": "2026-10-19",
