@@ -8099,9 +8099,10 @@
     "date": "2026-10-20",
     "home_team": "DET",
     "away_team": "BOS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 113,
+    "winner": "DET"
   },
   {
     "date": "2026-10-20",
