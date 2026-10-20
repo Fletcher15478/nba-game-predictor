@@ -8094,5 +8094,29 @@
     "home_score": 106,
     "away_score": 121,
     "winner": "DEN"
+  },
+  {
+    "date": "2026-10-20",
+    "home_team": "DET",
+    "away_team": "BOS",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-20",
+    "home_team": "NY",
+    "away_team": "PHI",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-20",
+    "home_team": "SA",
+    "away_team": "OKC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
