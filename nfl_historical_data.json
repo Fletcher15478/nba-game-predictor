@@ -1713,9 +1713,10 @@
     "date": "2026-10-19",
     "home_team": "SF",
     "away_team": "WSH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 6
+    "status": "completed",
+    "home_score": 23,
+    "away_score": 17,
+    "week": 6,
+    "winner": "SF"
   }
 ]
