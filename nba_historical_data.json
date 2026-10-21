@@ -8108,17 +8108,19 @@
     "date": "2026-10-20",
     "home_team": "NY",
     "away_team": "PHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 100,
+    "away_score": 106,
+    "winner": "PHI"
   },
   {
     "date": "2026-10-20",
     "home_team": "SA",
     "away_team": "OKC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 104,
+    "away_score": 116,
+    "winner": "OKC"
   },
   {
     "date": "2026-10-21",
