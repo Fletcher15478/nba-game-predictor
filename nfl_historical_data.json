@@ -1718,5 +1718,14 @@
     "away_score": 17,
     "week": 6,
     "winner": "SF"
+  },
+  {
+    "date": "2026-10-22",
+    "home_team": "CHI",
+    "away_team": "NE",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
   }
 ]
