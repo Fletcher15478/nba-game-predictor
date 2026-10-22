@@ -8126,89 +8126,100 @@
     "date": "2026-10-21",
     "home_team": "ORL",
     "away_team": "ATL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 132,
+    "winner": "ATL"
   },
   {
     "date": "2026-10-21",
     "home_team": "WSH",
     "away_team": "MIL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 116,
+    "winner": "WSH"
   },
   {
     "date": "2026-10-21",
     "home_team": "MIA",
     "away_team": "MIN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 106,
+    "away_score": 131,
+    "winner": "MIN"
   },
   {
     "date": "2026-10-21",
     "home_team": "BKN",
     "away_team": "CHA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 103,
+    "away_score": 110,
+    "winner": "CHA"
   },
   {
     "date": "2026-10-21",
     "home_team": "TOR",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 135,
+    "away_score": 92,
+    "winner": "TOR"
   },
   {
     "date": "2026-10-21",
     "home_team": "MEM",
     "away_team": "UTAH",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 123,
+    "away_score": 103,
+    "winner": "MEM"
   },
   {
     "date": "2026-10-21",
     "home_team": "NO",
     "away_team": "IND",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 120,
+    "away_score": 123,
+    "winner": "IND"
   },
   {
     "date": "2026-10-21",
     "home_team": "HOU",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 128,
+    "away_score": 110,
+    "winner": "HOU"
   },
   {
     "date": "2026-10-21",
     "home_team": "LAL",
     "away_team": "GS",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 127,
+    "away_score": 105,
+    "winner": "LAL"
   },
   {
     "date": "2026-10-21",
     "home_team": "POR",
     "away_team": "PHX",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 124,
+    "away_score": 83,
+    "winner": "POR"
   },
   {
     "date": "2026-10-21",
     "home_team": "LAC",
     "away_team": "SAC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 121,
+    "away_score": 96,
+    "winner": "LAC"
   },
   {
     "date": "2026-10-22",
