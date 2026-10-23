@@ -1723,9 +1723,10 @@
     "date": "2026-10-22",
     "home_team": "CHI",
     "away_team": "NE",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 7
+    "status": "completed",
+    "home_score": 30,
+    "away_score": 24,
+    "week": 7,
+    "winner": "CHI"
   }
 ]

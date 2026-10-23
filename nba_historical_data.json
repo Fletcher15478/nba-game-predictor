@@ -8225,17 +8225,19 @@
     "date": "2026-10-22",
     "home_team": "PHI",
     "away_team": "CLE",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 114,
+    "away_score": 106,
+    "winner": "PHI"
   },
   {
     "date": "2026-10-22",
     "home_team": "OKC",
     "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 96,
+    "away_score": 84,
+    "winner": "OKC"
   },
   {
     "date": "2026-10-23",
