@@ -8243,9 +8243,10 @@
     "date": "2026-10-23",
     "home_team": "MIL",
     "away_team": "CHI",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 125,
+    "away_score": 132,
+    "winner": "CHI"
   },
   {
     "date": "2026-10-23",
