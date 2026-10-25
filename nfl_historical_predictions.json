@@ -1640,16 +1640,6 @@
     "away_win_prob": 0.8
   },
   {
-    "home_team": "MIN",
-    "away_team": "IND",
-    "date": "2026-10-25",
-    "week": 7,
-    "winner": "MIN",
-    "confidence": 0.92,
-    "home_win_prob": 0.92,
-    "away_win_prob": 0.07999999999999996
-  },
-  {
     "home_team": "NYJ",
     "away_team": "MIA",
     "date": "2026-10-25",
@@ -1658,16 +1648,6 @@
     "confidence": 0.8,
     "home_win_prob": 0.8,
     "away_win_prob": 0.19999999999999996
-  },
-  {
-    "home_team": "CAR",
-    "away_team": "TB",
-    "date": "2026-10-25",
-    "week": 7,
-    "winner": "CAR",
-    "confidence": 0.6454545454545454,
-    "home_win_prob": 0.6454545454545454,
-    "away_win_prob": 0.3545454545454546
   },
   {
     "home_team": "BAL",
@@ -1698,6 +1678,26 @@
     "confidence": 0.7454545454545454,
     "home_win_prob": 0.25454545454545463,
     "away_win_prob": 0.7454545454545454
+  },
+  {
+    "home_team": "MIN",
+    "away_team": "IND",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "MIN",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
+    "home_team": "CAR",
+    "away_team": "TB",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "CAR",
+    "confidence": 0.6454545454545454,
+    "home_win_prob": 0.6454545454545454,
+    "away_win_prob": 0.3545454545454546
   },
   {
     "home_team": "ARI",
