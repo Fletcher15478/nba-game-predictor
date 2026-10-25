@@ -8392,9 +8392,9 @@
     "away_team": "IND",
     "date": "2026-10-25",
     "winner": "IND",
-    "confidence": 0.5497076023391814,
-    "home_win_prob": 0.45029239766081863,
-    "away_win_prob": 0.5497076023391814
+    "confidence": 0.553639846743295,
+    "home_win_prob": 0.446360153256705,
+    "away_win_prob": 0.553639846743295
   },
   {
     "home_team": "NY",
@@ -8428,9 +8428,9 @@
     "away_team": "DET",
     "date": "2026-10-25",
     "winner": "DET",
-    "confidence": 0.6594202898550725,
-    "home_win_prob": 0.3405797101449275,
-    "away_win_prob": 0.6594202898550725
+    "confidence": 0.6525879917184265,
+    "home_win_prob": 0.3474120082815735,
+    "away_win_prob": 0.6525879917184265
   },
   {
     "home_team": "SAC",
