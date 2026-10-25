@@ -1820,20 +1820,6 @@
     "day": "Monday"
   },
   {
-    "winner": "NO",
-    "confidence": 0.5122966847942451,
-    "home_win_prob": 0.5061483423971226,
-    "away_win_prob": 0.49385165760287747,
-    "predicted_home_score": 22,
-    "predicted_away_score": 22,
-    "point_differential": 0.36890054382735205,
-    "home_team": "NO",
-    "away_team": "PIT",
-    "date": "2026-10-25",
-    "week": 7,
-    "season": 2025
-  },
-  {
     "winner": "ATL",
     "confidence": 0.55172902315686,
     "home_win_prob": 0.5258645115784301,
@@ -1927,6 +1913,20 @@
     "point_differential": 1.160767659777699,
     "home_team": "HOU",
     "away_team": "NYG",
+    "date": "2026-10-25",
+    "week": 7,
+    "season": 2025
+  },
+  {
+    "winner": "NO",
+    "confidence": 0.5122966847942451,
+    "home_win_prob": 0.5061483423971226,
+    "away_win_prob": 0.49385165760287747,
+    "predicted_home_score": 22,
+    "predicted_away_score": 22,
+    "point_differential": 0.36890054382735205,
+    "home_team": "NO",
+    "away_team": "PIT",
     "date": "2026-10-25",
     "week": 7,
     "season": 2025
