@@ -1618,5 +1618,125 @@
     "confidence": 0.5595238095238095,
     "home_win_prob": 0.44047619047619047,
     "away_win_prob": 0.5595238095238095
+  },
+  {
+    "home_team": "NO",
+    "away_team": "PIT",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "PIT",
+    "confidence": 0.7454545454545454,
+    "home_win_prob": 0.25454545454545463,
+    "away_win_prob": 0.7454545454545454
+  },
+  {
+    "home_team": "ATL",
+    "away_team": "SF",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "SF",
+    "confidence": 0.75,
+    "home_win_prob": 0.25,
+    "away_win_prob": 0.75
+  },
+  {
+    "home_team": "TEN",
+    "away_team": "CLE",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "CLE",
+    "confidence": 0.8,
+    "home_win_prob": 0.19999999999999996,
+    "away_win_prob": 0.8
+  },
+  {
+    "home_team": "MIN",
+    "away_team": "IND",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "MIN",
+    "confidence": 0.92,
+    "home_win_prob": 0.92,
+    "away_win_prob": 0.07999999999999996
+  },
+  {
+    "home_team": "NYJ",
+    "away_team": "MIA",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "NYJ",
+    "confidence": 0.8,
+    "home_win_prob": 0.8,
+    "away_win_prob": 0.19999999999999996
+  },
+  {
+    "home_team": "CAR",
+    "away_team": "TB",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "CAR",
+    "confidence": 0.6454545454545454,
+    "home_win_prob": 0.6454545454545454,
+    "away_win_prob": 0.3545454545454546
+  },
+  {
+    "home_team": "BAL",
+    "away_team": "CIN",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "BAL",
+    "confidence": 0.5333333333333333,
+    "home_win_prob": 0.5333333333333333,
+    "away_win_prob": 0.4666666666666667
+  },
+  {
+    "home_team": "HOU",
+    "away_team": "NYG",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "NYG",
+    "confidence": 0.8666666666666667,
+    "home_win_prob": 0.1333333333333333,
+    "away_win_prob": 0.8666666666666667
+  },
+  {
+    "home_team": "ARI",
+    "away_team": "DEN",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "DEN",
+    "confidence": 0.8939393939393939,
+    "home_win_prob": 0.10606060606060608,
+    "away_win_prob": 0.8939393939393939
+  },
+  {
+    "home_team": "DET",
+    "away_team": "GB",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "DET",
+    "confidence": 0.6212121212121212,
+    "home_win_prob": 0.6212121212121212,
+    "away_win_prob": 0.3787878787878788
+  },
+  {
+    "home_team": "LV",
+    "away_team": "LAR",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "LAR",
+    "confidence": 0.6153846153846154,
+    "home_win_prob": 0.3846153846153846,
+    "away_win_prob": 0.6153846153846154
+  },
+  {
+    "home_team": "SEA",
+    "away_team": "KC",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "SEA",
+    "confidence": 0.5598290598290598,
+    "home_win_prob": 0.5598290598290598,
+    "away_win_prob": 0.44017094017094016
   }
 ]

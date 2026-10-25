@@ -1728,5 +1728,113 @@
     "away_score": 24,
     "week": 7,
     "winner": "CHI"
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "NO",
+    "away_team": "PIT",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "ATL",
+    "away_team": "SF",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "TEN",
+    "away_team": "CLE",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "MIN",
+    "away_team": "IND",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "NYJ",
+    "away_team": "MIA",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "CAR",
+    "away_team": "TB",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "BAL",
+    "away_team": "CIN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "HOU",
+    "away_team": "NYG",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "ARI",
+    "away_team": "DEN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "DET",
+    "away_team": "GB",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "LV",
+    "away_team": "LAR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "SEA",
+    "away_team": "KC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null,
+    "week": 7
   }
 ]
