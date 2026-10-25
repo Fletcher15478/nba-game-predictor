@@ -1731,33 +1731,6 @@
   },
   {
     "date": "2026-10-25",
-    "home_team": "ARI",
-    "away_team": "DEN",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 7
-  },
-  {
-    "date": "2026-10-25",
-    "home_team": "DET",
-    "away_team": "GB",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 7
-  },
-  {
-    "date": "2026-10-25",
-    "home_team": "LV",
-    "away_team": "LAR",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 7
-  },
-  {
-    "date": "2026-10-25",
     "home_team": "NO",
     "away_team": "PIT",
     "status": "completed",
@@ -1835,6 +1808,36 @@
     "away_score": 27,
     "week": 7,
     "winner": "NYG"
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "ARI",
+    "away_team": "DEN",
+    "status": "completed",
+    "home_score": 16,
+    "away_score": 30,
+    "week": 7,
+    "winner": "DEN"
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "DET",
+    "away_team": "GB",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 17,
+    "week": 7,
+    "winner": "DET"
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "LV",
+    "away_team": "LAR",
+    "status": "completed",
+    "home_score": 21,
+    "away_score": 35,
+    "week": 7,
+    "winner": "LAR"
   },
   {
     "date": "2026-10-25",
