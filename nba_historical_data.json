@@ -8351,9 +8351,10 @@
     "date": "2026-10-24",
     "home_team": "CHA",
     "away_team": "MIA",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 115,
+    "away_score": 110,
+    "winner": "CHA"
   },
   {
     "date": "2026-10-24",
