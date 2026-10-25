@@ -1731,15 +1731,6 @@
   },
   {
     "date": "2026-10-25",
-    "home_team": "NO",
-    "away_team": "PIT",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 7
-  },
-  {
-    "date": "2026-10-25",
     "home_team": "ATL",
     "away_team": "SF",
     "status": "scheduled",
@@ -1800,6 +1791,16 @@
     "home_score": null,
     "away_score": null,
     "week": 7
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "NO",
+    "away_team": "PIT",
+    "status": "completed",
+    "home_score": 10,
+    "away_score": 16,
+    "week": 7,
+    "winner": "PIT"
   },
   {
     "date": "2026-10-25",

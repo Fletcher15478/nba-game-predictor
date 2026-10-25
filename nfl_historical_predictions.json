@@ -1620,16 +1620,6 @@
     "away_win_prob": 0.5595238095238095
   },
   {
-    "home_team": "NO",
-    "away_team": "PIT",
-    "date": "2026-10-25",
-    "week": 7,
-    "winner": "PIT",
-    "confidence": 0.7454545454545454,
-    "home_win_prob": 0.25454545454545463,
-    "away_win_prob": 0.7454545454545454
-  },
-  {
     "home_team": "ATL",
     "away_team": "SF",
     "date": "2026-10-25",
@@ -1698,6 +1688,16 @@
     "confidence": 0.8666666666666667,
     "home_win_prob": 0.1333333333333333,
     "away_win_prob": 0.8666666666666667
+  },
+  {
+    "home_team": "NO",
+    "away_team": "PIT",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "PIT",
+    "confidence": 0.7454545454545454,
+    "home_win_prob": 0.25454545454545463,
+    "away_win_prob": 0.7454545454545454
   },
   {
     "home_team": "ARI",
