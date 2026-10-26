@@ -1620,16 +1620,6 @@
     "away_win_prob": 0.5595238095238095
   },
   {
-    "home_team": "SEA",
-    "away_team": "KC",
-    "date": "2026-10-25",
-    "week": 7,
-    "winner": "SEA",
-    "confidence": 0.5598290598290598,
-    "home_win_prob": 0.5598290598290598,
-    "away_win_prob": 0.44017094017094016
-  },
-  {
     "home_team": "NO",
     "away_team": "PIT",
     "date": "2026-10-25",
@@ -1738,6 +1728,16 @@
     "confidence": 0.6153846153846154,
     "home_win_prob": 0.3846153846153846,
     "away_win_prob": 0.6153846153846154
+  },
+  {
+    "home_team": "SEA",
+    "away_team": "KC",
+    "date": "2026-10-25",
+    "week": 7,
+    "winner": "SEA",
+    "confidence": 0.5598290598290598,
+    "home_win_prob": 0.5598290598290598,
+    "away_win_prob": 0.44017094017094016
   },
   {
     "home_team": "PHI",

@@ -1731,15 +1731,6 @@
   },
   {
     "date": "2026-10-25",
-    "home_team": "SEA",
-    "away_team": "KC",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 7
-  },
-  {
-    "date": "2026-10-25",
     "home_team": "NO",
     "away_team": "PIT",
     "status": "completed",
@@ -1847,6 +1838,16 @@
     "away_score": 35,
     "week": 7,
     "winner": "LAR"
+  },
+  {
+    "date": "2026-10-25",
+    "home_team": "SEA",
+    "away_team": "KC",
+    "status": "completed",
+    "home_score": 20,
+    "away_score": 3,
+    "week": 7,
+    "winner": "SEA"
   },
   {
     "date": "2026-10-26",

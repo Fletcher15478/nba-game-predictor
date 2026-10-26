@@ -8455,9 +8455,9 @@
     "away_team": "MIN",
     "date": "2026-10-26",
     "winner": "CLE",
-    "confidence": 0.5407563025210085,
-    "home_win_prob": 0.5407563025210085,
-    "away_win_prob": 0.4592436974789915
+    "confidence": 0.5345755693581781,
+    "home_win_prob": 0.5345755693581781,
+    "away_win_prob": 0.46542443064182193
   },
   {
     "home_team": "BOS",
@@ -8491,9 +8491,9 @@
     "away_team": "PHX",
     "date": "2026-10-26",
     "winner": "OKC",
-    "confidence": 0.732258064516129,
-    "home_win_prob": 0.732258064516129,
-    "away_win_prob": 0.26774193548387104
+    "confidence": 0.736483416628805,
+    "home_win_prob": 0.736483416628805,
+    "away_win_prob": 0.263516583371195
   },
   {
     "home_team": "HOU",
