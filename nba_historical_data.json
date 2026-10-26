@@ -8477,9 +8477,10 @@
     "date": "2026-10-25",
     "home_team": "SAC",
     "away_team": "MEM",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null
+    "status": "completed",
+    "home_score": 112,
+    "away_score": 123,
+    "winner": "MEM"
   },
   {
     "date": "2026-10-26",

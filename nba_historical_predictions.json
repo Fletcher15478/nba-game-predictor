@@ -8509,9 +8509,9 @@
     "away_team": "MEM",
     "date": "2026-10-26",
     "winner": "MEM",
-    "confidence": 0.5271132376395534,
-    "home_win_prob": 0.4728867623604466,
-    "away_win_prob": 0.5271132376395534
+    "confidence": 0.5401002506265664,
+    "home_win_prob": 0.4598997493734336,
+    "away_win_prob": 0.5401002506265664
   },
   {
     "home_team": "DEN",
