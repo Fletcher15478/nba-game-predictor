@@ -1853,9 +1853,10 @@
     "date": "2026-10-26",
     "home_team": "PHI",
     "away_team": "DAL",
-    "status": "scheduled",
-    "home_score": null,
-    "away_score": null,
-    "week": 7
+    "status": "completed",
+    "home_score": 21,
+    "away_score": 38,
+    "week": 7,
+    "winner": "DAL"
   }
 ]
