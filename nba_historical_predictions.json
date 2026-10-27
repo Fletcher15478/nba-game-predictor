@@ -8442,6 +8442,87 @@
     "away_win_prob": 0.5227272727272727
   },
   {
+    "home_team": "CHA",
+    "away_team": "WSH",
+    "date": "2026-10-26",
+    "winner": "CHA",
+    "confidence": 0.9098608590441621,
+    "home_win_prob": 0.9098608590441621,
+    "away_win_prob": 0.09013914095583786
+  },
+  {
+    "home_team": "CLE",
+    "away_team": "MIN",
+    "date": "2026-10-26",
+    "winner": "CLE",
+    "confidence": 0.5345755693581781,
+    "home_win_prob": 0.5345755693581781,
+    "away_win_prob": 0.46542443064182193
+  },
+  {
+    "home_team": "BOS",
+    "away_team": "CHI",
+    "date": "2026-10-26",
+    "winner": "BOS",
+    "confidence": 0.8650793650793651,
+    "home_win_prob": 0.8650793650793651,
+    "away_win_prob": 0.13492063492063489
+  },
+  {
+    "home_team": "MIA",
+    "away_team": "DAL",
+    "date": "2026-10-26",
+    "winner": "MIA",
+    "confidence": 0.6918495297805642,
+    "home_win_prob": 0.6918495297805642,
+    "away_win_prob": 0.30815047021943576
+  },
+  {
+    "home_team": "MIL",
+    "away_team": "IND",
+    "date": "2026-10-26",
+    "winner": "MIL",
+    "confidence": 0.5662337662337662,
+    "home_win_prob": 0.5662337662337662,
+    "away_win_prob": 0.4337662337662338
+  },
+  {
+    "home_team": "OKC",
+    "away_team": "PHX",
+    "date": "2026-10-26",
+    "winner": "OKC",
+    "confidence": 0.736483416628805,
+    "home_win_prob": 0.736483416628805,
+    "away_win_prob": 0.263516583371195
+  },
+  {
+    "home_team": "HOU",
+    "away_team": "ATL",
+    "date": "2026-10-26",
+    "winner": "ATL",
+    "confidence": 0.52,
+    "home_win_prob": 0.48,
+    "away_win_prob": 0.52
+  },
+  {
+    "home_team": "UTAH",
+    "away_team": "MEM",
+    "date": "2026-10-26",
+    "winner": "MEM",
+    "confidence": 0.5401002506265664,
+    "home_win_prob": 0.4598997493734336,
+    "away_win_prob": 0.5401002506265664
+  },
+  {
+    "home_team": "DEN",
+    "away_team": "GS",
+    "date": "2026-10-26",
+    "winner": "DEN",
+    "confidence": 0.6899945325314379,
+    "home_win_prob": 0.6899945325314379,
+    "away_win_prob": 0.31000546746856206
+  },
+  {
     "home_team": "BOS",
     "away_team": "BKN",
     "date": "2026-10-27",
