@@ -8553,5 +8553,37 @@
     "status": "scheduled",
     "home_score": null,
     "away_score": null
+  },
+  {
+    "date": "2026-10-27",
+    "home_team": "BOS",
+    "away_team": "BKN",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-27",
+    "home_team": "NY",
+    "away_team": "DET",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-27",
+    "home_team": "SA",
+    "away_team": "SAC",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
+  },
+  {
+    "date": "2026-10-27",
+    "home_team": "LAL",
+    "away_team": "POR",
+    "status": "scheduled",
+    "home_score": null,
+    "away_score": null
   }
 ]
